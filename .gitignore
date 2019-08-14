@@ -1,0 +1,6 @@
+node_modules/
+yarn-error.log
+
+src/node_modules/@sapper/
+cypress/screenshots/
+__sapper__/
