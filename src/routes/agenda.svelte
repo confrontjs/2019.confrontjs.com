@@ -5,7 +5,7 @@
 </style>
 
 <svelte:head>
-	<title>Agenda</title>
+	<title>Agenda • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
 <div class="agenda-container">

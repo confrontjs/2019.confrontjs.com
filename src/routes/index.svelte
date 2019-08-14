@@ -7,7 +7,7 @@
 </style>
 
 <svelte:head>
-	<title>ConFrontJS</title>
+	<title>ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
 <Intro/>
