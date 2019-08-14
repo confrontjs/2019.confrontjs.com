@@ -27,7 +27,11 @@
 
     <p>
         Please read the full Code of Conduct:
-        <a href="https://berlincodeofconduct.org">
+        <a
+            href="https://berlincodeofconduct.org"
+            target="_blank"
+            rel="noopener"
+        >
             https://berlincodeofconduct.org
         </a>
     </p>

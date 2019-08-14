@@ -61,14 +61,26 @@
 <nav class="nav-container">
 	<ul>
 		<li>
-            <a class="with-logo" href='.'>
+            <a class="with-logo" href=".">
                 <svg class="logo-confrontjs">
                     <use xlink:href="#icon-confrontjs"></use>
                 </svg>
             </a>
         </li>
-        <li><a href='https://forms.gle/wVUKK5HbUEC6S9CD9'>Call for papers</a></li>
-        <li><a href='https://evenea.pl/event/confrontjs-2019/'>Tickets</a></li>
+        <li>
+            <a
+                href="https://forms.gle/wVUKK5HbUEC6S9CD9"
+                target="_blank"
+                rel="noopener"
+            >Call for papers</a>
+        </li>
+        <li>
+            <a
+                href="https://evenea.pl/event/confrontjs-2019/"
+                target="_blank"
+                rel="noopener"
+            >Tickets</a>
+        </li>
 		<li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href='sponsors'>Sponsors</a></li>
 		<li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda (WIP)</a></li>
 		<li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers (WIP)</a></li>

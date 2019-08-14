@@ -57,6 +57,11 @@
     </div>
 
     <p>
-        Copyright @ 2019 by <a href="https://warsawjs.com/">WarsawJS</a>
+        Copyright @ 2019 by
+        <a
+            href="https://warsawjs.com/"
+            target="_blank"
+            rel="noopener"
+        >WarsawJS</a>
     </p>
 </footer>
