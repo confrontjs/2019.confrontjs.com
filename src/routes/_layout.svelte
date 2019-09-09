@@ -5,6 +5,7 @@
     import Contact from '../components/Contact.svelte';
     import CodeOfConduct from '../components/CodeOfConduct.svelte';
 	import Footer from '../components/Footer.svelte';
+	import FacebookPixel from '../components/FacebookPixel.svelte';
 
 	export let segment;
 </script>
@@ -30,4 +31,5 @@
     <Newsletter />
     <CodeOfConduct />
     <Footer />
+    <FacebookPixel />
 </main>
