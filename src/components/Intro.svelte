@@ -17,7 +17,7 @@ p {
 }
 p.headline {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 60px;
 }
 p.subline {
     font-size: 30px;
@@ -31,7 +31,7 @@ p.subline {
         <use xlink:href="#icon-confrontjs"></use>
     </svg>
 
-    <p class="headline">Front-end conference 2019</p>
+    <p class="headline">Front-end conference</p>
 
     <p class="subline">7 December 2019 in Warsaw, Poland</p>
 
