@@ -1,13 +1,12 @@
-<script>
-	export let segment;
-</script>
-
 <style>
 .contact-container {
-    background: #ECEFF4;
     padding: 20px;
 }
 </style>
+
+<svelte:head>
+	<title>Contact • ConFrontJS 2019 • Front-end Conference</title>
+</svelte:head>
 
 <div class="contact-container">
 

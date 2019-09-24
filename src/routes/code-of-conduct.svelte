@@ -1,17 +1,16 @@
-<script>
-    export let segment;
-</script>
-
 <style>
 .code-of-conduct-container {
-    background: #ECEFF4;
     padding: 20px;
 }
 </style>
 
+<svelte:head>
+	<title>Code of Conduct • ConFrontJS 2019 • Front-end Conference</title>
+</svelte:head>
+
 <div class="code-of-conduct-container">
 
-    <h1>Code of conduct</h1>
+    <h1>Code of Conduct</h1>
 
     <p>
         If you are subject to or witness unacceptable behavior, or have any other

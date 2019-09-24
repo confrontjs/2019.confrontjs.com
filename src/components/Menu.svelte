@@ -52,9 +52,18 @@
         padding: 0;
     }
     .logo-confrontjs {
-        height: 50px;
-        width: 50px;
+        height: 76px;
+        width: 76px;
         vertical-align: middle;
+    }
+    a.buy-tickets {
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+    a.buy-tickets:hover {
+        background: #2e3440;
+        color: white;
     }
 </style>
 
@@ -74,15 +83,17 @@
                 rel="noopener"
             >Call for papers</a>
         </li>
-        <li>
-            <a
-                href="https://evenea.pl/event/confrontjs-2019/"
-                target="_blank"
-                rel="noopener"
-            >Tickets</a>
-        </li>
 		<li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href='sponsors'>Sponsors</a></li>
 		<li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda (WIP)</a></li>
 		<li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers (WIP)</a></li>
+		<li><a rel=prefetch class='{segment === "contact" ? "selected" : ""}' href='contact'>Contact</a></li>
+        <li>
+            <a
+                class="buy-tickets"
+                href="https://evenea.pl/event/confrontjs-2019/"
+                target="_blank"
+                rel="noopener"
+            >Buy tickets</a>
+        </li>
 	</ul>
 </nav>

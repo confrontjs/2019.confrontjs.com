@@ -20,6 +20,7 @@
 
 <style>
 .newsletter-container {
+    width: 100%;
 }
 </style>
 

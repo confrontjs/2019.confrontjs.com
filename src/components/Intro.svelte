@@ -5,7 +5,7 @@
 <style>
 .intro-container {
     /* background: #ECEFF4; */
-    padding: 20px 20px 100px 20px;
+    padding: 10px;
     text-align: center;
     color: #2e3440;
 }

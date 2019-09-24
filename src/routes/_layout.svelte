@@ -1,9 +1,6 @@
 <script>
 	import Icons from '../components/Icons.svelte';
-	import Nav from '../components/Nav.svelte';
-    import Newsletter from '../components/Newsletter.svelte';
-    import Contact from '../components/Contact.svelte';
-    import CodeOfConduct from '../components/CodeOfConduct.svelte';
+	import Menu from '../components/Menu.svelte';
 	import Footer from '../components/Footer.svelte';
 	import FacebookPixel from '../components/FacebookPixel.svelte';
 
@@ -22,14 +19,11 @@
 </style>
 
 <Icons />
-<Nav {segment}/>
+<Menu {segment}/>
 
 <main>
 	<slot></slot>
-
-    <Contact />
-    <Newsletter />
-    <CodeOfConduct />
-    <Footer />
-    <FacebookPixel />
 </main>
+
+<Footer />
+<FacebookPixel />
