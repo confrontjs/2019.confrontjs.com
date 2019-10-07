@@ -8,6 +8,7 @@
         background: #ECEFF4;
         text-align: center;
         padding: 0 0 20px 0;
+        overflow: hidden;
     }
 
     .footer-container .panel {
@@ -16,6 +17,12 @@
         display: flex;
         justify-content: space-between;
         padding: 0 0 10px 0;
+    }
+
+    @media (max-width: 480px) {
+        .footer-container .panel {
+            display: block;
+        }
     }
 </style>
 

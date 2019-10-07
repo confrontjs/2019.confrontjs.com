@@ -6,7 +6,6 @@
 	nav {
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
-        padding: 0 1em;
         text-align: center;
 	}
 
@@ -69,6 +68,12 @@
         background: #2e3440;
         color: white;
     }
+
+    @media (max-width: 480px) {
+        nav {
+            padding: 0 0 20px 0;
+        }
+    }
 </style>
 
 <nav class="nav-container">
@@ -80,13 +85,13 @@
                 </svg>
             </a>
         </li>
-        <li>
+        <!-- <li>
             <a
                 href="https://forms.gle/wVUKK5HbUEC6S9CD9"
                 target="_blank"
                 rel="noopener"
             >Call for papers</a>
-        </li>
+        </li> -->
         <li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href='sponsors'>Sponsors</a></li>
         <li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda</a></li>
         <li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers</a></li>
