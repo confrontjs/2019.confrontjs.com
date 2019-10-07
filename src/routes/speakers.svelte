@@ -25,7 +25,7 @@
     }
 
     .speaker-card {
-        width: calc(50% - 10px);
+        width: 40%;
         background: #E5E9F0;
         padding: 20px 30px;
         text-align: center;
@@ -54,10 +54,16 @@
     .speaker-bio {
         text-align: justify;
     }
+
+    @media (max-width: 480px) {
+        .speaker-card {
+            width: 100%;
+        }
+    }
 </style>
 
 <svelte:head>
-	<title>Speakers • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Speakers • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
 <div class="speakers-container">

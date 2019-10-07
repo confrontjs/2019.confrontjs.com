@@ -34,7 +34,7 @@
 </style>
 
 <svelte:head>
-	<title>Sponsors • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Sponsors • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
 <div class="sponsors-container">

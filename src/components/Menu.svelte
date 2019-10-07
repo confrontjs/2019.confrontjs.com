@@ -1,5 +1,5 @@
 <script>
-	export let segment;
+    export let segment;
 </script>
 
 <style>
@@ -72,8 +72,8 @@
 </style>
 
 <nav class="nav-container">
-	<ul>
-		<li>
+    <ul>
+        <li>
             <a class="with-logo" href="." title="ConFrontJS">
                 <svg class="logo-confrontjs">
                     <use xlink:href="#icon-confrontjs"></use>
@@ -87,10 +87,10 @@
                 rel="noopener"
             >Call for papers</a>
         </li>
-		<li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href='sponsors'>Sponsors</a></li>
-		<li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda</a></li>
-		<li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers</a></li>
-		<li><a rel=prefetch class='{segment === "contact" ? "selected" : ""}' href='contact'>Contact</a></li>
+        <li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href='sponsors'>Sponsors</a></li>
+        <li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda</a></li>
+        <li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers</a></li>
+        <li><a rel=prefetch class='{segment === "contact" ? "selected" : ""}' href='contact'>Contact</a></li>
         <li>
             <a
                 class="buy-tickets"
@@ -99,5 +99,5 @@
                 rel="noopener"
             >Buy tickets</a>
         </li>
-	</ul>
+    </ul>
 </nav>

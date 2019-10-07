@@ -19,7 +19,7 @@
         setupFacebookPixel();
     }
 
-	export let segment;
+    export let segment;
 </script>
 
 <style>

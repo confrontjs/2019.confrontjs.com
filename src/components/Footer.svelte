@@ -33,6 +33,6 @@
             rel="noopener"
         >WarsawJS</a>
         &bull;
-		<a href='code-of-conduct'>Code Conduct</a>
+        <a href='code-of-conduct'>Code Conduct</a>
     </p>
 </footer>

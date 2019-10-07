@@ -9,7 +9,7 @@
 </style>
 
 <svelte:head>
-	<title>Contact • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Contact • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
 <div class="contact-container">

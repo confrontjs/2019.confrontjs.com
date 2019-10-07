@@ -57,16 +57,27 @@
         margin-right: 20px;
     }
 
+    .tags {
+        /* padding: 5px; */
+        display: block;
+    }
+
     .tag {
         background: #2E3440;
         color: #ECEFF4;
         margin: 5px;
         padding: 5px;
     }
+
+    @media (max-width: 480px) {
+        .tags {
+            display: grid;
+        }
+    }
 </style>
 
 <svelte:head>
-	<title>Agenda • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Agenda • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
 <div class="agenda-container">
@@ -91,9 +102,13 @@
                                 />
                             </a>
                             <h3>{ item.details.title }</h3>
-                            {#each item.details.tech as t}
-                                <small class="tag">{ t }</small>
-                            {/each}
+
+                            <div class="tags">
+                                {#each item.details.tech as t}
+                                    <small class="tag">{ t }</small>
+                                {/each}
+                            </div>
+
                             <p>{ item.details.abstract }</p>
                         {/if}
                     </div>
