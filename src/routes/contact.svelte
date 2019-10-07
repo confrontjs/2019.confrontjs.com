@@ -1,7 +1,11 @@
+<script>
+    export let segment;
+</script>
+
 <style>
-.contact-container {
-    padding: 20px;
-}
+    .contact-container {
+        padding: 20px;
+    }
 </style>
 
 <svelte:head>

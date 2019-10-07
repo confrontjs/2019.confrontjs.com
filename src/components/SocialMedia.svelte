@@ -1,20 +1,23 @@
 <style>
-.social-media-container {
-    display: block;
-    width: 100%;
-    padding: 60px 20px 0 20px;
-}
-.social-media-container h3 {
-    font-size: 30px;
-    margin: 0;
-}
-.social-nav {
-    display: flex;
-    justify-content: space-around;
-}
-.social-nav__icon {
-    width: 32px;
-}
+    .social-media-container {
+        display: block;
+        width: 100%;
+        padding: 60px 20px 0 20px;
+    }
+
+    .social-media-container h3 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .social-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .social-nav__icon {
+        width: 32px;
+    }
 </style>
 
 <div class="social-media-container">

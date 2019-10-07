@@ -1,7 +1,11 @@
+<script>
+    export let segment;
+</script>
+
 <style>
-.code-of-conduct-container {
-    padding: 20px;
-}
+    .code-of-conduct-container {
+        padding: 20px;
+    }
 </style>
 
 <svelte:head>

@@ -3,26 +3,30 @@
 </script>
 
 <style>
-.intro-container {
-    /* background: #ECEFF4; */
-    padding: 10px;
-    text-align: center;
-    color: #2e3440;
-}
-.logo-confrontjs {
-    height: 300px;
-}
-p {
-    margin: 0;
-}
-p.headline {
-    font-weight: 800;
-    font-size: 60px;
-}
-p.subline {
-    font-size: 30px;
-    font-weight: 300;
-}
+    .intro-container {
+        /* background: #ECEFF4; */
+        padding: 10px;
+        text-align: center;
+        color: #2e3440;
+    }
+
+    .logo-confrontjs {
+        height: 300px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    p.headline {
+        font-weight: 800;
+        font-size: 60px;
+    }
+
+    p.subline {
+        font-size: 30px;
+        font-weight: 300;
+    }
 </style>
 
 <div class="intro-container">

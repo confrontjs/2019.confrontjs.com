@@ -23,8 +23,7 @@
 </script>
 
 <style>
-.facebook-pixel-container {
-}
+    .facebook-pixel-container {}
 </style>
 
 <div class="facebook-pixel-container">

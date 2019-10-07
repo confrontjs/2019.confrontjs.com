@@ -1,7 +1,11 @@
+<script>
+    export let segment;
+</script>
+
 <style>
-.sponsors-container {
-    padding: 20px;
-}
+    .sponsors-container {
+        padding: 20px;
+    }
 </style>
 
 <svelte:head>

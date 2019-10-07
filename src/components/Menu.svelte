@@ -47,20 +47,24 @@
 		padding: 1em 0.5em;
 		display: block;
     }
+
     a.with-logo {
         margin: 0;
         padding: 0;
     }
+
     .logo-confrontjs {
         height: 76px;
         width: 76px;
         vertical-align: middle;
     }
+
     a.buy-tickets {
         border: 1px solid;
         border-radius: 5px;
         padding: 5px 10px;
     }
+
     a.buy-tickets:hover {
         background: #2e3440;
         color: white;
@@ -70,7 +74,7 @@
 <nav class="nav-container">
 	<ul>
 		<li>
-            <a class="with-logo" href=".">
+            <a class="with-logo" href="." title="ConFrontJS">
                 <svg class="logo-confrontjs">
                     <use xlink:href="#icon-confrontjs"></use>
                 </svg>
@@ -84,8 +88,8 @@
             >Call for papers</a>
         </li>
 		<li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href='sponsors'>Sponsors</a></li>
-		<li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda (WIP)</a></li>
-		<li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers (WIP)</a></li>
+		<li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda</a></li>
+		<li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers</a></li>
 		<li><a rel=prefetch class='{segment === "contact" ? "selected" : ""}' href='contact'>Contact</a></li>
         <li>
             <a

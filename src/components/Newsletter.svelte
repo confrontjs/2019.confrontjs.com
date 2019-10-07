@@ -19,9 +19,9 @@
 </script>
 
 <style>
-.newsletter-container {
-    width: 100%;
-}
+    .newsletter-container {
+        width: 100%;
+    }
 </style>
 
 <div class="newsletter-container">

@@ -4,18 +4,19 @@
 </script>
 
 <style>
-.footer-container {
-    background: #ECEFF4;
-    text-align: center;
-    padding: 0 0 20px 0;
-}
-.footer-container .panel {
-    max-width: 56em;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0 10px 0;
-}
+    .footer-container {
+        background: #ECEFF4;
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+
+    .footer-container .panel {
+        max-width: 56em;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 10px 0;
+    }
 </style>
 
 <footer class="footer-container">
