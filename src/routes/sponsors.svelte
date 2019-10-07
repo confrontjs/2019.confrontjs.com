@@ -1,10 +1,35 @@
 <script>
+    import Sponsor from '../components/Sponsor.svelte';
+    import Sponsors from '../data/sponsors';
+
+    function sponsorType(type) {
+        return Sponsors.filter((sponsor) => {
+            return (sponsor.type === type);
+        });
+    }
+
     export let segment;
 </script>
 
 <style>
     .sponsors-container {
         padding: 20px;
+    }
+
+    .sponsors-section {
+        margin: 80px 0;
+    }
+
+    .sponsors-section > ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .sponsors-section > ul li {
+        margin: 10px 0;
     }
 </style>
 
@@ -32,6 +57,49 @@
         >form</a>.
     </p>
 
-    <p>In progress.</p>
+    <div class="sponsors-section">
+
+        <h2 class="sponsor-name">Gold Sponsors</h2>
+
+        <ul>
+            {#each sponsorType('gold') as sponsor, i}
+                <li class="sponsor-card">
+                    <Sponsor sponsor="{sponsor}"></Sponsor>
+                </li>
+            {/each}
+        </ul>
+
+    </div>
+
+    <div class="sponsors-section">
+
+        <h2 class="sponsor-name">Silver Sponsors</h2>
+
+        <ul>
+            {#each sponsorType('silver') as sponsor, i}
+                <li class="sponsor-card">
+                    <Sponsor sponsor="{sponsor}"></Sponsor>
+                </li>
+            {/each}
+        </ul>
+
+    </div>
+
+    <div class="sponsors-section">
+
+        <h2 class="sponsor-name">Bronze Sponsors</h2>
+
+        <ul>
+            {#each sponsorType('bronze') as sponsor, i}
+                <li class="sponsor-card">
+                    <Sponsor sponsor="{sponsor}"></Sponsor>
+                </li>
+            {/each}
+        </ul>
+
+
+        <p>In progress.</p>
+
+    </div>
 
 </div>
