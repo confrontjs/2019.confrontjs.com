@@ -41,5 +41,7 @@
         >WarsawJS</a>
         &bull;
         <a href='code-of-conduct'>Code Conduct</a>
+        &bull;
+        <a href='contact'>Contact</a>
     </p>
 </footer>
