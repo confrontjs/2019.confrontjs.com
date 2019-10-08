@@ -7,7 +7,7 @@ function talkBy(name) {
 }
 
 module.exports = [
-    { start: '08:00', end: '09:30', duration: '01:30', type: 'Registration Open' },
+    { start: '08:00', end: '09:30', duration: '01:30', type: 'Registration' },
     { start: '09:30', end: '09:45', duration: '00:15', type: 'Opening by MC' },
     { start: '09:45', end: '10:25', duration: '00:40', type: 'Talk', details: talkBy('Tejas Kumar') },
     { start: '10:25', end: '10:55', duration: '00:30', type: 'Talk', details: talkBy('Eleftheria Batsou') },
@@ -25,5 +25,5 @@ module.exports = [
     { start: '15:55', end: '16:25', duration: '00:30', type: 'Talk', details: talkBy('Roy Derks') },
     { start: '16:25', end: '16:55', duration: '00:30', type: 'Talk', details: talkBy('Rakhi Sharma') },
     { start: '16:55', end: '17:35', duration: '00:40', type: 'Talk', details: talkBy('Chris Heilmann') },
-    { start: '17:35', end: '17:50', duration: '00:15', type: 'Closing Conference (Contest’s winner announcement)' },
+    { start: '17:35', end: '17:50', duration: '00:15', type: 'Final (Contest’s winner announcement)' },
 ];
