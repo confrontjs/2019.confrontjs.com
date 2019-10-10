@@ -19,7 +19,7 @@
     <address>
         <strong>Łukasiewicz Research Network – Institute of Aviation</strong><br/>
         Engineering Design Center<br/>
-        Aleja Krakowska 110/114, 02-256 Warszawa
+        Aleja Krakowska 110/114, 02-256 Warsaw, Poland
     </address>
 
 </div>
