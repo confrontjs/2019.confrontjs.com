@@ -1,6 +1,7 @@
 <script>
 	import Icons from '../components/Icons.svelte';
 	import Menu from '../components/Menu.svelte';
+	import Testimonials from '../components/Testimonials.svelte';
 	import Footer from '../components/Footer.svelte';
 	import FacebookPixel from '../components/FacebookPixel.svelte';
 
@@ -25,5 +26,6 @@
 	<slot></slot>
 </main>
 
+<Testimonials />
 <Footer />
 <FacebookPixel />

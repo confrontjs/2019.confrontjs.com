@@ -93,6 +93,14 @@
             >Call for papers</a>
         </li> -->
         <li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href='sponsors'>Sponsors</a></li>
+        <li>
+            <a
+                class="buy-tickets"
+                href="https://forms.gle/bPciWY3f7RyduB6o6"
+                target="_blank"
+                rel="noopener"
+            >Be a sponsor</a>
+        </li>
         <li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href='agenda'>Agenda</a></li>
         <li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href='speakers'>Speakers</a></li>
         <li><a rel=prefetch class='{segment === "venue" ? "selected" : ""}' href='venue'>Venue</a></li>

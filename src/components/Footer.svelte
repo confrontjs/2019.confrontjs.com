@@ -5,7 +5,7 @@
 
 <style>
     .footer-container {
-        background: #ECEFF4;
+        background: #D8DEE9;
         text-align: center;
         padding: 0 0 20px 0;
         overflow: hidden;

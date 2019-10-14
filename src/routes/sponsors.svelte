@@ -8,6 +8,10 @@
         });
     }
 
+    const GoldSponsors = sponsorType('gold');
+    const SilverSponsors = sponsorType('silver');
+    const BronzeSponsors = sponsorType('bronze');
+
     export let segment;
 </script>
 
@@ -25,7 +29,7 @@
         list-style: none;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .sponsors-section > ul li {
@@ -39,67 +43,60 @@
 
 <div class="sponsors-container">
 
-    <h1>Sponsors</h1>
+    <h1>
+        Sponsors
+        <strong>
+            (<a
+                href="https://drive.google.com/open?id=1ZB27yhtGoWkUBQopM6eSkbuvYIi5RaKW"
+                target="_blank"
+                rel="noopener"
+            >Offer</a>)
+        </strong>
+    </h1>
 
-    <p>
-        <a
-            href="https://drive.google.com/open?id=1ZB27yhtGoWkUBQopM6eSkbuvYIi5RaKW"
-            target="_blank"
-            rel="noopener"
-        >Download</a> sponsors offer.
-    </p>
+    {#if GoldSponsors.length > 0 }
 
-    <p>
-        Be a sponsor - fill this <a
-            href="https://forms.gle/bPciWY3f7RyduB6o6"
-            target="_blank"
-            rel="noopener"
-        >form</a>.
-    </p>
+        <div class="sponsors-section">
+            <h2 class="sponsor-name">Gold Sponsors</h2>
+            <ul>
+                {#each GoldSponsors as sponsor, i}
+                    <li class="sponsor-card">
+                        <Sponsor sponsor="{sponsor}"></Sponsor>
+                    </li>
+                {/each}
+            </ul>
+        </div>
 
-    <div class="sponsors-section">
+    {/if}
 
-        <h2 class="sponsor-name">Gold Sponsors</h2>
+    {#if SilverSponsors.length > 0}
 
-        <ul>
-            {#each sponsorType('gold') as sponsor, i}
-                <li class="sponsor-card">
-                    <Sponsor sponsor="{sponsor}"></Sponsor>
-                </li>
-            {/each}
-        </ul>
+        <div class="sponsors-section">
+            <h2 class="sponsor-name">Silver Sponsors</h2>
+            <ul>
+                {#each SilverSponsors as sponsor, i}
+                    <li class="sponsor-card">
+                        <Sponsor sponsor="{sponsor}"></Sponsor>
+                    </li>
+                {/each}
+            </ul>
+        </div>
 
-    </div>
+    {/if}
 
-    <div class="sponsors-section">
+    {#if BronzeSponsors.length > 0 }
 
-        <h2 class="sponsor-name">Silver Sponsors</h2>
+        <div class="sponsors-section">
+            <h2 class="sponsor-name">Bronze Sponsors</h2>
+            <ul>
+                {#each BronzeSponsors as sponsor, i}
+                    <li class="sponsor-card">
+                        <Sponsor sponsor="{sponsor}"></Sponsor>
+                    </li>
+                {/each}
+            </ul>
+        </div>
 
-        <ul>
-            {#each sponsorType('silver') as sponsor, i}
-                <li class="sponsor-card">
-                    <Sponsor sponsor="{sponsor}"></Sponsor>
-                </li>
-            {/each}
-        </ul>
-
-    </div>
-
-    <div class="sponsors-section">
-
-        <h2 class="sponsor-name">Bronze Sponsors</h2>
-
-        <ul>
-            {#each sponsorType('bronze') as sponsor, i}
-                <li class="sponsor-card">
-                    <Sponsor sponsor="{sponsor}"></Sponsor>
-                </li>
-            {/each}
-        </ul>
-
-
-        <p>In progress.</p>
-
-    </div>
+    {/if}
 
 </div>
