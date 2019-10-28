@@ -1,13 +1,12 @@
 <script>
-    export let segment;
+    export let segment = '';
 </script>
 
 <style>
     .intro-container {
-        /* background: #ECEFF4; */
         padding: 10px;
         text-align: center;
-        color: #2e3440;
+        color: var(--night-color);
     }
 
     .logo-confrontjs {
@@ -16,23 +15,23 @@
 
     p {
         margin: 0;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 
     p.headline {
-        font-weight: 800;
-        font-size: 60px;
+        font-size: 48px;
     }
 
     p.subline {
-        font-size: 30px;
-        font-weight: 300;
+        font-size: 24px;
     }
 </style>
 
 <div class="intro-container">
 
     <svg class="logo-confrontjs">
-        <use xlink:href="#icon-confrontjs"></use>
+        <use xlink:href="#icon-confrontjs-dark"></use>
     </svg>
 
     <p class="headline">Front-end conference</p>

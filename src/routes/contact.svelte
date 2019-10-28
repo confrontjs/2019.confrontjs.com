@@ -1,9 +1,9 @@
 <script>
-    export let segment;
+    export let segment = '';
 </script>
 
 <style>
-    .contact-container {
+    .contact-page {
         padding: 20px;
     }
 </style>
@@ -12,7 +12,7 @@
     <title>Contact • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
-<div class="contact-container">
+<div class="contact-page">
 
     <h1>Contact</h1>
 

@@ -1,5 +1,4 @@
 <script>
-
     function setupFacebookPixel() {
 
         !function(f,b,e,v,n,t,s)
@@ -19,7 +18,7 @@
         setupFacebookPixel();
     }
 
-    export let segment;
+    export let segment = '';
 </script>
 
 <style>

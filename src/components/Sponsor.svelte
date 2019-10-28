@@ -5,19 +5,34 @@
         url: 'fake',
         logoUrl: 'fake'
     };
+
+    function getClass() {
+        return `${sponsor.type.toLowerCase()}-sponsor`;
+    }
 </script>
 
+<style>
+    img {
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .gold-sponsor img {
+        width: 600px;
+        height: 300px;
+    }
+</style>
+
 <a
+    class="{ getClass() }"
     href={ sponsor.url }
     title={ sponsor.name }
-    target="_blank"
     rel="noopener"
 >
     <img
-        src={sponsor.logoUrl}
+        src={ sponsor.logoUrl }
         class="sponsor-avatar"
-        alt="Avatar of {sponsor.name}"
+        alt="Avatar of { sponsor.name }"
     />
 </a>
-
-<!-- <h4 class="sponsor-name">{ sponsor.name }</h4> -->

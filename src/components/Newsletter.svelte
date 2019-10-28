@@ -1,5 +1,4 @@
 <script>
-
     function setupMailer() {
         // https://app.mailerlite.com/webforms/new/view/1014226
         (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
@@ -15,21 +14,30 @@
         setupMailer();
     }
 
-    export let segment;
+    export let segment = '';
 </script>
 
 <style>
     .newsletter-container {
         width: 100%;
+        text-align: center;
+        background: var(--dark-color) url('/symbols/air-plane.svg') no-repeat 0 0;
+        padding: 80px 0;
+    }
+    .newsletter-wrapper {
+        width: 600px;
+        margin: auto;
     }
 </style>
 
 <div class="newsletter-container">
 
-    <div
-        class="ml-form-embed"
-        data-account="1190976:q9l3c7s3l7"
-        data-form="1014226:w7z0m5"
-    ></div>
+    <div class="newsletter-wrapper">
+        <div
+            class="ml-form-embed"
+            data-account="1190976:q9l3c7s3l7"
+            data-form="1568898:p3z3j9"
+        ></div>
+    </div>
 
 </div>

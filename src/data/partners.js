@@ -1,0 +1,7 @@
+module.exports = [
+    require('./partners/warsawjs'),
+    require('./partners/deno-warsaw'),
+    require('./partners/bulldogjob'),
+    require('./partners/crossweb'),
+    require('./partners/meetjs'),
+];

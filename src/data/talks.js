@@ -10,7 +10,8 @@ module.exports = [
             It is time for us as developers to be aware of these needs and understand different audiences better.
         `,
         tech: ["JavaScript", "Node.js", "Web Standards"],
-        speaker: require('./speakers/chris-heilmann')
+        speaker: require('./speakers/chris-heilmann'),
+        keynote: true
     },
     {
         title: "Web applications of the future with TypeScript and GraphQL",
@@ -29,7 +30,8 @@ module.exports = [
             We will build a WebAssembly module live on stage, and look into how other languages (Rust, C, C++) can execute on the web, alongside the frameworks we know and love today.
         `,
         tech: ["Webassembly", "JavaScript", "Rust"],
-        speaker: require('./speakers/tejas-kumar')
+        speaker: require('./speakers/tejas-kumar'),
+        keynote: true
     },
     {
         title: "When you think there is not time for learning or coding",

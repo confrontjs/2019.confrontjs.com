@@ -4,16 +4,16 @@
 	import Testimonials from '../components/Testimonials.svelte';
 	import Footer from '../components/Footer.svelte';
 	import FacebookPixel from '../components/FacebookPixel.svelte';
+    import Newsletter from '../components/Newsletter.svelte';
 
-	export let segment;
+	export let segment = '';
 </script>
 
 <style>
 	main {
 		position: relative;
-		max-width: 56em;
+		max-width: 1440px;
 		background-color: white;
-		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
@@ -26,6 +26,7 @@
 	<slot></slot>
 </main>
 
-<Testimonials />
+<!-- <Testimonials /> -->
+<Newsletter />
 <Footer />
-<FacebookPixel />
+<!-- <FacebookPixel /> -->

@@ -5,7 +5,6 @@
 <style>
 .testimonials-container {
     padding: 20px 0;
-    background: #ECEFF4;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
@@ -44,8 +43,6 @@
             <!-- https://www.prankmenot.com/Bkz87E -->
             <a
                 href="https://twitter.com/TejasKumar_/status/1181831345003204608"
-                target="_blank"
-                rel="noopener"
             >
                 <img
                     src="/tweets/tejas-kumar.png"
@@ -59,8 +56,6 @@
             <!-- https://www.prankmenot.com/EZKI0t -->
             <a
                 href="https://twitter.com/smalluban/status/1057232738489643008"
-                target="_blank"
-                rel="noopener"
             >
                 <img
                     src="/tweets/dominik-lubanski.png"
@@ -74,8 +69,6 @@
             <!-- https://www.prankmenot.com/oOWiHd -->
             <a
                 href="https://twitter.com/ranyitz/status/1063346524938297344"
-                target="_blank"
-                rel="noopener"
             >
                 <img
                     src="/tweets/ran-yitzhaki.png"
@@ -89,8 +82,6 @@
             <!-- https://www.prankmenot.com/HUVsBR -->
             <a
                 href="https://twitter.com/TejasKumar_/status/1056984161867718656"
-                target="_blank"
-                rel="noopener"
             >
                 <img
                     src="/tweets/tejas-kumar-2.png"
@@ -104,8 +95,6 @@
             <!-- https://www.prankmenot.com/s4zCqK -->
             <a
                 href="https://twitter.com/ranyitz/status/1057333189553938438"
-                target="_blank"
-                rel="noopener"
             >
                 <img
                     src="/tweets/ran-yitzhaki-2.png"
@@ -119,8 +108,6 @@
             <!-- https://www.prankmenot.com/ySgGPH -->
             <a
                 href="https://twitter.com/TejasKumar_/status/1056852619455553541"
-                target="_blank"
-                rel="noopener"
             >
                 <img
                     src="/tweets/tejas-kumar-3.png"

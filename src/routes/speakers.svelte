@@ -1,62 +1,35 @@
 <script>
+    import Banner from '../components/Banner.svelte';
+    import SpeakerCard from '../components/SpeakerCard.svelte';
     import Speakers from '../data/speakers';
     import shuffle from 'lodash-es/shuffle';
 
     const SpeakersShuffle = shuffle(Speakers);
 
-    export let segment;
+    export let segment = '';
 </script>
 
 <style>
     .speakers-container {
-        padding: 20px;
+        padding: 20px 40px;
     }
 
     .speakers-container > ul {
-        padding: 0;
-        list-style: none;
+        /* display: grid; */
+        /* grid-template-columns: auto auto; */
+        /* grid-template-rows: auto; */
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .speakers-container > ul li {
-        margin: 10px 0;
-    }
-
-    .speaker-card {
-        width: 40%;
-        background: #E5E9F0;
-        padding: 20px 30px;
-        text-align: center;
-    }
-
-    .speaker-avatar {
-        width: 150px;
-        height: 150px;
-    }
-
-    .social-media-icons {
-        margin: 10px 0;
-    }
-
-    .social-media-icon {
-        width: 40px;
-        height: 40px;
-        padding: 5px;
-        margin: 5px;
-    }
-
-    .social-media-icon:hover {
-        background: #17E9E0;
-    }
-
-    .speaker-bio {
-        text-align: justify;
+        margin: 20px 0;
+        width: 650px;
     }
 
     @media (max-width: 480px) {
-        .speaker-card {
+        .speakers-container > ul li {
             width: 100%;
         }
     }
@@ -66,56 +39,19 @@
     <title>Speakers • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
-<div class="speakers-container">
+<div class="speakers-page">
+    <Banner image="/banners/IMG_2984.png">
+        <p slot="description">29 October 2019 in Warsaw, Poland</p>
+        <h1 slot="header">ConFrontJS 2019 Speakers</h1>
+    </Banner>
 
-    <h1>Speakers</h1>
-
-    <ul>
-        {#each SpeakersShuffle as speaker, i}
-            <li class="speaker-card">
-                <a
-                    href="https://twitter.com/{speaker.twitter.handle}"
-                    title="Twitter"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    <img
-                        src="{ speaker.avatarUrl }"
-                        class="speaker-avatar"
-                        alt="Avatar of { speaker.name }"
-                    />
-                </a>
-
-                <h3>{ speaker.name }</h3>
-                <p><strong>{ speaker.position }</strong> @ <strong>{ speaker.company }</strong></p>
-                <!-- <em>{ speaker.country }</em> -->
-
-                <div class="social-media-icons">
-                    <a
-                        href="https://twitter.com/{speaker.twitter.handle}"
-                        title="Twitter"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        <svg class="social-media-icon">
-                            <use xlink:href="#icon-twitter"></use>
-                        </svg>
-                    </a>
-                    <a
-                        href="https://github.com/{speaker.github.handle}"
-                        title="GitHub"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        <svg class="social-media-icon">
-                            <use xlink:href="#icon-github"></use>
-                        </svg>
-                    </a>
-                </div>
-
-                <p class="speaker-bio">{ speaker.bio }</p>
-            </li>
-        {/each}
-    </ul>
-
+    <div class="speakers-container">
+        <ul class="list-unstyled">
+            {#each SpeakersShuffle as speaker, i}
+                <li>
+                    <SpeakerCard speaker={speaker}></SpeakerCard>
+                </li>
+            {/each}
+        </ul>
+    </div>
 </div>

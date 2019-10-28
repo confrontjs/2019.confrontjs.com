@@ -1,9 +1,9 @@
 <script>
-    export let segment;
+    export let segment = '';
 </script>
 
 <style>
-    .code-of-conduct-container {
+    .code-of-conduct-page {
         padding: 20px;
     }
 </style>
@@ -12,7 +12,7 @@
     <title>Code of Conduct • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
-<div class="code-of-conduct-container">
+<div class="code-of-conduct-page">
 
     <h1>Code of Conduct</h1>
 
@@ -30,11 +30,7 @@
 
     <p>
         Please read the full Code of Conduct:
-        <a
-            href="https://berlincodeofconduct.org"
-            target="_blank"
-            rel="noopener"
-        >
+        <a href="https://berlincodeofconduct.org">
             https://berlincodeofconduct.org
         </a>
     </p>
