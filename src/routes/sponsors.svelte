@@ -71,7 +71,7 @@
 </svelte:head>
 
 <div class="sponsors-page">
-    <Banner image="/banners/IMG_2543.png">
+    <Banner image="/promo/IMG_2543.png">
         <p slot="description">07 December 2019 in Warsaw, Poland</p>
         <h1 slot="header">ConFrontJS 2019 Sponsors</h1>
     </Banner>

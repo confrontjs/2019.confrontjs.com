@@ -14,7 +14,7 @@
     <title>Venue • ConFrontJS 2019 • Front-end Conference</title>
 </svelte:head>
 
-<Banner image="/banners/72275771_416666755700619_2198959204704714752_o.png">
+<Banner image="/promo/72275771_416666755700619_2198959204704714752_o.png">
     <p slot="description">07 December 2019 in Warsaw, Poland</p>
     <h1 slot="header">ConFrontJS 2019 Venue</h1>
 </Banner>

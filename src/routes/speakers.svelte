@@ -40,7 +40,7 @@
 </svelte:head>
 
 <div class="speakers-page">
-    <Banner image="/banners/IMG_2984.png">
+    <Banner image="/promo/IMG_2984.png">
         <p slot="description">07 December 2019 in Warsaw, Poland</p>
         <h1 slot="header">ConFrontJS 2019 Speakers</h1>
     </Banner>
