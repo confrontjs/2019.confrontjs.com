@@ -7,11 +7,17 @@
     function twoDigits(data) {
         return String(data).padStart(2, '0');
     }
+
+    function getClass() {
+        return item.details.keynote
+            ? 'keynote'
+            : '';
+    }
 </script>
 
 <style>
     .agenda-card {
-        margin: 20px auto;
+        margin: 30px auto;
         width: 100%;
         text-align: left;
     }
@@ -33,10 +39,6 @@
         color: var(--secondary-color);
     }
 
-    .agenda-content.keynote h2.speaker-name {
-        color: var(--primary-color);
-    }
-
     .agenda-content h2.non-talk-title {
         margin: 0;
         padding: 0;
@@ -44,6 +46,12 @@
 
     .agenda-content p.speaker-job-position {
         margin: 0;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+
+    .agenda-content h4.talk-title {
+        color: var(--secondary-color);
     }
 
     .agenda-content p.talk-abstract {
@@ -71,6 +79,16 @@
         font-weight: bold;
     }
 
+    /* for keynote */
+
+    .keynote .agenda-content h2.speaker-name {
+        color: var(--primary-color);
+    }
+
+    .keynote .agenda-content h4.talk-title {
+        color: var(--primary-color);
+    }
+
     @media (max-width: 480px) {
         .tags {
             display: grid;
@@ -78,7 +96,7 @@
     }
 </style>
 
-<div class="agenda-card row { item.type === "Talk" ? 'talk' : '' }">
+<div class="agenda-card row { item.type } { getClass() }">
     <div class="agenda-details col-2">
         <span class="iterator">{ twoDigits(index) }.</span>
 
@@ -107,7 +125,7 @@
                 { item.details.speaker.name }
             </h2>
             <p class="speaker-job-position">
-                <strong>{ item.details.speaker.position }</strong> @ <strong>{ item.details.speaker.company }</strong>
+                { item.details.speaker.position } @{ item.details.speaker.company }
             </p>
 
             <div class="tags">
@@ -116,11 +134,11 @@
                 {/each}
             </div>
 
-            <h4 class="secondary-color m-0 p-0">
+            <h4 class="talk-title m-0 p-0">
                 { item.details.title }
             </h4>
 
-            <p class="talk-abstract">{ item.details.abstract }</p>
+            <p class="talk-abstract">{ item.details.abstract.trim() }</p>
         {/if}
 
         {#if item.type === 'talk-not-ready' }

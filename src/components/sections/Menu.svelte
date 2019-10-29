@@ -68,7 +68,7 @@
                 href="https://forms.gle/wVUKK5HbUEC6S9CD9"
             >Call for papers</a>
         </li> -->
-        <li><a rel=prefetch class='{segment === void 0 ? "selected" : ""}' href="/agenda">Agenda</a></li>
+        <li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href="/agenda">Agenda</a></li>
         <li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href="speakers">Speakers</a></li>
         <li><a rel=prefetch class='{segment === "venue" ? "selected" : ""}' href="venue">Venue</a></li>
         <li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href="sponsors">Sponsors</a></li>

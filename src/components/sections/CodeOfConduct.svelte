@@ -1,6 +1,6 @@
 <style>
     .code-of-conduct-section {
-        margin: 100px 0;
+        margin: 0 0 100px 0;
     }
 </style>
 

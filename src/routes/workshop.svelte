@@ -97,7 +97,7 @@
                 </ul>
 
                 <img
-                    class="mx-5"
+                    class="my-5"
                     src="/trainers/yonatan-kra.jpg"
                     alt="Yonatan Kra"
                 />
