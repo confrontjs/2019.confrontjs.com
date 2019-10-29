@@ -1,8 +1,8 @@
 <script>
-    import Banner from '../components/Banner.svelte';
-    import Sponsor from '../components/Sponsor.svelte';
-    import Partner from '../components/Partner.svelte';
-    import Message from '../components/Message.svelte';
+    import Banner from '../components/sections/Banner.svelte';
+    import Sponsor from '../components/shared/Sponsor.svelte';
+    import Partner from '../components/shared/Partner.svelte';
+    import Message from '../components/shared/Message.svelte';
 
     import Sponsors from '../data/sponsors';
     import Partners from '../data/partners';
@@ -47,7 +47,7 @@
         margin: 0 auto;
     }
 
-    .offer .button-secondary {
+    .offer .button-mix {
         margin: 20px 0;
         display: inline-block;
     }
@@ -85,67 +85,69 @@
         </p>
     </Message>
 
-    <div class="sponsors-container">
+    <div class="content">
+        <div class="sponsors-container">
 
-        {#if GoldSponsors.length > 0 }
+            {#if GoldSponsors.length > 0 }
 
-            <div class="gold-sponsors sponsors-section">
-                <ul class="list-unstyled">
-                    {#each GoldSponsors as sponsor, i}
-                        <li class="sponsor-card">
-                            <Sponsor sponsor="{sponsor}"></Sponsor>
-                            <h2>Gold Sponsors</h2>
-                        </li>
-                    {/each}
-                </ul>
+                <div class="gold-sponsors sponsors-section">
+                    <ul class="list-unstyled">
+                        {#each GoldSponsors as sponsor, i}
+                            <li class="sponsor-card">
+                                <Sponsor sponsor="{sponsor}"></Sponsor>
+                                <h2>Gold Sponsors</h2>
+                            </li>
+                        {/each}
+                    </ul>
+                </div>
+
+            {/if}
+
+            {#if RestSponsors.length > 0}
+
+                <div class="rest-sponsors sponsors-section">
+                    <ul class="list-unstyled">
+                        {#each RestSponsors as sponsor, i}
+                            <li class="sponsor-card">
+                                <Sponsor sponsor="{sponsor}"></Sponsor>
+                                <h3>{sponsor.type} Sponsors</h3>
+                            </li>
+                        {/each}
+                    </ul>
+                </div>
+
+            {/if}
+
+            <div class="offer">
+                <h2>What About You?</h2>
+
+                <p>
+                    Sponsoring ConFrontJS is a great way to contribute to the healthy growth
+                    of TypeScript’s open source community. Please join us in creating
+                    an amazing experience for each and every attendee.
+                </p>
+
+                <a
+                    class="button-mix"
+                    href="https://drive.google.com/open?id=1ZB27yhtGoWkUBQopM6eSkbuvYIi5RaKW"
+                >Download offer</a>
             </div>
 
-        {/if}
+            {#if Partners.length > 0 }
+                <div class="partners-section">
+                    <h2>Partners and Supporters</h2>
 
-        {#if RestSponsors.length > 0}
+                    <ul class="list-unstyled">
+                        {#each Partners as partner, i}
+                            <li class="partner-card">
+                                <Partner partner="{partner}"></Partner>
+                            </li>
+                        {/each}
+                    </ul>
+                </div>
 
-            <div class="rest-sponsors sponsors-section">
-                <ul class="list-unstyled">
-                    {#each RestSponsors as sponsor, i}
-                        <li class="sponsor-card">
-                            <Sponsor sponsor="{sponsor}"></Sponsor>
-                            <h3>{sponsor.type} Sponsors</h3>
-                        </li>
-                    {/each}
-                </ul>
-            </div>
-
-        {/if}
-
-        <div class="offer">
-            <h2>What About You?</h2>
-
-            <p>
-                Sponsoring ConFrontJS is a great way to contribute to the healthy growth
-                of TypeScript’s open source community. Please join us in creating
-                an amazing experience for each and every attendee.
-            </p>
-
-            <a
-                class="button-secondary"
-                href="https://drive.google.com/open?id=1ZB27yhtGoWkUBQopM6eSkbuvYIi5RaKW"
-            >Download offer</a>
+            {/if}
         </div>
-
-        {#if Partners.length > 0 }
-            <div class="partners-section">
-                <h2>Partners and Supporters</h2>
-
-                <ul class="list-unstyled">
-                    {#each Partners as partner, i}
-                        <li class="partner-card">
-                            <Partner partner="{partner}"></Partner>
-                        </li>
-                    {/each}
-                </ul>
-            </div>
-
-        {/if}
     </div>
 
 </div>

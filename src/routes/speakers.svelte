@@ -1,6 +1,6 @@
 <script>
-    import Banner from '../components/Banner.svelte';
-    import SpeakerCard from '../components/SpeakerCard.svelte';
+    import Banner from '../components/sections/Banner.svelte';
+    import SpeakerCard from '../components/shared/SpeakerCard.svelte';
     import Speakers from '../data/speakers';
     import shuffle from 'lodash-es/shuffle';
 
@@ -45,13 +45,15 @@
         <h1 slot="header">ConFrontJS 2019 Speakers</h1>
     </Banner>
 
-    <div class="speakers-container">
-        <ul class="list-unstyled">
-            {#each SpeakersShuffle as speaker, i}
-                <li>
-                    <SpeakerCard speaker={speaker}></SpeakerCard>
-                </li>
-            {/each}
-        </ul>
+    <div class="content">
+        <div class="speakers-container">
+            <ul class="list-unstyled">
+                {#each SpeakersShuffle as speaker, i}
+                    <li>
+                        <SpeakerCard speaker={speaker}></SpeakerCard>
+                    </li>
+                {/each}
+            </ul>
+        </div>
     </div>
 </div>

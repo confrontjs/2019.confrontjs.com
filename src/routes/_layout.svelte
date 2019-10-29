@@ -1,20 +1,16 @@
 <script>
-	import Icons from '../components/Icons.svelte';
-	import Menu from '../components/Menu.svelte';
-	import Testimonials from '../components/Testimonials.svelte';
-	import Footer from '../components/Footer.svelte';
-	import FacebookPixel from '../components/FacebookPixel.svelte';
-    import Newsletter from '../components/Newsletter.svelte';
+	import Icons from '../components/shared/Icons.svelte';
+	import Menu from '../components/sections/Menu.svelte';
+	import Testimonials from '../components/sections/Testimonials.svelte';
+	import Footer from '../components/sections/Footer.svelte';
+	import FacebookPixel from '../components/shared/FacebookPixel.svelte';
+    import Newsletter from '../components/sections/Newsletter.svelte';
 
 	export let segment = '';
 </script>
 
 <style>
 	main {
-		position: relative;
-		max-width: 1440px;
-		background-color: white;
-		margin: 0 auto;
 		box-sizing: border-box;
 	}
 </style>
@@ -29,4 +25,4 @@
 <!-- <Testimonials /> -->
 <Newsletter />
 <Footer />
-<!-- <FacebookPixel /> -->
+<FacebookPixel />

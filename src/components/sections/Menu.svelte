@@ -4,7 +4,6 @@
 
 <style>
 	nav {
-        text-align: center;
         background: var(--night-color);
 	}
 
@@ -55,10 +54,10 @@
     }
 </style>
 
-<nav class="nav-container">
+<nav class="nav-container text-center">
     <ul>
         <li>
-            <a class="with-logo" href="." title="ConFrontJS">
+            <a class="with-logo" href="/" title="ConFrontJS">
                 <svg class="logo-confrontjs">
                     <use xlink:href="#icon-confrontjs-light"></use>
                 </svg>
@@ -69,7 +68,7 @@
                 href="https://forms.gle/wVUKK5HbUEC6S9CD9"
             >Call for papers</a>
         </li> -->
-        <li><a rel=prefetch class='{segment === void 0 ? "selected" : ""}' href="/">Agenda</a></li>
+        <li><a rel=prefetch class='{segment === void 0 ? "selected" : ""}' href="/agenda">Agenda</a></li>
         <li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href="speakers">Speakers</a></li>
         <li><a rel=prefetch class='{segment === "venue" ? "selected" : ""}' href="venue">Venue</a></li>
         <li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href="sponsors">Sponsors</a></li>

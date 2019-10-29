@@ -1,15 +1,12 @@
 <script>
-    import SocialMedia from '../components/SocialMedia.svelte';
+    import SocialMedia from '../shared/SocialMedia.svelte';
 </script>
 
 <style>
     .footer-section {
         color: var(--snow-color);
         background: var(--night-color);
-        text-align: center;
-        padding: 30px 0 20px 0;
-        display: flex;
-        justify-content: space-around;
+        padding: 30px 0;
         font-size: 14px;
     }
 
@@ -50,7 +47,7 @@
     }
 </style>
 
-<footer class="footer-section">
+<footer class="footer-section text-center d-flex justify-content-around">
     <div class="contact">
         <h2>Contact</h2>
         <p>

@@ -1,13 +1,13 @@
 <script>
-    import Intro from '../components/Intro.svelte';
-    import BuyTicketsButton from '../components/BuyTicketsButton.svelte';
-    import Agenda from '../components/Agenda.svelte';
-    import Summary from '../components/Summary.svelte';
-    import TripleGallery from '../components/TripleGallery.svelte';
-    import VenueInsight from '../components/VenueInsight.svelte';
-    import Why from '../components/Why.svelte';
-    import CodeOfConduct from '../components/CodeOfConduct.svelte';
-    import Organizers from '../components/Organizers.svelte';
+    import Intro from '../components/sections/Intro.svelte';
+    import BuyTicketsButton from '../components/sections/BuyTicketsButton.svelte';
+    import Agenda from '../components/sections/Agenda.svelte';
+    import Summary from '../components/sections/Summary.svelte';
+    import TripleGallery from '../components/shared/TripleGallery.svelte';
+    import VenueInsight from '../components/sections/VenueInsight.svelte';
+    import Why from '../components/sections/Why.svelte';
+    import CodeOfConduct from '../components/sections/CodeOfConduct.svelte';
+    import Organizers from '../components/sections/Organizers.svelte';
 </script>
 
 <style>

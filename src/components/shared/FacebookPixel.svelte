@@ -21,11 +21,7 @@
     export let segment = '';
 </script>
 
-<style>
-    .facebook-pixel-container {}
-</style>
-
-<div class="facebook-pixel-container">
+<div class="facebook-pixel">
 
     <noscript>
         <img

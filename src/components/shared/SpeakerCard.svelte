@@ -1,7 +1,7 @@
 <script>
     import SocialMediaIcons from './SocialMediaIcons.svelte';
     import SpeakerTitle from './SpeakerTitle.svelte';
-    import Talks from '../data/talks';
+    import Talks from '../../data/talks';
 
     export let segment = '';
     export let speaker = {};
@@ -79,7 +79,6 @@
     :global(.regular-speaker) {
         color: var(--secondary-color);
     }
-
 </style>
 
 <div class="speaker-card">

@@ -3,9 +3,9 @@
 </script>
 <style>
     .banner {
-        width: 1450px;
         height: 500px;
         background-repeat: no-repeat;
+        background-size: cover;
         color: var(--snow-color);
         font-weight: bold;
         padding: 160px 0 0 50px;
@@ -42,8 +42,11 @@
     style="background-image: url({image})"
 >
     <div class="apla"></div>
-    <div class="texts">
-        <slot name="description"></slot>
-        <slot name="header"></slot>
+
+    <div class="content">
+        <div class="texts">
+            <slot name="description"></slot>
+            <slot name="header"></slot>
+        </div>
     </div>
 </div>

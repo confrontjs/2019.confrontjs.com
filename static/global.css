@@ -14,7 +14,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
-	color: #333;
+    background: var(--snow-color);
+    color: var(--night-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,6 +45,13 @@ a {
 	color: inherit;
 }
 
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
 .button-primary {
     color: var(--snow-color);
     background: var(--primary-color);
@@ -61,7 +69,7 @@ a {
     color: white;
 }
 
-.button-secondary {
+.button-mix {
     color: var(--snow-color);
     background: var(--mix-color);
     border-radius: 5px;
@@ -73,7 +81,7 @@ a {
     border-radius: 10px;
 }
 
-.button-secondary:hover {
+.button-mix:hover {
     background: red;
     color: white;
 }
@@ -104,4 +112,12 @@ code {
 
 .text-center {
     text-align: center;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
 }
