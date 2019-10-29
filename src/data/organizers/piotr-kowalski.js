@@ -12,5 +12,6 @@ module.exports = {
         facebook_url: "https://facebook.com/piecioshka.trener",
         instagram_url: "https://instagram.com/piecioshka",
         youtube_url: "https://www.youtube.com/channel/UCffjO7O5ELIUrFWIhpf64uw",
-    }
+    },
+    avatar_url: '/hosts/piotr-kowalski.jpg'
 };

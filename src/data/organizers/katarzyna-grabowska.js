@@ -13,5 +13,6 @@ module.exports = {
         instagram_url: "https://www.instagram.com/kasiarzyna25/",
         youtube_url: "https://www.youtube.com/channel/UCHr9P4_4fz8a5nmUqroN5fQ",
         behance_url: "https://www.behance.net/kasiarzyna25",
-    }
+    },
+    avatar_url: '/hosts/katarzyna-grabowska.jpg'
 };

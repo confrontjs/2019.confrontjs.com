@@ -1,13 +1,7 @@
 <script>
     import SocialMediaIcons from './SocialMediaIcons.svelte';
-    import slug from 'slug';
 
     export let host = {};
-
-    function getAvatarUrl() {
-        const filename = slug(host.name).toLowerCase();
-        return `/hosts/${filename}.jpg`;
-    }
 </script>
 
 <style>
@@ -31,7 +25,7 @@
 </style>
 
 <div class="organizer-profile">
-    <img src="{ getAvatarUrl() }" alt="">
+    <img src="{ host.avatar_url }" alt="">
 
     <h2>{ host.name }</h2>
     <h4 class="primary-color">{ host.position }</h4>

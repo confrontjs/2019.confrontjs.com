@@ -20,8 +20,7 @@
         "compression": "^1.7.1",
         "lodash-es": "^4.17.15",
         "polka": "next",
-        "sirv": "^0.4.0",
-        "slug": "^1.1.0"
+        "sirv": "^0.4.0"
     },
     "devDependencies": {
         "@babel/core": "^7.0.0",
