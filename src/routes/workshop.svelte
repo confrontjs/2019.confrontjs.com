@@ -26,12 +26,13 @@
         <div class="row">
             <div class="col-5">
                 <p>
-                    Szkolenie dla osób, które chcą podnieść swoje umiejętności budowania aplikacji w React.js.
-                    Celem szkoleń MasterClass jest zwiększanie wiedzy w kierunku bycia mistrzem — MasterClass.
-                    Trenerami cyklu szkoleń WarsawJS MasterClass są doświadczeni developerzy,
-                    którzy przekazują swoją wiedzą na podstawie wielu lat doświadczeń.
-                    Nie ma selekcji — obowiązuje zasada: "kto pierwszy ten lepszy".
-                    Nauka w kameralnym gronie.
+                    A workshop for people who want to improve their skills
+                    in performance optimization. The goal of MasterClass training
+                    is to make another step to be a true master - MasterClass.
+                    The trainer is a person with many years of experience
+                    in programming and teaching. There is no selection - the
+                    principle "first come first served" applies. Learning in
+                    a small circle.
                 </p>
             </div>
 
@@ -87,13 +88,13 @@
             </div>
 
             <div class="col-5">
-                <h3>Podczas dwóch dni szkolenia uczestnik otrzymuje:</h3>
+                <h3>Price includes:</h3>
 
                 <ul>
-                    <li>Materiały szkoleniowe przygotowane specjalnie na dane szkolenie</li>
-                    <li>Zadania, które pozwolą mu wykonać część pracy w domu</li>
-                    <li>Listę polecanych materiałów do dalszej nauki</li>
-                    <li>Dostęp do projektów przygotowanych na potrzeby szkolenia</li>
+                    <li>One whole day of training</li>
+                    <li>Training materials specially prepared for the given training</li>
+                    <li>Tasks that will allow him to do part of the work at home</li>
+                    <li>A list of recommended materials for further learning</li>
                 </ul>
 
                 <img

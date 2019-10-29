@@ -7,11 +7,6 @@
         background: var(--night-color);
 	}
 
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
 	/* clearfix */
 	ul::after {
 		content: '';
@@ -55,7 +50,7 @@
 </style>
 
 <nav class="nav-container text-center">
-    <ul>
+    <ul class="list-unstyled">
         <li>
             <a class="with-logo" href="/" title="ConFrontJS">
                 <svg class="logo-confrontjs">
