@@ -32,7 +32,7 @@
 
     .banner .texts :global(h1) {
         display: block;
-        width: 720px;
+        max-width: 720px;
         margin: 0;
     }
 </style>

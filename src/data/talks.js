@@ -56,7 +56,7 @@ module.exports = [
             B. Habit formation (How to form a habit, how to find time, how to work towards your dreams and how to achieve your goals and how to maintain the desired results)
             C. Dealing with frustration/stress (How to deal with a toxic workplace, your arrogant colleagues and... yourself)
         `,
-        tech: ["HTML", "CSS", "JavaScript", "Angular", "D3.js"],
+        tech: ["JavaScript", "Angular", "HTML", "CSS", "D3.js"],
         speaker: require('./speakers/eleftheria-batsou')
     },
     {
@@ -78,7 +78,7 @@ module.exports = [
             This talk aims to address the inbuilt accessibility features of HTML by using semantic elements and attributes.
             We will also cover other aspects of accessibility such as navigation and content.
         `,
-        tech: ["HTML"],
+        tech: ["Accessability"],
         speaker: require('./speakers/jemima-abu')
     },
     {
@@ -92,14 +92,14 @@ module.exports = [
         speaker: require('./speakers/jerbi-saif')
     },
     {
-        title: "How browser works?- Behind the Scene!",
+        title: "How browser works? Behind the Scene!",
         abstract: `
             In this talk, Rakhi will talk about the high-level architecture of the browser and their components like rendering engine.
             What is going behind the scene? How browsers are rendering HTML/CSS/JS for you?
             How do parsing and Layout works on browser level?
             What happens when you search for something on internet?
         `,
-        tech: ["HTML", "CSS", "JavaScript"],
+        tech: ["Browsers", "JavaScript", "HTML", "CSS"],
         speaker: require('./speakers/rakhi-sharma')
     }
 ];

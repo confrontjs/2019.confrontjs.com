@@ -6,15 +6,12 @@
     .social-media-link {
         display: inline-block;
     }
+
     .social-media-icon {
         width: 40px;
         height: 40px;
         padding: 5px;
         margin: 5px;
-    }
-
-    .social-media-icon:hover {
-        background: var(--secondary-color);
     }
 </style>
 

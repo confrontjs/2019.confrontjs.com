@@ -65,8 +65,8 @@ a {
 }
 
 .button-primary:hover {
-    background: red;
-    color: white;
+    background: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 .button-mix {
@@ -82,8 +82,8 @@ a {
 }
 
 .button-mix:hover {
-    background: red;
-    color: white;
+    background: var(--secondary-color);
+    color: var(--dark-color);
 }
 
 code {

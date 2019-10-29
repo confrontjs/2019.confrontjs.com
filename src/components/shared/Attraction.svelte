@@ -2,9 +2,16 @@
     export let attraction = {};
 </script>
 
+<style>
+    .attraction-photo {
+        max-width: 100%;
+    }
+</style>
+
 <div class="row mb-5">
     <div class="col-4">
         <img
+            class="attraction-photo"
             src="{ attraction.image_url }"
             alt="{ attraction.name }"
         />

@@ -26,7 +26,10 @@
                     distress.<br/><br/>
                 </p>
 
-                <a class="button-primary" href="/code-of-conduct">Learn More</a>
+                <a
+                    class="button-primary"
+                    href="https://berlincodeofconduct.org"
+                >Learn More</a>
 
             </div>
 

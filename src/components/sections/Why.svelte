@@ -10,7 +10,6 @@
     }
 
     .why-item {
-        width: 310px;
         height: 200px;
         border: 2px solid var(--dark-color);
         position: relative;
@@ -42,39 +41,47 @@
     <div class="content">
         <h1>Why ConFrontJS?</h1>
 
-        <ul class="list-unstyled">
+        <ul class="list-unstyled d-flex justify-content-around">
 
-            <li class="why-item">
-                <span class="icon-wrapper">
-                    <svg class="icon">
-                        <use xlink:href="#icon-ticket"></use>
-                    </svg>
-                </span>
-                Have great networking time in community built on trust and mutual respect
+            <li class="col-md-3 col-sm-6 col-xs-12">
+                <div class="why-item">
+                    <span class="icon-wrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-ticket"></use>
+                        </svg>
+                    </span>
+                    Have great networking time in community built on trust and mutual respect
+                </div>
             </li>
-            <li class="why-item">
-                <span class="icon-wrapper">
-                    <svg class="icon">
-                        <use xlink:href="#icon-earth"></use>
-                    </svg>
-                </span>
-                Share experience with experts you haven't met before
+            <li class="col-md-3 col-sm-6 col-xs-12">
+                <div class="why-item">
+                    <span class="icon-wrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-earth"></use>
+                        </svg>
+                    </span>
+                    Share experience with experts you haven't met before
+                </div>
             </li>
-            <li class="why-item">
-                <span class="icon-wrapper">
-                    <svg class="icon">
-                        <use xlink:href="#icon-air-freight"></use>
-                    </svg>
-                </span>
-                Get engaged and meet professionals who love what they do
+            <li class="col-md-3 col-sm-6 col-xs-12">
+                <div class="why-item">
+                    <span class="icon-wrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-air-freight"></use>
+                        </svg>
+                    </span>
+                    Get engaged and meet professionals who love what they do
+                </div>
             </li>
-            <li class="why-item">
-                <span class="icon-wrapper">
-                    <svg class="icon">
-                        <use xlink:href="#icon-respect"></use>
-                    </svg>
-                </span>
-                Find support in community that shares knowledge everyday
+            <li class="col-md-3 col-sm-6 col-xs-12">
+                <div class="why-item">
+                    <span class="icon-wrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-respect"></use>
+                        </svg>
+                    </span>
+                    Find support in community that shares knowledge everyday
+                </div>
             </li>
         </ul>
     </div>

@@ -7,6 +7,9 @@
     .button-mix {
         font-size: 22px;
     }
+    .trainer-avatar {
+        max-width: 100%;
+    }
 </style>
 
 <svelte:head>
@@ -14,7 +17,7 @@
 </svelte:head>
 
 <Banner image="/banners/IMG_2723.png">
-    <p slot="description">29 October 2019 in Warsaw, Poland</p>
+    <p slot="description">07 December 2019 in Warsaw, Poland</p>
     <h1 slot="header">ConFrontJS 2019 Workshop</h1>
 </Banner>
 
@@ -98,7 +101,7 @@
                 </ul>
 
                 <img
-                    class="my-5"
+                    class="trainer-avatar my-5"
                     src="/trainers/yonatan-kra.jpg"
                     alt="Yonatan Kra"
                 />

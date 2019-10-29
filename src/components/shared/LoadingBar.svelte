@@ -10,6 +10,7 @@
     }
     .indicator {
         height: 4px;
+        transition: width 0.2s;
     }
 </style>
 

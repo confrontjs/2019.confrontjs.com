@@ -18,9 +18,9 @@
     <div class="content">
         <h1>Organizers</h1>
 
-        <ul class="list-unstyled">
+        <ul class="row list-unstyled">
             {#each Organizers as host, i}
-                <li>
+                <li class="col-lg-4 col-sm-6 col-xs-12">
                     <Organizer host={host}></Organizer>
                 </li>
             {/each}

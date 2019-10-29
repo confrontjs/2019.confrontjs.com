@@ -6,8 +6,8 @@
 
 <style>
     .organizer-profile {
-        width: 400px;
         display: inline-block;
+        padding: 0 10px;
     }
 
     .organizer-profile img {

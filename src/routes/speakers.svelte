@@ -28,7 +28,7 @@
         width: 650px;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 1480px) {
         .speakers-container > ul li {
             width: 100%;
         }
@@ -41,7 +41,7 @@
 
 <div class="speakers-page">
     <Banner image="/banners/IMG_2984.png">
-        <p slot="description">29 October 2019 in Warsaw, Poland</p>
+        <p slot="description">07 December 2019 in Warsaw, Poland</p>
         <h1 slot="header">ConFrontJS 2019 Speakers</h1>
     </Banner>
 

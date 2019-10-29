@@ -27,6 +27,11 @@
         text-align: center;
     }
 
+    .sponsors-container h2.sponsor-type,
+    .sponsors-container h3.sponsor-type {
+        font-weight: normal;
+    }
+
     .sponsors-section {
         margin: 0 0 100px 0;
         display: block;
@@ -39,7 +44,7 @@
     }
 
     .sponsors-section > ul li {
-        margin: 10px;
+        margin: 0 20px;
     }
 
     .offer {
@@ -56,10 +61,6 @@
         margin: 100px 0 0 0;
     }
 
-    .partners-section h2 {
-        margin: 0 0 50px 0;
-    }
-
     .partners-section > ul li {
         margin: 20px;
     }
@@ -71,7 +72,7 @@
 
 <div class="sponsors-page">
     <Banner image="/banners/IMG_2543.png">
-        <p slot="description">29 October 2019 in Warsaw, Poland</p>
+        <p slot="description">07 December 2019 in Warsaw, Poland</p>
         <h1 slot="header">ConFrontJS 2019 Sponsors</h1>
     </Banner>
 
@@ -95,7 +96,7 @@
                         {#each GoldSponsors as sponsor, i}
                             <li class="sponsor-card">
                                 <Sponsor sponsor="{sponsor}"></Sponsor>
-                                <h2>Gold Sponsors</h2>
+                                <h2 class="sponsor-type">Gold Sponsor</h2>
                             </li>
                         {/each}
                     </ul>
@@ -110,7 +111,7 @@
                         {#each RestSponsors as sponsor, i}
                             <li class="sponsor-card">
                                 <Sponsor sponsor="{sponsor}"></Sponsor>
-                                <h3>{sponsor.type} Sponsors</h3>
+                                <h3 class="sponsor-type">{sponsor.type} Sponsor</h3>
                             </li>
                         {/each}
                     </ul>
@@ -135,7 +136,7 @@
 
             {#if Partners.length > 0 }
                 <div class="partners-section">
-                    <h2>Partners and Supporters</h2>
+                    <h2 class="mb-5">Partners and Supporters</h2>
 
                     <ul class="list-unstyled">
                         {#each Partners as partner, i}

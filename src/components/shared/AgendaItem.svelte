@@ -28,7 +28,7 @@
     }
 
     .speaker-avatar {
-        width: 204px;
+        max-width: 204px;
     }
 
     .agenda-content h4.speaker-type {
@@ -87,6 +87,12 @@
 
     .keynote .agenda-content h4.talk-title {
         color: var(--primary-color);
+    }
+
+    @media (max-width: 960px) {
+        .speaker-avatar {
+            max-width: 100%;
+        }
     }
 
     @media (max-width: 480px) {
