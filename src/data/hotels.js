@@ -8,7 +8,7 @@ module.exports = [
             time: `~ 3 MIN`,
             type: 'walk'
         },
-        profile_url: ''
+        profile_url: 'http://www.hotelwitkowski.pl/'
     },
     {
         name: 'Golden Tulip Warsaw Airport',
@@ -19,7 +19,7 @@ module.exports = [
             time: `~ 3 MIN`,
             type: 'car'
         },
-        profile_url: ''
+        profile_url: 'https://warsaw-airport.goldentulip.com/pl?arrival=2019-10-30T00:00:00&departure=2019-10-31T00:00:00&rooms[0][adult]=1&rooms[0][child]=0&location='
     },
     {
         name: 'Hotel Gordon',
@@ -30,7 +30,7 @@ module.exports = [
             time: `~ 7 MIN`,
             type: 'walk'
         },
-        profile_url: ''
+        profile_url: 'http://hotelgordon.pl/'
     },
     {
         name: 'Air Hotel',
@@ -41,7 +41,7 @@ module.exports = [
             time: `~ 3 MIN`,
             type: 'car'
         },
-        profile_url: ''
+        profile_url: 'https://airhotel.pl/'
     },
     {
         name: 'Renaissance Warsaw Airport Hotel',
@@ -52,7 +52,7 @@ module.exports = [
             time: `~ 8 MIN`,
             type: 'car'
         },
-        profile_url: ''
+        profile_url: 'https://www.renaissancewarszawa.pl/'
     },
     {
         name: 'B&B Hotel Warszawa-Okęcie',
@@ -63,6 +63,6 @@ module.exports = [
             time: `~ 4 M`,
             type: 'car'
         },
-        profile_url: ''
+        profile_url: 'https://www.hotelbb.pl/pl/warszawa-okecie'
     },
 ];

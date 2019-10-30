@@ -4,4 +4,5 @@ module.exports = [
     require('./partners/bulldogjob'),
     require('./partners/crossweb'),
     require('./partners/meetjs'),
+    require('./partners/jobs-for-geek'),
 ];

@@ -7,6 +7,7 @@
 	import Footer from '../components/sections/Footer.svelte';
 	import FacebookPixel from '../components/shared/FacebookPixel.svelte';
     import Newsletter from '../components/sections/Newsletter.svelte';
+    import WaveType5 from '../components/waves/WaveType5.svelte';
 
     export let segment = '';
 
@@ -82,6 +83,8 @@
 </main>
 
 <!-- <Testimonials /> -->
+
+<WaveType5/>
 <Newsletter />
 <Footer />
 <FacebookPixel />

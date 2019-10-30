@@ -22,7 +22,7 @@
         width: 100%;
         text-align: center;
         background: var(--dark-color) url('/symbols/air-plane.svg') no-repeat 0 0;
-        padding: 80px 0;
+        padding: 150px 0 80px 0;
     }
     .newsletter-wrapper {
         max-width: 600px;

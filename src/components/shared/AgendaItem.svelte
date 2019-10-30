@@ -32,7 +32,7 @@
     }
 
     .agenda-content {
-        padding: 40px 0 0 0;
+        padding-top: 40px;
     }
 
     .agenda-content h4.speaker-type {

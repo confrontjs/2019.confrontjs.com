@@ -1,7 +1,6 @@
 <style>
     .summary {
         background: var(--dark-color);
-        padding: 30px 0;
     }
 
     .summary ul {

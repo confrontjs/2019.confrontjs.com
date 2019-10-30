@@ -8,7 +8,7 @@
     .agenda-section {
         color: var(--snow-color);
         background: var(--night-color);
-        padding: 30px 0;
+        padding: 60px 0 30px 0;
     }
 </style>
 
