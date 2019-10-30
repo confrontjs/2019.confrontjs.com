@@ -14,5 +14,14 @@
                 </li>
             {/each}
         </ul>
+
+        <footer>
+            <p>
+                <em>
+                    Copyright by
+                    <a href="https://theculturetrip.com/europe/poland/articles/20-must-visit-attractions-in-warsaw/">Culture Trip</a>
+                </em>
+            </p>
+        </footer>
     </div>
 </section>

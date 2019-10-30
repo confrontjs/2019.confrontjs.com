@@ -25,7 +25,9 @@
 </style>
 
 <div class="organizer-profile">
-    <img src="{ host.avatar_url }" alt="">
+    <a href="{ host.homepage_url } ">
+        <img src="{ host.avatar_url }" alt="{ host.name }">
+    </a>
 
     <h2>{ host.name }</h2>
     <h4 class="primary-color">{ host.position }</h4>

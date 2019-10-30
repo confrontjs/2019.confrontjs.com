@@ -9,7 +9,7 @@
         <h2>Code of Conduct</h2>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12 mb-4">
 
                 <p>
                     If you are subject to or witness unacceptable behavior, or have any other
@@ -33,7 +33,7 @@
 
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
                 <p>
                     A primary goal of all the conferences and user groups that refer to this
                     <strong>Code of Conduct</strong> is to be inclusive to the largest number of contributors,

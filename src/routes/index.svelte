@@ -3,7 +3,6 @@
     import BuyTicketsButton from '../components/sections/BuyTicketsButton.svelte';
     import Agenda from '../components/sections/Agenda.svelte';
     import Summary from '../components/sections/Summary.svelte';
-    import TripleGallery from '../components/shared/TripleGallery.svelte';
     import VenueInsight from '../components/sections/VenueInsight.svelte';
     import Why from '../components/sections/Why.svelte';
     import CodeOfConduct from '../components/sections/CodeOfConduct.svelte';
@@ -22,11 +21,11 @@
     <BuyTicketsButton/>
     <Agenda/>
     <Summary />
-    <TripleGallery>
-        <img src="/photos/IMG_2585.png" alt=""/>
-        <img src="/photos/IMG_2984.png" alt=""/>
-        <img src="/photos/IMG_2853.png" alt=""/>
-    </TripleGallery>
+    <div class="row no-gutters">
+        <img class="col-md-4 col-sm-12" src="/photos/IMG_2585.png" alt=""/>
+        <img class="col-md-4 col-sm-12" src="/photos/IMG_2984.png" alt=""/>
+        <img class="col-md-4 col-sm-12" src="/photos/IMG_2853.png" alt=""/>
+    </div>
     <VenueInsight />
     <Why />
     <CodeOfConduct />

@@ -49,13 +49,19 @@
         left: 0;
         height: 76px;
         width: 100%;
-        z-index: 2;
+        z-index: 4;
     }
 
 	main {
         box-sizing: border-box;
         padding: 78px 0 0 0;
-	}
+    }
+
+    @media (max-width: 700px) {
+        main {
+            padding: 70px 0 0 0;
+        }
+    }
 </style>
 
 <svelte:window on:scroll={refreshLoadingIndicator}/>

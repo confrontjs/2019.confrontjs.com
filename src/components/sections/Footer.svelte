@@ -69,7 +69,7 @@
                 Copyright @ 2019 by
                 <a href="https://warsawjs.com/">WarsawJS</a>
                 &bull;
-                <a href="code-of-conduct">Code Conduct</a>
+                <a href="code-of-conduct">Code of Conduct</a>
                 &bull;
                 <a href="contact">Contact</a>
             </p>
@@ -78,7 +78,10 @@
         <div class="powered-by offset-md-1 col-md-3 col-sm-12">
             <h3>Powered by</h3>
             <a href="https://warsawjs.com">
-                <img src="https://warsawjs.com/static/images/logos/logo-warsawjs-with-white-text.svg" alt="">
+                <img
+                    src="https://warsawjs.com/static/images/logos/logo-warsawjs-with-white-text.svg"
+                    alt="WarsawJS"
+                />
             </a>
         </div>
     </div>

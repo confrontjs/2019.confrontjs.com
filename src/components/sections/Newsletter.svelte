@@ -25,7 +25,7 @@
         padding: 80px 0;
     }
     .newsletter-wrapper {
-        width: 600px;
+        max-width: 600px;
         margin: auto;
     }
 </style>

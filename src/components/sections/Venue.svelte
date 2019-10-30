@@ -10,7 +10,7 @@
 
 <div class="content">
     <div class="row my-3">
-        <div class="col-4 text-center">
+        <div class="col-md-4 col-sm-12 text-center">
             <img
                 class="edc-logo d-inline-block"
                 src="/sponsors/logo-edc-dark.svg"
@@ -19,7 +19,7 @@
             <VenueName></VenueName>
         </div>
 
-        <div class="col-8">
+        <div class="col-md-8 col-sm-12">
             <p>Łukasiewicz Research Network – Institute of Aviation</p>
 
             <p>

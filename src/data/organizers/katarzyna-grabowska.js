@@ -14,5 +14,6 @@ module.exports = {
         youtube_url: "https://www.youtube.com/channel/UCHr9P4_4fz8a5nmUqroN5fQ",
         behance_url: "https://www.behance.net/kasiarzyna25",
     },
-    avatar_url: '/hosts/katarzyna-grabowska.jpg'
+    avatar_url: '/hosts/katarzyna-grabowska.jpg',
+    homepage_url: 'https://grabowska.org'
 };

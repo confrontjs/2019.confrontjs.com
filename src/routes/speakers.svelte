@@ -24,11 +24,15 @@
     }
 
     .speakers-container > ul li {
-        margin: 20px 0;
+        margin: 10px 0;
         width: 650px;
     }
 
     @media (max-width: 1480px) {
+        .speakers-container {
+            padding: 0;
+        }
+
         .speakers-container > ul li {
             width: 100%;
         }

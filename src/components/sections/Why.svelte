@@ -9,6 +9,10 @@
         justify-content: space-between;
     }
 
+    .why-section ul li {
+        margin: 0 0 30px 0
+    }
+
     .why-item {
         height: 200px;
         border: 2px solid var(--dark-color);
@@ -41,7 +45,7 @@
     <div class="content">
         <h1>Why ConFrontJS?</h1>
 
-        <ul class="list-unstyled d-flex justify-content-around">
+        <ul class="list-unstyled row justify-content-around">
 
             <li class="col-md-3 col-sm-6 col-xs-12">
                 <div class="why-item">

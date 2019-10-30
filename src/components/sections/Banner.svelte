@@ -4,11 +4,10 @@
 <style>
     .banner {
         height: 500px;
-        background-repeat: no-repeat;
         background-size: cover;
+        background-repeat: no-repeat;
         color: var(--snow-color);
         font-weight: bold;
-        padding: 160px 0 0 50px;
         position: relative;
     }
 
@@ -23,6 +22,7 @@
 
     .banner .texts {
         position: relative;
+        padding: 160px 0 0 0
     }
 
     .banner .texts :global(p) {
@@ -34,6 +34,13 @@
         display: block;
         max-width: 720px;
         margin: 0;
+    }
+
+    @media (max-width: 800px) {
+        .banner {
+            height: 100%;
+            padding: 30px;
+        }
     }
 </style>
 

@@ -5,7 +5,7 @@
 
 <style>
     .organizers-section {
-        margin: 100px 0;
+        margin: 100px 0 20px 0;
     }
 
     .organizers-section ul {

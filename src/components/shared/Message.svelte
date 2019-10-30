@@ -1,15 +1,11 @@
 <style>
     .message {
         background: var(--dark-color);
-        padding: 50px;
         color: var(--snow-color);
+        padding: 30px;
     }
 
-    .message :global(h2) {
-        font-size: 36px;
-    }
     .message :global(p) {
-        font-size: 24px;
         font-weight: lighter;
     }
 </style>

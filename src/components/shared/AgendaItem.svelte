@@ -17,7 +17,7 @@
 
 <style>
     .agenda-card {
-        margin: 30px auto;
+        margin: 80px auto;
         width: 100%;
         text-align: left;
     }
@@ -103,7 +103,7 @@
 </style>
 
 <div class="agenda-card row { item.type } { getClass() }">
-    <div class="agenda-details col-2">
+    <div class="agenda-details col-lg-2 col-xs-12">
         <span class="iterator">{ twoDigits(index) }.</span>
 
         <h2>{ item.start }</h2>
@@ -116,13 +116,13 @@
                 <img
                     src="{ item.details.speaker.avatarUrl }"
                     class="speaker-avatar"
-                    alt=""
+                    alt="{ item.details.speaker.name }"
                 />
             </a>
         {/if}
     </div>
 
-    <div class="agenda-content offset-1 col-9">
+    <div class="agenda-content offset-lg-1 col-lg-9 col-xs-12">
         {#if item.type === 'talk' }
             <h4 class="speaker-type">
                 <SpeakerTitle talk={item.details}></SpeakerTitle>
@@ -144,7 +144,7 @@
                 { item.details.title }
             </h4>
 
-            <p class="talk-abstract">{ item.details.abstract.trim() }</p>
+            <p class="talk-abstract d-none d-sm-block">{ item.details.abstract.trim() }</p>
         {/if}
 
         {#if item.type === 'talk-not-ready' }

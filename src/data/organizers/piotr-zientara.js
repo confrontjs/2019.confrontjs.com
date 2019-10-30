@@ -13,5 +13,6 @@ module.exports = {
         instagram_url: "https://www.instagram.com/piotr_zientara/",
         youtube_url: "https://www.youtube.com/channel/UCyU9D7Wm8vwxc4W8ebKQDQg",
     },
-    avatar_url: '/hosts/piotr-zientara.jpg'
+    avatar_url: '/hosts/piotr-zientara.jpg',
+    homepage_url: 'https://twitter.com/piotr_zientara'
 };

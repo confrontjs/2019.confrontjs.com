@@ -27,7 +27,7 @@
         <h1>Let's Talk About Your App's Performance</h1>
 
         <div class="row">
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <p>
                     A workshop for people who want to improve their skills
                     in performance optimization. The goal of MasterClass training
@@ -39,7 +39,7 @@
                 </p>
             </div>
 
-            <div class="offset-1 col-3">
+            <div class="offset-md-1 col-md-3 col-sm-12">
                 <h2>Place of training</h2>
 
                 <p>
@@ -49,7 +49,7 @@
                 </p>
             </div>
 
-            <div class="col-2 text-center">
+            <div class="col-md-2 col-sm-12 text-center">
                 <h2>Date</h2>
 
                 <p>
@@ -57,14 +57,17 @@
                     10:00 - 18:00
                 </p>
 
-                <a href="httpe://evenea.pl/event/confrontjs-2019" class="button-mix">
+                <a
+                    class="button-mix my-3 d-inline-block"
+                    href="httpe://evenea.pl/event/confrontjs-2019"
+                >
                     Buy ticket
                 </a>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
                 <h2>What are you going to learn:</h2>
 
                 <ul>
@@ -90,7 +93,7 @@
                 </p>
             </div>
 
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <h3>Price includes:</h3>
 
                 <ul>

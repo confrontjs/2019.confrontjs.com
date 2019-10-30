@@ -1,7 +1,7 @@
 <div class="content">
     <div class="row align-items-center my-5">
 
-        <div class="col-5">
+        <div class="col-md-5 col-sm-12">
             <h2>Parking</h2>
 
             <p>
@@ -13,12 +13,15 @@
             </p>
         </div>
 
-        <div class="offset-1 col-2 text-center">
+        <div class="offset-md-1 col-md-2 col-sm-12 text-center my-5">
             <a class="button-mix" href="/contact">Contact Us</a>
         </div>
 
-        <div class="offset-1 col-2 text-center">
-            <img src="/symbols/suitcase.svg" alt="">
+        <div class="offset-md-1 col-md-2 col-sm-12 text-center">
+            <img
+                src="/symbols/suitcase.svg"
+                alt=""
+            />
         </div>
 
     </div>

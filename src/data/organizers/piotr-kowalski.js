@@ -13,5 +13,6 @@ module.exports = {
         instagram_url: "https://instagram.com/piecioshka",
         youtube_url: "https://www.youtube.com/channel/UCffjO7O5ELIUrFWIhpf64uw",
     },
-    avatar_url: '/hosts/piotr-kowalski.jpg'
+    avatar_url: '/hosts/piotr-kowalski.jpg',
+    homepage_url: 'https://piecioshka.pl'
 };

@@ -13,12 +13,12 @@
     <div class="content">
         <h1>Venue</h1>
 
-        <div class="row col-12">
-            <div class="col-4">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
                 <VenueName></VenueName>
             </div>
 
-            <div class="col-8">
+            <div class="col-md-8 col-sm-12">
                 <p><strong>Łukasiewicz Research Network – Institute of Aviation</strong></p>
                 <p><strong>Engineering Design Center</strong></p>
 

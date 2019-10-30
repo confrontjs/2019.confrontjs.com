@@ -5,7 +5,7 @@
 <style>
     .hotel {
         display: inline-block;
-        width: 420px;
+        max-width: 420px;
         margin: 0 0 50px 0;
     }
 
@@ -20,7 +20,11 @@
 </style>
 
 <div class="hotel">
-    <img src="{ hotel.image_url }" alt=""/>
+    <img
+        class="img-fluid"
+        src="{ hotel.image_url }"
+        alt="{ hotel.name }"
+    />
 
     <div class="row">
         <div class="col-2">{ hotel.distance }</div>

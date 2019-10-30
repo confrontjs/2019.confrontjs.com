@@ -9,7 +9,7 @@
 </style>
 
 <div class="row mb-5">
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
         <img
             class="attraction-photo"
             src="{ attraction.image_url }"
@@ -17,7 +17,7 @@
         />
     </div>
 
-    <div class="col-8">
+    <div class="col-md-8 col-sm-12">
         <h3 class="primary-color m-0">{ attraction.name }</h3>
         <h4 class="m-0">{ attraction.address }</h4>
 
