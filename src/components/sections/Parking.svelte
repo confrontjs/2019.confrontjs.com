@@ -14,7 +14,11 @@
         </div>
 
         <div class="offset-md-1 col-md-2 col-sm-12 text-center my-5">
-            <a class="button-mix" href="/contact">Contact Us</a>
+            <a
+                class="button-mix"
+                data-content="Contact Us"
+                href="/contact"
+            >Contact Us</a>
         </div>
 
         <div class="offset-md-1 col-md-2 col-sm-12 text-center">

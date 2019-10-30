@@ -28,6 +28,7 @@
 
                 <a
                     class="button-primary"
+                    data-content="Learn More"
                     href="https://berlincodeofconduct.org"
                 >Learn More</a>
 

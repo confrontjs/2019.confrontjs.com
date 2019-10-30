@@ -7,6 +7,15 @@
         display: inline-block;
         max-width: 420px;
         margin: 0 0 50px 0;
+        position: relative;
+    }
+
+    .hotel-avatar {
+        background: #000;
+    }
+
+    .hotel-avatar:hover {
+        opacity: 0.8;
     }
 
     .hotel-name {
@@ -20,18 +29,20 @@
 </style>
 
 <div class="hotel">
-    <img
-        class="img-fluid"
-        src="{ hotel.image_url }"
-        alt="{ hotel.name }"
-    />
+    <a href="{ hotel.profile_url }">
+        <img
+            class="hotel-avatar img-fluid"
+            src="{ hotel.image_url }"
+            alt="{ hotel.name }"
+        />
+    </a>
 
-    <div class="row">
-        <div class="col-2">{ hotel.distance }</div>
+    <div class="row mb-4">
+        <div class="col-md-3 font-bold">{ hotel.distance }</div>
 
-        <div class="offset-8 col-2">
-            <span>{ hotel.trip.time }</span>
-            <span>{ hotel.trip.type }</span>
+        <div class="offset-md-6 col-md-3 text-right">
+            <span class="d-block font-bold">{ hotel.trip.time }</span>
+            <span class="d-block">{ hotel.trip.type }</span>
         </div>
     </div>
 

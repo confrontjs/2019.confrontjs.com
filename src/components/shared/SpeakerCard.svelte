@@ -50,20 +50,23 @@
         margin: 0;
     }
 
-    .speaker-bio {
-        text-align: justify;
-    }
-
     .talk-info {
         color: var(--snow-color);
         background-color: var(--night-color);
         text-transform: uppercase;
+
         width: 100%;
-        padding: 7px 25px;
         height: 100px;
+        padding: 0 25px;
+
         position: absolute;
         left: 0;
         bottom: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .talk-info h3,

@@ -24,7 +24,11 @@
 <div class="workshop-page">
 
     <div class="content">
-        <h1>Let's Talk About Your App's Performance</h1>
+        <h4 class="primary-color mb-0">Workshop Title</h4>
+
+        <h1 class="mt-0">
+            Let's Talk About<br/>Your App's Performance
+        </h1>
 
         <div class="row">
             <div class="col-md-5 col-sm-12">
@@ -59,10 +63,9 @@
 
                 <a
                     class="button-mix my-3 d-inline-block"
+                    data-content="Buy ticket"
                     href="httpe://evenea.pl/event/confrontjs-2019"
-                >
-                    Buy ticket
-                </a>
+                >Buy ticket</a>
             </div>
         </div>
 

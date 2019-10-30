@@ -7,6 +7,8 @@
         background: var(--night-color);
         overflow: hidden;
         text-align: center;
+        display: flex;
+        justify-content: center;
 	}
 
 	/* clearfix */
@@ -34,14 +36,15 @@
     }
 
     .logo {
-        display: inline-block;
-        vertical-align: middle;
+        padding: 0;
+        height: 80px;
     }
 
     .logo-confrontjs {
-        height: 76px;
-        line-height: 76px;
-        width: 76px;
+        height: 80px;
+        line-height: 80px;
+        width: 80px;
+        margin: 0 20px 0 0;
     }
 
     .hamburger-button {
@@ -56,17 +59,21 @@
     }
 
     .menu-list {
-        margin: 30px 0 0 0;
+        margin: 15px 0 0 0;
         display: inline-block;
     }
 
     @media (max-width: 700px) {
+        nav {
+            display: block;
+        }
         .logo-confrontjs {
             height: 60px;
             line-height: 60px;
         }
         .logo {
             padding: 0;
+            height: 60px;
         }
         .hamburger-button {
             display: inline-block;
@@ -111,12 +118,14 @@
             <!-- <li>
                 <a
                     class="button-primary"
+                    data-content="Be a sponsor"
                     href="https://forms.gle/bPciWY3f7RyduB6o6"
                 >Be a sponsor</a>
             </li> -->
             <li>
                 <a
                     class="button-primary"
+                    data-content="Buy tickets"
                     href="https://evenea.pl/event/confrontjs-2019/"
                 >Buy tickets</a>
             </li>

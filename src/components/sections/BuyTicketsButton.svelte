@@ -14,6 +14,7 @@
 
     <a
         class="button-primary"
+        data-content="Buy tickets"
         href="https://evenea.pl/event/confrontjs-2019/"
     >Buy tickets</a>
 

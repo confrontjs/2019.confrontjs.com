@@ -7,7 +7,8 @@ module.exports = [
         trip: {
             time: `~ 3 MIN`,
             type: 'walk'
-        }
+        },
+        profile_url: ''
     },
     {
         name: 'Golden Tulip Warsaw Airport',
@@ -17,7 +18,8 @@ module.exports = [
         trip: {
             time: `~ 3 MIN`,
             type: 'car'
-        }
+        },
+        profile_url: ''
     },
     {
         name: 'Hotel Gordon',
@@ -27,7 +29,8 @@ module.exports = [
         trip: {
             time: `~ 7 MIN`,
             type: 'walk'
-        }
+        },
+        profile_url: ''
     },
     {
         name: 'Air Hotel',
@@ -37,7 +40,8 @@ module.exports = [
         trip: {
             time: `~ 3 MIN`,
             type: 'car'
-        }
+        },
+        profile_url: ''
     },
     {
         name: 'Renaissance Warsaw Airport Hotel',
@@ -47,7 +51,8 @@ module.exports = [
         trip: {
             time: `~ 8 MIN`,
             type: 'car'
-        }
+        },
+        profile_url: ''
     },
     {
         name: 'B&B Hotel Warszawa-Okęcie',
@@ -57,6 +62,7 @@ module.exports = [
         trip: {
             time: `~ 4 M`,
             type: 'car'
-        }
+        },
+        profile_url: ''
     },
 ];

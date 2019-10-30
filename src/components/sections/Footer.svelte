@@ -18,7 +18,7 @@
         display: block;
         text-decoration: none;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .footer-section .press-kit {
@@ -59,12 +59,13 @@
                 Help us to reach a wider group of people,
                 get a ready package that will make it easier for you:
             </p>
+
             <a
-                href="https://drive.google.com/open?id=1QLgrDj1DuDo8NZw_QGjpow7nTLChnF5n"
                 class="button-primary"
-            >
-                Download Press Kit
-            </a>
+                data-content="Download Press Kit"
+                href="https://drive.google.com/open?id=1QLgrDj1DuDo8NZw_QGjpow7nTLChnF5n"
+            >Download Press Kit</a>
+
             <p>
                 Copyright @ 2019 by
                 <a href="https://warsawjs.com/">WarsawJS</a>

@@ -31,6 +31,10 @@
         max-width: 204px;
     }
 
+    .agenda-content {
+        padding: 40px 0 0 0;
+    }
+
     .agenda-content h4.speaker-type {
         margin: 0;
     }
@@ -122,7 +126,7 @@
         {/if}
     </div>
 
-    <div class="agenda-content offset-lg-1 col-lg-9 col-xs-12">
+    <div class="agenda-content offset-lg-1 col-lg-7 col-xs-12">
         {#if item.type === 'talk' }
             <h4 class="speaker-type">
                 <SpeakerTitle talk={item.details}></SpeakerTitle>

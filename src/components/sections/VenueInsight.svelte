@@ -18,7 +18,7 @@
                 <VenueName></VenueName>
             </div>
 
-            <div class="col-md-8 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <p><strong>Łukasiewicz Research Network – Institute of Aviation</strong></p>
                 <p><strong>Engineering Design Center</strong></p>
 

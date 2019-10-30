@@ -47,7 +47,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        height: 76px;
+        height: 80px;
         width: 100%;
         z-index: 4;
     }

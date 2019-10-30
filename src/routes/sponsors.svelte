@@ -130,6 +130,7 @@
 
                 <a
                     class="button-mix"
+                    data-content="Download offer"
                     href="https://drive.google.com/open?id=1ZB27yhtGoWkUBQopM6eSkbuvYIi5RaKW"
                 >Download offer</a>
             </div>
