@@ -6,6 +6,7 @@
     "license": "MIT",
     "scripts": {
         "deploy": "git push -f heroku master",
+        "postversion": "git push --tags",
         "heroku-postbuild": "run-p build",
         "dev": "sapper dev",
         "build": "sapper build --legacy",
