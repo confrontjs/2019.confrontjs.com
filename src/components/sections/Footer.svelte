@@ -1,5 +1,6 @@
 <script>
     import SocialMedia from '../shared/SocialMedia.svelte';
+    import Version from '../shared/Version.svelte';
 </script>
 
 <style>
@@ -52,6 +53,7 @@
                 <a href="mailto:confrontjs[at]warsawjs.com">confrontjs@warsawjs.com</a>
             </p>
             <SocialMedia/>
+            <Version/>
         </div>
 
         <div class="press-kit offset-md-1 col-md-4 col-sm-12">
