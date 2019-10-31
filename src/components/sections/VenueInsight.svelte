@@ -15,7 +15,7 @@
 
         <div class="row">
             <div class="col-md-4 col-sm-12">
-                <VenueName></VenueName>
+                <VenueName/>
             </div>
 
             <div class="col-md-6 col-sm-12">

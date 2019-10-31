@@ -20,7 +20,7 @@
         <ul class="list-unstyled">
             {#each Agenda as item, i}
                 <li>
-                    <AgendaItem item={item} index={i + 1}></AgendaItem>
+                    <AgendaItem item={item} index={i + 1}/>
                 </li>
             {/each}
         </ul>

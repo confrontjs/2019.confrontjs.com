@@ -14,5 +14,5 @@
 </svelte:head>
 
 <div class="code-of-conduct-page">
-    <CodeOfConduct></CodeOfConduct>
+    <CodeOfConduct/>
 </div>

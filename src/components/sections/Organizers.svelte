@@ -21,7 +21,7 @@
         <ul class="row list-unstyled">
             {#each Organizers as host, i}
                 <li class="col-lg-4 col-sm-6 col-xs-12">
-                    <Organizer host={host}></Organizer>
+                    <Organizer host={host}/>
                 </li>
             {/each}
         </ul>

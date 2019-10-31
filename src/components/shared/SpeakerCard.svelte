@@ -115,7 +115,7 @@
 
     <div class="talk-info">
         <h3 class="row">
-            <SpeakerTitle talk={talk}></SpeakerTitle>
+            <SpeakerTitle talk={talk}/>
         </h3>
         <p class="row">{ talk.title }</p>
     </div>

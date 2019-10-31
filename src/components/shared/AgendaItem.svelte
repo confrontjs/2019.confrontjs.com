@@ -129,7 +129,7 @@
     <div class="agenda-content offset-lg-1 col-lg-7 col-xs-12">
         {#if item.type === 'talk' }
             <h4 class="speaker-type">
-                <SpeakerTitle talk={item.details}></SpeakerTitle>
+                <SpeakerTitle talk={item.details}/>
             </h4>
             <h2 class="speaker-name m-0 p-0">
                 { item.details.speaker.name }

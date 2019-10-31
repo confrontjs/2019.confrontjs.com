@@ -38,10 +38,6 @@
     .footer-section .powered-by img {
         width: 120px;
     }
-
-    @media (max-width: 480px) {
-        /* ... */
-    }
 </style>
 
 <footer class="footer-section text-center container-fluid">

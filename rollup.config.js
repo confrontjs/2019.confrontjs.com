@@ -20,6 +20,9 @@ export default {
         input: config.client.input(),
         output: config.client.output(),
         plugins: [
+            json({
+                compact: true
+            }),
             replace({
                 'process.browser': true,
                 'process.env.NODE_ENV': JSON.stringify(mode)
@@ -34,10 +37,6 @@ export default {
                 dedupe
             }),
             commonjs(),
-
-            json({
-                compact: true
-            }),
 
             legacy && babel({
                 extensions: ['.js', '.mjs', '.html', '.svelte'],

@@ -14,5 +14,5 @@
 </svelte:head>
 
 <div class="contact-page">
-    <Contact></Contact>
+    <Contact/>
 </div>

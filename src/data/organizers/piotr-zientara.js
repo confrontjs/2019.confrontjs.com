@@ -2,7 +2,7 @@ module.exports = {
     name: "Piotr Zientara",
     position: "Co-Founder of WarsawJS",
     bio: {
-        en: "Programming philosopher and CTO at App'n'roll. Dedicated WarsawJS speaker and educator. Father of two, chess fan and amateur runner.",
+        en: "Programming philosopher and CTO at xFAANG. Dedicated WarsawJS speaker and educator. Father of two, chess fan and amateur runner.",
         pl: "",
     },
     contact: {

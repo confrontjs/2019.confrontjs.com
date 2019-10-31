@@ -15,9 +15,6 @@
     }
 
     .speakers-container > ul {
-        /* display: grid; */
-        /* grid-template-columns: auto auto; */
-        /* grid-template-rows: auto; */
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -54,7 +51,7 @@
             <ul class="list-unstyled">
                 {#each SpeakersShuffle as speaker, i}
                     <li>
-                        <SpeakerCard speaker={speaker}></SpeakerCard>
+                        <SpeakerCard speaker={speaker}/>
                     </li>
                 {/each}
             </ul>

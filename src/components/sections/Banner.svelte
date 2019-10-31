@@ -1,5 +1,5 @@
 <script>
-    export let image = "http://placeskull.com/1440/500";
+    export let image = '';
 </script>
 <style>
     .banner {

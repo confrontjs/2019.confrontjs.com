@@ -1,11 +1,11 @@
 <script>
     import LoadingBar from '../components/shared/LoadingBar.svelte';
 
-	import Icons from '../components/shared/Icons.svelte';
-	import Menu from '../components/sections/Menu.svelte';
-	import Testimonials from '../components/sections/Testimonials.svelte';
-	import Footer from '../components/sections/Footer.svelte';
-	import FacebookPixel from '../components/shared/FacebookPixel.svelte';
+    import Icons from '../components/shared/Icons.svelte';
+    import Menu from '../components/sections/Menu.svelte';
+    import Testimonials from '../components/sections/Testimonials.svelte';
+    import Footer from '../components/sections/Footer.svelte';
+    import FacebookPixel from '../components/shared/FacebookPixel.svelte';
     import Newsletter from '../components/sections/Newsletter.svelte';
     import WaveType5 from '../components/waves/WaveType5.svelte';
 
@@ -53,7 +53,7 @@
         z-index: 4;
     }
 
-	main {
+    main {
         box-sizing: border-box;
         padding: 78px 0 0 0;
     }
@@ -79,7 +79,7 @@
 </div>
 
 <main>
-	<slot></slot>
+    <slot></slot>
 </main>
 
 <!-- <Testimonials/> -->

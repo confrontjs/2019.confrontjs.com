@@ -101,7 +101,7 @@
                     <ul class="list-unstyled">
                         {#each GoldSponsors as sponsor, i}
                             <li class="sponsor-card">
-                                <Sponsor sponsor="{sponsor}"></Sponsor>
+                                <Sponsor sponsor="{sponsor}"/>
                                 <h2 class="sponsor-type">Gold Sponsor</h2>
                             </li>
                         {/each}
@@ -116,7 +116,7 @@
                     <ul class="list-unstyled">
                         {#each RestSponsors as sponsor, i}
                             <li class="sponsor-card">
-                                <Sponsor sponsor="{sponsor}"></Sponsor>
+                                <Sponsor sponsor="{sponsor}"/>
                                 <h3 class="sponsor-type">{sponsor.type} Sponsor</h3>
                             </li>
                         {/each}
@@ -148,7 +148,7 @@
                     <ul class="list-unstyled">
                         {#each Partners as partner, i}
                             <li class="partner-card">
-                                <Partner partner="{partner}"></Partner>
+                                <Partner partner="{partner}"/>
                             </li>
                         {/each}
                     </ul>

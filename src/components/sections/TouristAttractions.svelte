@@ -10,7 +10,7 @@
         <ul class="list-unstyled">
             {#each Attractions as attraction, i}
                 <li>
-                    <Attraction attraction={attraction}></Attraction>
+                    <Attraction attraction={attraction}/>
                 </li>
             {/each}
         </ul>

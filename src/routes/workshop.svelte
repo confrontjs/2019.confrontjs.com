@@ -65,7 +65,7 @@
                 <a
                     class="button-mix my-3 d-inline-block"
                     data-content="Buy ticket"
-                    href="httpe://evenea.pl/event/confrontjs-2019"
+                    href="https://evenea.pl/event/confrontjs-2019"
                 >Buy ticket</a>
             </div>
         </div>

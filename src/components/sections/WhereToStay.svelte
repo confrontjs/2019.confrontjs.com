@@ -18,7 +18,7 @@
         <ul class="list-unstyled d-flex flex-wrap justify-content-around">
             {#each Hotels as hotel, i}
                 <li>
-                    <Hotel hotel={hotel}></Hotel>
+                    <Hotel hotel={hotel}/>
                 </li>
             {/each}
         </ul>

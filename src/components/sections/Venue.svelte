@@ -16,7 +16,7 @@
                 src="/sponsors/logo-edc-dark.svg"
                 alt="EDC — Sponsor"
             />
-            <VenueName></VenueName>
+            <VenueName/>
         </div>
 
         <div class="col-md-6 col-sm-12">
