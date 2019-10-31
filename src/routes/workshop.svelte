@@ -47,9 +47,10 @@
                 <h2>Place of training</h2>
 
                 <p>
-                    aleja "Solidarności" 173
-                    Spark C, 6. piętro
-                    Warszawa
+                    Engineering Design Center (EDC)
+                    Łukasiewicz Research Network – Institute of Aviation<br/>
+                    Aleja Krakowska 110/114<br/>
+                    02-256 Warsaw, Poland
                 </p>
             </div>
 
