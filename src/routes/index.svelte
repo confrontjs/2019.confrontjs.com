@@ -26,7 +26,7 @@
     <WaveType1/>
     <Agenda/>
     <WaveType2/>
-    <Summary />
+    <Summary/>
     <WaveType3/>
     <div class="row no-gutters">
         <img class="col-md-4 col-sm-12" src="/photos/IMG_2585.png" alt=""/>
@@ -34,8 +34,8 @@
         <img class="col-md-4 col-sm-12" src="/photos/IMG_2853.png" alt=""/>
     </div>
     <WaveType4/>
-    <VenueInsight />
-    <Why />
-    <CodeOfConduct />
-    <Organizers />
+    <VenueInsight/>
+    <Why/>
+    <CodeOfConduct/>
+    <Organizers/>
 </div>

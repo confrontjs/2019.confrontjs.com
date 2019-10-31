@@ -2,7 +2,7 @@
     .message {
         background: var(--dark-color);
         color: var(--snow-color);
-        padding: 30px;
+        padding: 0 0 100px 0;
     }
 
     .message :global(p) {

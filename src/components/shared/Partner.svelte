@@ -1,10 +1,5 @@
 <script>
-    export let partner = {
-        name: 'fake',
-        type: 'fake',
-        url: 'fake',
-        logoUrl: 'fake'
-    };
+    export let partner = {};
 </script>
 
 <style>

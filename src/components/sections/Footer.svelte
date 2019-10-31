@@ -51,7 +51,7 @@
                 If you have any questions, write email to us:
                 <a href="mailto:confrontjs[at]warsawjs.com">confrontjs@warsawjs.com</a>
             </p>
-            <SocialMedia />
+            <SocialMedia/>
         </div>
 
         <div class="press-kit offset-md-1 col-md-4 col-sm-12">

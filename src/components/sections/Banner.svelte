@@ -3,7 +3,7 @@
 </script>
 <style>
     .banner {
-        height: 500px;
+        height: 650px;
         background-size: cover;
         background-repeat: no-repeat;
         color: var(--snow-color);

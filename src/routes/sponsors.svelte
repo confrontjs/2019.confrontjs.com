@@ -3,6 +3,8 @@
     import Sponsor from '../components/shared/Sponsor.svelte';
     import Partner from '../components/shared/Partner.svelte';
     import Message from '../components/shared/Message.svelte';
+    import WaveType4 from '../components/waves/WaveType4.svelte';
+    import WaveType6 from '../components/waves/WaveType6.svelte';
 
     import Sponsors from '../data/sponsors';
     import Partners from '../data/partners';
@@ -76,6 +78,8 @@
         <h1 slot="header">ConFrontJS 2019 Sponsors</h1>
     </Banner>
 
+    <WaveType6/>
+
     <Message>
         <h2 slot="header">Thanks to Our Sponsors</h2>
 
@@ -85,6 +89,8 @@
             Check out our sponsorship opportunities.
         </p>
     </Message>
+
+    <WaveType4/>
 
     <div class="content">
         <div class="sponsors-container">

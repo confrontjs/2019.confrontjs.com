@@ -67,7 +67,7 @@
 
 <svelte:window on:scroll={refreshLoadingIndicator}/>
 
-<Icons />
+<Icons/>
 
 <div class="fixed-navbar">
     <Menu {segment}/>
@@ -82,9 +82,9 @@
 	<slot></slot>
 </main>
 
-<!-- <Testimonials /> -->
+<!-- <Testimonials/> -->
 
 <WaveType5/>
-<Newsletter />
-<Footer />
-<FacebookPixel />
+<Newsletter/>
+<Footer/>
+<FacebookPixel/>

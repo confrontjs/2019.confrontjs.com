@@ -13,7 +13,7 @@
         display: block;
     }
     .waves-type-4 .wave-1 {
-        top: -70px;
+        top: -80px;
     }
     .waves-type-4 .wave-2 {
         top: -70px;

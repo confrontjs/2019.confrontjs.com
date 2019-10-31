@@ -1,10 +1,5 @@
 <script>
-    export let sponsor = {
-        name: 'fake',
-        type: 'fake',
-        url: 'fake',
-        logoUrl: 'fake'
-    };
+    export let sponsor = {};
 
     function getClass() {
         return `${sponsor.type.toLowerCase()}-sponsor`;
@@ -19,8 +14,14 @@
     }
 
     .gold-sponsor img {
-        max-width: 600px;
+        width: 600px;
         height: 300px;
+    }
+
+    @media (max-width: 600px) {
+        .gold-sponsor img {
+            width: 100%;
+        }
     }
 </style>
 

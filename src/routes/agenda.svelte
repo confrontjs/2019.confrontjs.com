@@ -1,5 +1,6 @@
 <script>
     import Agenda from '../components/sections/Agenda.svelte';
+    import Why from '../components/sections/Why.svelte';
     export let segment = '';
 </script>
 
@@ -12,4 +13,5 @@
 
 <div class="agenda-page">
     <Agenda/>
+    <Why/>
 </div>

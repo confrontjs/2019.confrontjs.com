@@ -5,6 +5,9 @@
     import Parking from '../components/sections/Parking.svelte';
     import WhereToStay from '../components/sections/WhereToStay.svelte';
     import TouristAttractions from '../components/sections/TouristAttractions.svelte';
+    import WaveType4 from '../components/waves/WaveType4.svelte';
+    import WaveType7 from '../components/waves/WaveType7.svelte';
+    import WaveType8 from '../components/waves/WaveType8.svelte';
 
     export let segment = '';
 </script>
@@ -19,14 +22,17 @@
 </Banner>
 
 <div class="venue-page">
-    <Venue></Venue>
-    <Map></Map>
-    <Parking></Parking>
+    <Venue/>
+    <Map/>
+    <Parking/>
+    <WaveType7/>
     <div class="row no-gutters">
         <img class="col-md-4 col-sm-12" src="/photos/70399448_400618417305453_8600304597262663680_o.png" alt=""/>
         <img class="col-md-4 col-sm-12" src="/photos/73422572_416666112367350_7145624763522613248_o.png" alt=""/>
         <img class="col-md-4 col-sm-12" src="/photos/67621942_377105956323366_7508112822119694336_n.png" alt=""/>
     </div>
-    <WhereToStay></WhereToStay>
-    <TouristAttractions></TouristAttractions>
+    <WaveType8/>
+    <WhereToStay/>
+    <WaveType4/>
+    <TouristAttractions/>
 </div>
