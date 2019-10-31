@@ -10,7 +10,8 @@ module.exports = [
             It is time for us as developers to be aware of these needs and understand different audiences better.
         `,
         tech: ["JavaScript", "Node.js", "Web Standards"],
-        speaker: require('./speakers/chris-heilmann')
+        speaker: require('./speakers/chris-heilmann'),
+        keynote: true
     },
     {
         title: "Web applications of the future with TypeScript and GraphQL",
@@ -29,7 +30,8 @@ module.exports = [
             We will build a WebAssembly module live on stage, and look into how other languages (Rust, C, C++) can execute on the web, alongside the frameworks we know and love today.
         `,
         tech: ["Webassembly", "JavaScript", "Rust"],
-        speaker: require('./speakers/tejas-kumar')
+        speaker: require('./speakers/tejas-kumar'),
+        keynote: true
     },
     {
         title: "When you think there is not time for learning or coding",
@@ -54,7 +56,7 @@ module.exports = [
             B. Habit formation (How to form a habit, how to find time, how to work towards your dreams and how to achieve your goals and how to maintain the desired results)
             C. Dealing with frustration/stress (How to deal with a toxic workplace, your arrogant colleagues and... yourself)
         `,
-        tech: ["HTML", "CSS", "JavaScript", "Angular", "D3.js"],
+        tech: ["JavaScript", "Angular", "HTML", "CSS", "D3.js"],
         speaker: require('./speakers/eleftheria-batsou')
     },
     {
@@ -76,7 +78,7 @@ module.exports = [
             This talk aims to address the inbuilt accessibility features of HTML by using semantic elements and attributes.
             We will also cover other aspects of accessibility such as navigation and content.
         `,
-        tech: ["HTML"],
+        tech: ["Accessability"],
         speaker: require('./speakers/jemima-abu')
     },
     {
@@ -90,14 +92,14 @@ module.exports = [
         speaker: require('./speakers/jerbi-saif')
     },
     {
-        title: "How browser works?- Behind the Scene!",
+        title: "How browser works? Behind the Scene!",
         abstract: `
             In this talk, Rakhi will talk about the high-level architecture of the browser and their components like rendering engine.
             What is going behind the scene? How browsers are rendering HTML/CSS/JS for you?
             How do parsing and Layout works on browser level?
             What happens when you search for something on internet?
         `,
-        tech: ["HTML", "CSS", "JavaScript"],
+        tech: ["Browsers", "JavaScript", "HTML", "CSS"],
         speaker: require('./speakers/rakhi-sharma')
     }
 ];
