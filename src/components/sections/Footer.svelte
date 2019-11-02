@@ -70,6 +70,8 @@
                 &bull;
                 <a href="code-of-conduct">Code of Conduct</a>
                 &bull;
+                <a href="privacy-policy">Privacy Policy</a>
+                &bull;
                 <a href="contact">Contact</a>
             </p>
         </div>
