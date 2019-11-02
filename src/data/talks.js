@@ -101,5 +101,36 @@ module.exports = [
         `,
         tech: ["Browsers", "JavaScript", "HTML", "CSS"],
         speaker: require('./speakers/rakhi-sharma')
+    },
+    {
+        title: "How close is your data?",
+        abstract: `
+        JavaScript is a very high level language. As such, most developers don't tend to think a lot about 
+        how variables are represented in memory. In this lightning talk, I will explain how variables are 
+        presented in memory, how it affects the CPU and how the way you distribute and access your data in JS affects performance.
+        `,
+        tech: [],
+        speaker: require('./speakers/yonatan-kra'),
+        lightningTalk: true
+    },
+    {
+        title: "Hello JAM Stack",
+        abstract: ``,
+        tech: [],
+        speaker: require('./speakers/sarath-damaraju'),
+        lightningTalk: true
+    },
+    {
+        title: "Microinteractions: Little Things That Matter",
+        abstract: `
+        Microinteractions are those little moments where design and code work together at their best. 
+        When used with care, they can even become signature moments, the way clapping for an article 
+        on Medium expresses the brand’s identity in a way that goes beyond any language or culture. 
+        In this talk, I’ll introduce the microinteraction at the abstract level, reveal its building 
+        blocks and show some concrete ways to understand and use them to create memorable, compelling interfaces.
+        `,
+        tech: [],
+        speaker: require('./speakers/jonathan-doron'),
+        lightningTalk: true
     }
 ];

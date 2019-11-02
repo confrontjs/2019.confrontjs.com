@@ -4,13 +4,13 @@
     function getClass() {
         return talk.keynote
             ? 'keynote-speaker'
-            : 'regular-speaker';
+            : (talk.lightningTalk ? 'lightning-talk-speaker' : 'regular-speaker');
     }
 
     function getTitle() {
         return talk.keynote
             ? 'Keynote Speaker'
-            : 'Speaker';
+            : (talk.lightningTalk ? 'Lightning talk speaker' : 'Speaker');
     }
 </script>
 

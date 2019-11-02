@@ -11,7 +11,7 @@
     function getClass() {
         return item.details.keynote
             ? 'keynote'
-            : '';
+            : (item.details.lightningTalk ? 'lightning-talk' : '');
     }
 </script>
 
@@ -91,6 +91,16 @@
 
     .keynote .agenda-content h4.talk-title {
         color: var(--primary-color);
+    }
+
+    /* for lightning talk */
+
+    .lightning-talk .agenda-content h2.speaker-name {
+        color: var(--mix-color);
+    }
+
+    .lightning-talk .agenda-content h4.talk-title {
+        color: var(--mix-color);
     }
 
     @media (max-width: 960px) {
