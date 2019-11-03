@@ -2,7 +2,7 @@
     .privacy-policy-section {
         margin: 0 0 100px 0;
     }
-    .privacy-policy-section address{
+    .privacy-policy-section address {
         font-style: normal;
         font-weight:bold;
     }
@@ -77,9 +77,7 @@
                 <h3>How do we store your data?</h3>
                 <p>
                     Our Company securely stores your data at 
-                    <a href="https://evenea.pl/" target="_blank" ref="noopener">
-                        https://evenea.pl/
-                    </a><br/><br/>
+                    <a href="https://evenea.pl/">https://evenea.pl/</a><br/><br/>
                     
                     Our Company will keep your personal data for 10 years. Once this
                     time period has expired, we will delete your data by erasing the
@@ -144,9 +142,7 @@
                     automatically through cookies or similar technology<br/><br/>
                     
                     For further information, visit
-                    <a href="https://allaboutcookies.org" target="_blank" ref="noopener">
-                        allaboutcookies.org
-                    </a>.
+                    <a href="https://allaboutcookies.org">allaboutcookies.org</a>.
                 </p>
 
                 <h3>What types of cookies do we use?</h3>

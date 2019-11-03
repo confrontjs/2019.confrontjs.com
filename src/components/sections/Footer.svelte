@@ -68,11 +68,11 @@
                 Copyright @ 2019 by
                 <a href="https://warsawjs.com/">WarsawJS</a>
                 &bull;
-                <a href="code-of-conduct">Code of Conduct</a>
+                <a href="/code-of-conduct">Code of Conduct</a>
                 &bull;
-                <a href="privacy-policy">Privacy Policy</a>
+                <a href="/privacy-policy">Privacy Policy</a>
                 &bull;
-                <a href="contact">Contact</a>
+                <a href="/contact">Contact</a>
             </p>
         </div>
 
