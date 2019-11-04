@@ -9,9 +9,13 @@
     }
 
     function getClass() {
-        return item.details.keynote
-            ? 'keynote'
-            : '';
+        if (item.details.keynote)
+            return 'keynote';
+
+        if (item.details.lightningTalk)
+            return 'lightning-talk';
+
+        return '';
     }
 </script>
 
@@ -91,6 +95,16 @@
 
     .keynote .agenda-content h4.talk-title {
         color: var(--primary-color);
+    }
+
+    /* for lightning talk */
+
+    .lightning-talk .agenda-content h2.speaker-name {
+        color: var(--mix-color);
+    }
+
+    .lightning-talk .agenda-content h4.talk-title {
+        color: var(--mix-color);
     }
 
     @media (max-width: 960px) {

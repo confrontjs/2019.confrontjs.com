@@ -2,15 +2,23 @@
     export let talk = {};
 
     function getClass() {
-        return talk.keynote
-            ? 'keynote-speaker'
-            : 'regular-speaker';
+        if (talk.keynote)
+            return 'keynote-speaker';
+
+        if (talk.lightningTalk)
+            return 'lightning-talk-speaker';
+
+        return 'regular-speaker';
     }
 
     function getTitle() {
-        return talk.keynote
-            ? 'Keynote Speaker'
-            : 'Speaker';
+        if (talk.keynote)
+            return 'Keynote Speaker';
+
+        if (talk.lightningTalk)
+            return 'Lightning Talk speaker';
+
+        return 'Speaker';
     }
 </script>
 
