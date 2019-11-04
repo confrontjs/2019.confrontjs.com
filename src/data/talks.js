@@ -105,8 +105,8 @@ module.exports = [
     {
         title: "How close is your data?",
         abstract: `
-        JavaScript is a very high level language. As such, most developers don't tend to think a lot about 
-        how variables are represented in memory. In this lightning talk, I will explain how variables are 
+        JavaScript is a very high level language. As such, most developers don't tend to think a lot about
+        how variables are represented in memory. In this lightning talk, I will explain how variables are
         presented in memory, how it affects the CPU and how the way you distribute and access your data in JS affects performance.
         `,
         tech: ["Performance"],
@@ -123,10 +123,10 @@ module.exports = [
     {
         title: "Microinteractions: Little Things That Matter",
         abstract: `
-        Microinteractions are those little moments where design and code work together at their best. 
-        When used with care, they can even become signature moments, the way clapping for an article 
-        on Medium expresses the brand’s identity in a way that goes beyond any language or culture. 
-        In this talk, I’ll introduce the microinteraction at the abstract level, reveal its building 
+        Microinteractions are those little moments where design and code work together at their best.
+        When used with care, they can even become signature moments, the way clapping for an article
+        on Medium expresses the brand’s identity in a way that goes beyond any language or culture.
+        In this talk, I’ll introduce the microinteraction at the abstract level, reveal its building
         blocks and show some concrete ways to understand and use them to create memorable, compelling interfaces.
         `,
         tech: ["User Experience", "Microinteractions"],
@@ -136,9 +136,9 @@ module.exports = [
     {
         title: "Mobile First? Desktop First? Basic First - A New Approach for Responsive Design",
         abstract: `
-        Basic First is a whole new approach for designing and implementing responsive design. 
-        Utilizing this technique that was developed by Elad Shechter we are able to create a modular CSS architecture with components. 
-        This way we get better project organization and more important a much more robust and effective 
+        Basic First is a whole new approach for designing and implementing responsive design.
+        Utilizing this technique that was developed by Elad Shechter we are able to create a modular CSS architecture with components.
+        This way we get better project organization and more important a much more robust and effective
         manner of controlling and managing responsiveness across devices, without fear of breaking code.
         `,
         tech: ["User Interface", "Responsive Design"],
@@ -148,12 +148,12 @@ module.exports = [
     {
         title: "How to help your editor love your Vue component library",
         abstract: `
-        For web developers, one of the best things about Vue is its flexibility. Various ways to develop components, 
+        For web developers, one of the best things about Vue is its flexibility. Various ways to develop components,
         powerful mixins, and the freedom to choose a build system are just some of the advantages of Vue.
-        In this talk we'll look at Vue component libraries from our perspective as IDE developers and discuss 
-        some challenges we're facing with such flexibility. How to find all the available components in a library? 
+        In this talk we'll look at Vue component libraries from our perspective as IDE developers and discuss
+        some challenges we're facing with such flexibility. How to find all the available components in a library?
         What types their props have? Where are the docs? These are just some of the questions we have to answer.
-        Finally, I'll tell the story of how we ended up creating web-types, a format for describing component libraries. 
+        Finally, I'll tell the story of how we ended up creating web-types, a format for describing component libraries.
         I'll demonstrate how it can help editors and documentation generators and how to use it.
         `,
         tech: ["Vue", "IDE"],
