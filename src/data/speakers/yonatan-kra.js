@@ -8,6 +8,8 @@ module.exports = {
     },
     avatar_url: '/speakers/yonatan-kra.jpg',
     contact: {
-        twitter_url: 'https://twitter.com/yonatankra'
+        github_url: 'https://github.com/yonatankra',
+        twitter_url: 'https://twitter.com/yonatankra',
+        linkedin_url: 'https://www.linkedin.com/in/jonathan-kra-99a5bb87/',
     }
 };

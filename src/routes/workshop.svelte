@@ -1,5 +1,7 @@
 <script>
     import Banner from '../components/sections/Banner.svelte';
+    import SocialMediaIcons from '../components/shared/SocialMediaIcons.svelte';
+    import Yonatan from '../data/speakers/yonatan-kra';
     export let segment = '';
 </script>
 
@@ -122,6 +124,8 @@
                     and former CTO at webiks is going to reveal the secrets
                     of runtime performance in the browser.
                 </p>
+
+                <SocialMediaIcons person={Yonatan}/>
             </div>
         </div>
 
