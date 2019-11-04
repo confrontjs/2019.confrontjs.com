@@ -16,7 +16,7 @@
             return 'Keynote Speaker';
 
         if (talk.lightningTalk)
-            return 'Lightning Talk speaker';
+            return 'Lightning Talk Speaker';
 
         return 'Speaker';
     }

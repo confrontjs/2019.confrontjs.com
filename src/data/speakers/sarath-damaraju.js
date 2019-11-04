@@ -6,7 +6,7 @@ module.exports = {
     bio: {
         en: ""
     },
-    avatarUrl: '/speakers/sarath-damaraju.jpg',
+    avatar_url: '/speakers/sarath-damaraju.jpg',
     contact: {
         twitter_url: 'https://twitter.com/Sarath_Damaraju'
     }

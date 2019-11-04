@@ -3,8 +3,12 @@
     import SpeakerCard from '../components/shared/SpeakerCard.svelte';
     import Speakers from '../data/speakers';
     import shuffle from 'lodash-es/shuffle';
+    import Barry from '../data/speakers/barry-solone';
 
     const SpeakersShuffle = shuffle(Speakers);
+
+    // Barry always will be at the end of the list.
+    SpeakersShuffle.push(Barry);
 
     export let segment = '';
 </script>

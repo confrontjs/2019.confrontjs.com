@@ -6,7 +6,7 @@ module.exports = {
     bio: {
         en: ""
     },
-    avatarUrl: '/speakers/jonathan-doron.jpg',
+    avatar_url: '/speakers/jonathan-doron.jpg',
     contact: {
         twitter_url: 'https://twitter.com/jodoron'
     }

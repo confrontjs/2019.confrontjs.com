@@ -6,7 +6,7 @@ module.exports = {
     bio: {
         en: 'HTML5 Game Developer, Enclave Games indie studio founder, js13kGames competition creator, Gamedev.js community firestarter and Gamedev.js Weekly newsletter publisher. Proud member of the Mozilla Tech Speakers family. Excited about cutting-edge Web technologies like WebXR and Progressive Web Apps. Likes eating sushi and playing Neuroshima Hex.'
     },
-    avatarUrl: '/speakers/andrzej-mazur.jpg',
+    avatar_url: '/speakers/andrzej-mazur.jpg',
     contact: {
         twitter_url: 'https://twitter.com/end3r',
         github_url: 'https://github.com/end3r'

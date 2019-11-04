@@ -79,6 +79,9 @@
     :global(.keynote-speaker) {
         color: var(--primary-color);
     }
+    :global(.lightning-talk-speaker) {
+        color: var(--mix-color);
+    }
     :global(.regular-speaker) {
         color: var(--secondary-color);
     }
@@ -92,7 +95,7 @@
                 title="{ speaker.name }"
             >
                 <img
-                    src="{ speaker.avatarUrl }"
+                    src="{ speaker.avatar_url }"
                     class="speaker-avatar"
                     alt="Avatar of { speaker.name }"
                 />
@@ -105,19 +108,31 @@
         <div class="speaker-details col-8 pr-0">
             <h2>{ speaker.name }</h2>
             <p class="speaker-position">
-                { speaker.position } @ { speaker.company }
+                { speaker.position }
+
+                {#if speaker.company }
+                    @ { speaker.company }
+                {/if}
             </p>
             <p class="speaker-bio">
-                { speaker.bio.en || speaker.bio.pl }
+                { speaker.bio.en || speaker.bio.pl || '' }
             </p>
         </div>
     </div>
 
     <div class="talk-info">
-        <h3 class="row">
-            <SpeakerTitle talk={talk}/>
-        </h3>
-        <p class="row">{ talk.title }</p>
+
+        {#if talk}
+            <h3 class="row">
+                <SpeakerTitle talk={talk}/>
+            </h3>
+            <p class="row">{ talk.title }</p>
+        {:else}
+            <h3 class="row">
+                Master of Ceremony
+            </h3>
+        {/if}
+
     </div>
 
 </div>

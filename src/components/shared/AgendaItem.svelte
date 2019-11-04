@@ -132,7 +132,7 @@
                 tabindex="-1"
             >
                 <img
-                    src="{ item.details.speaker.avatarUrl }"
+                    src="{ item.details.speaker.avatar_url }"
                     class="speaker-avatar"
                     alt="{ item.details.speaker.name }"
                 />
