@@ -5,4 +5,5 @@ module.exports = [
     require('./partners/crossweb'),
     require('./partners/meetjs'),
     require('./partners/jobs-for-geek'),
+    require('./partners/coders-lab'),
 ];
