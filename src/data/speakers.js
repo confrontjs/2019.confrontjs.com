@@ -1,7 +1,7 @@
 module.exports = [
     require('./speakers/andrzej-mazur'),
     require('./speakers/chris-heilmann'),
-    require('./speakers/eleftheria-batsou'),
+    require('./speakers/elad-shechter'),
     require('./speakers/eleftheria-batsou'),
     require('./speakers/jemima-abu'),
     require('./speakers/jerbi-saif'),
