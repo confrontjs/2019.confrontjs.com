@@ -9,10 +9,10 @@
     }
 
     function getClass() {
-        if(item.details.keynote)
+        if (item.details.keynote)
             return 'keynote';
 
-        if(item.details.lightningTalk)
+        if (item.details.lightningTalk)
             return 'lightning-talk';
 
         return '';
