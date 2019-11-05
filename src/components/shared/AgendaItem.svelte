@@ -149,7 +149,11 @@
                 { item.details.speaker.name }
             </h2>
             <p class="speaker-job-position">
-                { item.details.speaker.position } @{ item.details.speaker.company }
+                { item.details.speaker.position }
+
+                {#if item.details.speaker.company}
+                    @ { item.details.speaker.company }
+                {/if}
             </p>
 
             <div class="tags">
