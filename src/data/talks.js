@@ -130,7 +130,7 @@ module.exports = [
         blocks and show some concrete ways to understand and use them to create memorable, compelling interfaces.
         `,
         tech: ["User Experience", "Microinteractions"],
-        speaker: require('./speakers/jonathan-doron'),
+        speaker: require('./speakers/yonatan-doron'),
         lightningTalk: true
     },
     {

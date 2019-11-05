@@ -1,12 +1,12 @@
 module.exports = {
-    name: 'Jonathan Doron',
+    name: 'Yonatan Doron',
     position: 'Tech Lead',
     company: 'CyberX',
     country: 'Israel',
     bio: {
         en: ""
     },
-    avatar_url: '/speakers/jonathan-doron.jpg',
+    avatar_url: '/speakers/yonatan-doron.jpg',
     contact: {
         twitter_url: 'https://twitter.com/jodoron'
     }
