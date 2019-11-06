@@ -6,4 +6,5 @@ module.exports = [
     require('./partners/meetjs'),
     require('./partners/jobs-for-geek'),
     require('./partners/coders-lab'),
+    require('./partners/gamedevjs'),
 ];
