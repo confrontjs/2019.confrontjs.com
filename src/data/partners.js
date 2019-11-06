@@ -11,4 +11,5 @@ module.exports = [
     require('./partners/frontem'),
     require('./partners/comandeer'),
     require('./partners/hodash'),
+    require('./partners/overment'),
 ];
