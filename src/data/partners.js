@@ -8,4 +8,5 @@ module.exports = [
     require('./partners/coders-lab'),
     require('./partners/gamedevjs'),
     require('./partners/reactive-conf'),
+    require('./partners/frontem'),
 ];
