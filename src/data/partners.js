@@ -9,4 +9,5 @@ module.exports = [
     require('./partners/gamedevjs'),
     require('./partners/reactive-conf'),
     require('./partners/frontem'),
+    require('./partners/comandeer'),
 ];

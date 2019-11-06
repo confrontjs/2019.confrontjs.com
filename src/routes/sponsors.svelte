@@ -64,7 +64,8 @@
     }
 
     .partners-section > ul li {
-        margin: 20px;
+        display: inline-block;
+        margin: 30px;
     }
 </style>
 
