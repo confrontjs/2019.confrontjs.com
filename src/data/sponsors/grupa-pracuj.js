@@ -2,5 +2,5 @@ module.exports = {
     name: 'Grupa Pracuj',
     url: 'https://grupapracuj.pl',
     type: 'Gold',
-    logoUrl: '/sponsors/logo-grupa-pracuj.svg'
+    logo_url: '/sponsors/logo-grupa-pracuj.svg'
 };

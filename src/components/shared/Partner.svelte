@@ -18,7 +18,7 @@
     rel="noopener"
 >
     <img
-        src={ partner.logoUrl }
+        src={ partner.logo_url }
         class="partner-avatar"
         alt="Avatar of { partner.name }"
     />

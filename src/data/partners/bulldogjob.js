@@ -1,5 +1,5 @@
 module.exports = {
     name: 'Bulldogjob',
     url: 'https://bulldogjob.pl',
-    logoUrl: '/partners/logo-bulldogjob.svg'
+    logo_url: '/partners/logo-bulldogjob.svg'
 };

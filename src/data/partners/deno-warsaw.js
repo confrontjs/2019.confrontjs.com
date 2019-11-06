@@ -1,5 +1,5 @@
 module.exports = {
     name: 'Deno Warsaw',
     url: 'https://denowarsaw.com/',
-    logoUrl: '/partners/logo-deno-warsaw.png'
+    logo_url: '/partners/logo-deno-warsaw.png'
 };

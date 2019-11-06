@@ -32,7 +32,7 @@
     rel="noopener"
 >
     <img
-        src={ sponsor.logoUrl }
+        src={ sponsor.logo_url }
         class="sponsor-avatar"
         alt="Avatar of { sponsor.name }"
     />

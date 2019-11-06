@@ -7,4 +7,5 @@ module.exports = [
     require('./partners/jobs-for-geek'),
     require('./partners/coders-lab'),
     require('./partners/gamedevjs'),
+    require('./partners/reactive-conf'),
 ];
