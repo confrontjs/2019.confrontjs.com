@@ -10,4 +10,5 @@ module.exports = [
     require('./partners/reactive-conf'),
     require('./partners/frontem'),
     require('./partners/comandeer'),
+    require('./partners/hodash'),
 ];
