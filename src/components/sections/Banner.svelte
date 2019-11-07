@@ -42,6 +42,7 @@
             padding: 30px;
         }
     }
+    
 </style>
 
 <div
