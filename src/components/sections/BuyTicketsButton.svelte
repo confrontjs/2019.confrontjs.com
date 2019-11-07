@@ -2,7 +2,7 @@
     .buy-tickets-container {
         width: 100%;
         text-align: center;
-        margin: 50px 0;
+        margin: 20px 0 100px;
     }
 
     .buy-tickets {

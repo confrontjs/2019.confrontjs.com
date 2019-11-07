@@ -15,18 +15,18 @@
 
 <style>
     .speakers-container {
-        padding: 20px 40px;
+        padding: 50px 0px 80px;
     }
 
-    .speakers-container > ul {
+    /* .speakers-container > ul {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-    }
+    } */
 
-    .speakers-container > ul li {
+    /* .speakers-container > ul li {
         margin: 10px 0;
-        width: 650px;
+        width: 49%;
     }
 
     @media (max-width: 1480px) {
@@ -37,7 +37,7 @@
         .speakers-container > ul li {
             width: 100%;
         }
-    }
+    } */
 </style>
 
 <svelte:head>
@@ -50,15 +50,16 @@
         <h1 slot="header">ConFrontJS 2019 Speakers</h1>
     </Banner>
 
-    <div class="content">
+    <div class="container">
         <div class="speakers-container">
-            <ul class="list-unstyled">
-                {#each SpeakersShuffle as speaker, i}
-                    <li>
-                        <SpeakerCard speaker={speaker}/>
-                    </li>
-                {/each}
-            </ul>
+            
+                <div class="row">
+                    {#each SpeakersShuffle as speaker, i}
+                        <div class="col-md-12 col-lg-6" style="margin-top: 30px;">
+                            <SpeakerCard speaker={speaker}/>
+                        </div>
+                    {/each}
+                </div>
         </div>
     </div>
 </div>

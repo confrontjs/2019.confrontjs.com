@@ -24,6 +24,10 @@
 </script>
 
 <style>
+    .container {
+        position: relative;
+    }
+
     .sponsors-container {
         padding: 20px;
         text-align: center;
@@ -64,8 +68,7 @@
     }
 
     .partners-section > ul li {
-        display: inline-block;
-        margin: 30px;
+        margin: 20px;
     }
 </style>
 
@@ -93,7 +96,7 @@
 
     <WaveType4/>
 
-    <div class="content">
+    <div class="container">
         <div class="sponsors-container">
 
             {#if GoldSponsors.length > 0 }

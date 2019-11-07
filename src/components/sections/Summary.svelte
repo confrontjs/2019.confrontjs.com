@@ -1,14 +1,10 @@
 <style>
     .summary {
         background: var(--dark-color);
+        padding: 80px 0px;
     }
 
-    .summary ul {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .summary li {
+    .summary-entry {
         color: var(--snow-color);
         background-image: url(/symbols/haze.svg);
         background-size: contain;
@@ -20,18 +16,44 @@
         align-items: center;
         font-size: 24px;
         font-weight: bold;
-        margin: 20px 0;
+        margin-bottom: 30px;
+    }
+
+    .last {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 768px) {
+        .summary {
+            padding: 0px 0px 40px;
+        }   
+    }
+
+    @media (min-width: 1200px) {
+        .summary {
+            padding: 80px 0px 0px;
+        }
     }
 </style>
 
 <div class="summary">
-    <div class="content">
-        <ul class="list-unstyled row">
-
-            <li class="col-sm-4 col-xs-12">1 Day</li>
-            <li class="col-sm-4 col-xs-12">1 Track</li>
-            <li class="col-sm-4 col-xs-12">11 Talks</li>
-
-        </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12">
+                <div class="summary-entry">
+                    1 Day
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="summary-entry">
+                    1 Track
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="summary-entry last">
+                    11 Talks
+                </div>
+            </div>
+        </div>
     </div>
 </div>

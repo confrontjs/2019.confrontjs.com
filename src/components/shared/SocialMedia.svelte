@@ -2,7 +2,7 @@
     .social-media-container {
         display: block;
         width: 100%;
-        padding: 60px 20px 0 20px;
+        padding: 20px 20px 0 20px;
     }
 
     .social-nav {

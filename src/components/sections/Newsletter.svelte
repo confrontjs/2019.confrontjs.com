@@ -22,16 +22,22 @@
         width: 100%;
         text-align: center;
         background: var(--dark-color) url('/symbols/air-plane.svg') no-repeat 0 0;
-        padding: 150px 0 80px 0;
+        padding: 60px 0;
     }
+
     .newsletter-wrapper {
         max-width: 600px;
         margin: auto;
     }
+
+    @media (min-width: 991px) {
+        .newsletter-container {
+            padding: 150px 0 80px 0;
+        }
+    }
 </style>
 
 <div class="newsletter-container">
-
     <div class="newsletter-wrapper">
         <div
             class="ml-form-embed"

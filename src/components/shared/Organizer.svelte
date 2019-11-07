@@ -7,7 +7,7 @@
 <style>
     .organizer-profile {
         display: inline-block;
-        padding: 0 10px;
+        
     }
 
     .organizer-profile img {
@@ -29,7 +29,7 @@
         <img src="{ host.avatar_url }" alt="{ host.name }">
     </a>
 
-    <h2>{ host.name }</h2>
+    <h2>{@html host.name }</h2>
     <h4 class="primary-color">{ host.position }</h4>
 
     <p className="lead">

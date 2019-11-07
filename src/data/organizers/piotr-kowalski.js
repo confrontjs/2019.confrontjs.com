@@ -1,5 +1,5 @@
 module.exports = {
-    name: "Piotr Kowalski",
+    name: "Piotr<br/>Kowalski",
     position: "Co-Founder of WarsawJS",
     bio: {
         en: "Developer. Trainer. Speaker. Blogger. YouTuber.",

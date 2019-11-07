@@ -1,5 +1,5 @@
 module.exports = {
-    name: "Piotr Zientara",
+    name: "Piotr<br/>Zientara",
     position: "Co-Founder of WarsawJS",
     bio: {
         en: "Programming philosopher and CTO at xFAANG. Dedicated WarsawJS speaker and educator. Father of two, chess fan and amateur runner.",

@@ -5,8 +5,12 @@
 </style>
 
 <section class="code-of-conduct-section">
-    <div class="content">
-        <h2>Code of Conduct</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Code of Conduct</h2>
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-md-6 col-sm-12 mb-4">

@@ -12,6 +12,9 @@
     .trainer-avatar {
         max-width: 100%;
     }
+    .workshop-page {
+        padding: 70px 0px;
+    }
 </style>
 
 <svelte:head>
@@ -25,12 +28,20 @@
 
 <div class="workshop-page">
 
-    <div class="content">
-        <h4 class="primary-color mb-0">Workshop Title</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="primary-color mb-0">Workshop Title</h4>
+            </div>
+        </div>
 
-        <h1 class="mt-0">
-            Let's Talk About<br/>Your App's Performance
-        </h1>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="mt-0">
+                    Let's Talk About<br/>Your App's Performance
+                </h1>
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-md-5 col-sm-12">
@@ -45,18 +56,18 @@
                 </p>
             </div>
 
-            <div class="offset-md-1 col-md-3 col-sm-12">
+            <div class="offset-lg-1 col-md-4 col-sm-12">
                 <h2>Place of training</h2>
 
                 <p>
                     Engineering Design Center (EDC)
-                    Łukasiewicz Research Network – Institute of Aviation<br/>
+                    Łukasiewicz Research Network – Institute&nbsp;of&nbsp;Aviation<br/>
                     Aleja Krakowska 110/114<br/>
                     02-256 Warsaw, Poland
                 </p>
             </div>
 
-            <div class="col-md-2 col-sm-12 text-center">
+            <div class="col-lg-2 col-md-3 col-sm-12 text-center">
                 <h2>Date</h2>
 
                 <p>
@@ -99,7 +110,7 @@
                 </p>
             </div>
 
-            <div class="col-md-5 col-sm-12">
+            <div class="col-md-6 col-sm-12">
                 <h3>Price includes:</h3>
 
                 <ul>

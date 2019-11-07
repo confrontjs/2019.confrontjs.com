@@ -1,5 +1,5 @@
 module.exports = {
-    name: "Katarzyna Grabowska",
+    name: "Katarzyna<br/>Grabowska",
     position: "Co-Founder of WarsawJS",
     bio: {
         en: "Designer who's love working in creative projects.",

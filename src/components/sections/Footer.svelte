@@ -4,86 +4,101 @@
 </script>
 
 <style>
-    .footer-section {
+    .footer {
         color: var(--snow-color);
         background: var(--night-color);
-        padding-bottom: 30px;
+        padding: 80px 0px;
         font-size: 14px;
     }
 
-    .footer-section .contact p {
+    .footer-title {
+        margin-top: 0px;
+    }
+
+    .contact p {
         line-height: 20px;
     }
 
-    .footer-section .contact p > a {
+    .contact p > a {
         display: block;
         text-decoration: none;
         font-weight: bold;
         font-size: 16px;
     }
 
-    .footer-section .press-kit {
-        padding-top: 30px;
+    .press-kit {
+        padding-top: 0px;
     }
 
-    .footer-section .press-kit p.about {
+    .press-kit p.about {
         white-space: pre-line;
+        margin-top: 0;
     }
 
-    .footer-section .press-kit a.button-primary {
+    .press-kit a.button-primary {
         margin: 30px 0;
         display: inline-block;
     }
 
-    .footer-section .powered-by img {
+    .powered-by img {
         width: 120px;
     }
 </style>
 
-<footer class="footer-section text-center container-fluid">
-    <div class="row">
-        <div class="contact col-md-3 col-sm-12">
-            <h2>Contact</h2>
-            <p>
-                If you have any questions, write email to us:
-                <a href="mailto:confrontjs[at]warsawjs.com">confrontjs@warsawjs.com</a>
-            </p>
-            <SocialMedia/>
-            <Version/>
-        </div>
+<footer class="footer">
 
-        <div class="press-kit offset-md-1 col-md-4 col-sm-12">
-            <p class="about">
-                Help us to reach a wider group of people,
-                get a ready package that will make it easier for you:
-            </p>
+    <div class="container">
+    
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="contact">
+                    <h2 class="footer-title">Contact</h2>
+                    <p>
+                        If you have any questions, write email to us:
+                        <a href="mailto:confrontjs[at]warsawjs.com">confrontjs@warsawjs.com</a>
+                    </p>
+                    <SocialMedia/>
+                    <Version/>
+                </div>
+            </div>
 
-            <a
-                class="button-primary"
-                data-content="Download Press Kit"
-                href="https://drive.google.com/open?id=1QLgrDj1DuDo8NZw_QGjpow7nTLChnF5n"
-            >Download Press Kit</a>
+            <div class="offset-md-1 col-md-4 col-sm-12">
+                <div class="press-kit">
+                    <p class="about">
+                        Help us to reach a wider group of people,
+                        get a ready package that will make it easier for you:
+                    </p>
+        
+                    <a
+                        class="button-primary"
+                        data-content="Download Press Kit"
+                        href="https://drive.google.com/open?id=1QLgrDj1DuDo8NZw_QGjpow7nTLChnF5n"
+                    >Download Press Kit</a>
+        
+                    <p>
+                        Copyright @ 2019 by
+                        <a href="https://warsawjs.com/">WarsawJS</a>
+                        &bull;
+                        <a href="/code-of-conduct">Code of Conduct</a>
+                        &bull;
+                        <a href="/privacy-policy">Privacy Policy</a>
+                        &bull;
+                        <a href="/contact">Contact</a>
+                    </p>
+                </div>
+            </div>
 
-            <p>
-                Copyright @ 2019 by
-                <a href="https://warsawjs.com/">WarsawJS</a>
-                &bull;
-                <a href="/code-of-conduct">Code of Conduct</a>
-                &bull;
-                <a href="/privacy-policy">Privacy Policy</a>
-                &bull;
-                <a href="/contact">Contact</a>
-            </p>
-        </div>
-
-        <div class="powered-by offset-md-1 col-md-3 col-sm-12">
-            <h3>Powered by</h3>
-            <a href="https://warsawjs.com">
-                <img
-                    src="https://warsawjs.com/static/images/logos/logo-warsawjs-with-white-text.svg"
-                    alt="WarsawJS"
-                />
-            </a>
+            <div class="offset-md-1 col-md-3 col-sm-12">
+                <div class="powered-by">
+                    <h3 class="footer-title">Powered by</h3>
+                    <a href="https://warsawjs.com">
+                        <img
+                            src="https://warsawjs.com/static/images/logos/logo-warsawjs-with-white-text.svg"
+                            alt="WarsawJS"
+                        />
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </footer>

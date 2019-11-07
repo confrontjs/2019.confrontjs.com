@@ -5,25 +5,28 @@
 
 <style>
     .organizers-section {
-        margin: 100px 0 20px 0;
+        margin: 0px 0 80px 0;
     }
 
-    .organizers-section ul {
-        display: flex;
-        justify-content: space-between;
+    .organizers-title {
+        margin-top: 0px;
     }
 </style>
 
 <section class="organizers-section">
-    <div class="content">
-        <h1>Organizers</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="organizers-title">Organizers</h1>
+            </div>
+        </div>
 
-        <ul class="row list-unstyled">
+        <div class="row">
             {#each Organizers as host, i}
-                <li class="col-lg-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-sm-6 col-xs-12">
                     <Organizer host={host}/>
-                </li>
+                </div>
             {/each}
-        </ul>
+        </div>
     </div>
 </section>

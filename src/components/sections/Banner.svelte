@@ -3,12 +3,14 @@
 </script>
 <style>
     .banner {
-        height: 650px;
+        height: 100%;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
         color: var(--snow-color);
         font-weight: bold;
         position: relative;
+        padding-bottom: 80px;
     }
 
     .banner .apla {
@@ -22,7 +24,7 @@
 
     .banner .texts {
         position: relative;
-        padding: 160px 0 0 0
+        padding: 160px 0 0 0;
     }
 
     .banner .texts :global(p) {
@@ -36,13 +38,11 @@
         margin: 0;
     }
 
-    @media (max-width: 800px) {
+    @media (min-width: 768px) {
         .banner {
-            height: 100%;
-            padding: 30px;
+            height: 570px;
         }
     }
-    
 </style>
 
 <div
@@ -51,10 +51,15 @@
 >
     <div class="apla"></div>
 
-    <div class="content">
-        <div class="texts">
-            <slot name="description"></slot>
-            <slot name="header"></slot>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="texts">
+                    <slot name="description"></slot>
+                    <slot name="header"></slot>
+                </div>
+            </div>
         </div>
     </div>
 </div>

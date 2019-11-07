@@ -1,6 +1,5 @@
 <script>
     import Intro from '../components/sections/Intro.svelte';
-    import BuyTicketsButton from '../components/sections/BuyTicketsButton.svelte';
     import Agenda from '../components/sections/Agenda.svelte';
     import Summary from '../components/sections/Summary.svelte';
     import VenueInsight from '../components/sections/VenueInsight.svelte';
@@ -22,7 +21,6 @@
 
 <div class="index-page">
     <Intro/>
-    <BuyTicketsButton/>
     <WaveType1/>
     <Agenda/>
     <WaveType2/>

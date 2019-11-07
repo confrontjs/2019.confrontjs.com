@@ -12,8 +12,12 @@
 </style>
 
 <div class="where-to-stay-section">
-    <div class="content">
-        <h1>Where to stay?</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Where to stay?</h1>
+            </div>
+        </div>
 
         <ul class="list-unstyled d-flex flex-wrap justify-content-around">
             {#each Hotels as hotel, i}
