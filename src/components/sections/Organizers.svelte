@@ -11,6 +11,13 @@
     .organizers-title {
         margin-top: 0px;
     }
+
+    @media (min-width: 991px) {
+        .organizers-section {
+            margin-bottom: 20px;
+        }
+    }
+    
 </style>
 
 <section class="organizers-section">

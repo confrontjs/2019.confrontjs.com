@@ -7,8 +7,27 @@
     .where-to-stay-section {
         color: var(--snow-color);
         background: var(--night-color);
-        padding: 50px 0;
+        padding: 50px 0 80px;
+        position: relative;
     }
+
+    .where-to-stay-section h1 {
+        position: relative;
+        z-index: 2;
+    }
+
+    @media (min-width: 801px) {
+        .where-to-stay-section {
+            padding: 80px 0 160px;
+        }
+    }
+
+    @media (min-width: 991px) {
+        .where-to-stay-section {
+            padding: 0px 0 150px;
+        }
+    }
+    
 </style>
 
 <div class="where-to-stay-section">
@@ -19,12 +38,12 @@
             </div>
         </div>
 
-        <ul class="list-unstyled d-flex flex-wrap justify-content-around">
+        <div class="row">
             {#each Hotels as hotel, i}
-                <li>
+                <div class="col-md-6">
                     <Hotel hotel={hotel}/>
-                </li>
+                </div>
             {/each}
-        </ul>
+        </div>
     </div>
 </div>

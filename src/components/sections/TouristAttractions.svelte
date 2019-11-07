@@ -3,6 +3,21 @@
     import Attractions from '../../data/attractions';
 </script>
 
+<style>
+    .tourist-attractions-section {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+@media (min-width: 991px) {
+    .tourist-attractions-section {
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+}
+    
+</style>
+
 <section class="tourist-attractions-section">
     <div class="container">
         <div class="row">

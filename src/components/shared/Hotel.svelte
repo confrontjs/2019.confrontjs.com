@@ -5,16 +5,17 @@
 <style>
     .hotel {
         display: inline-block;
-        max-width: 420px;
-        margin: 0 0 50px 0;
+        width: 100%;
+        margin: 50px 0 0px 0;
         position: relative;
     }
 
-    .hotel-avatar {
+    .hotel-preview {
         background: #000;
+        width: 100%;
     }
 
-    .hotel-avatar:hover {
+    .hotel-preview:hover {
         opacity: 0.8;
     }
 
@@ -26,12 +27,21 @@
     .hotel-address {
         margin: 0;
     }
+
+    @media (min-width: 1200px) {
+        .hotel {
+            max-width: 420px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    
 </style>
 
 <div class="hotel">
     <a href="{ hotel.profile_url }">
         <img
-            class="hotel-avatar img-fluid"
+            class="hotel-preview img-fluid"
             src="{ hotel.image_url }"
             alt="{ hotel.name }"
         />
