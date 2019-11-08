@@ -1,0 +1,14 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#fff" d="M-1-1h1002v302H-1z"/>
+    <g>
+        <path fill="#b24210" d="M0 0h300v300H0z"/>
+        <g fill-rule="evenodd">
+            <path fill="#fff" d="M20 170h260v110H20z"/>
+            <path fill="#b24210" d="M40 190h220v90H40z"/>
+        </g>
+        <g fill-rule="evenodd">
+            <path d="M150 170V20h130v80H170v70h-20z" fill="#fff"/>
+            <path fill="#b24210" d="M170 40h90v40h-90z"/>
+        </g>
+    </g>
+</svg>
