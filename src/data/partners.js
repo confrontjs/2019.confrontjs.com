@@ -21,4 +21,5 @@ module.exports = [
     require('./partners/przeprogramowani'),
     require('./partners/sticker-mule'),
     // require('./partners/algo-smart'),
+    require('./partners/bede-programistka'),
 ];
