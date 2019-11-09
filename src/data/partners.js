@@ -19,4 +19,5 @@ module.exports = [
     require('./partners/full-stack-geek'),
     require('./partners/piotr-nalepa-blog'),
     // require('./partners/przeprogramowani'),
+    require('./partners/sticker-mule'),
 ];
