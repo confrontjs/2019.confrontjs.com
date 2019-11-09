@@ -18,6 +18,7 @@ module.exports = [
     require('./partners/jakub-jurkian-blog'),
     require('./partners/full-stack-geek'),
     require('./partners/piotr-nalepa-blog'),
-    // require('./partners/przeprogramowani'),
+    require('./partners/przeprogramowani'),
     require('./partners/sticker-mule'),
+    // require('./partners/algo-smart'),
 ];
