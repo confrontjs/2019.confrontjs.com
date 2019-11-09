@@ -7,7 +7,7 @@
         display: inline-block;
     }
     img {
-        width: 100px;
+        max-width: 200px;
         height: 100px;
     }
 </style>
