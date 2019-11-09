@@ -1,14 +1,46 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#fff" d="M-1-1h1002v302H-1z"/>
+<svg
+    width="300"
+    height="300"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <path
+        fill="#fff"
+        d="M-1-1h1002v302H-1z"
+    ></path>
     <g>
-        <path fill="#b24210" d="M0 0h300v300H0z"/>
+        <path
+            fill="#b24210"
+            d="M0 0h300v300H0z"
+        ></path>
         <g fill-rule="evenodd">
-            <path fill="#fff" d="M20 170h260v110H20z"/>
-            <path fill="#b24210" d="M40 190h220v90H40z"/>
+            <path
+                fill="#fff"
+                d="M20 170h260v110H20z"
+            ></path>
+            <path
+                fill="#b24210"
+                d="M40 190h220v90H40z"
+            ></path>
         </g>
         <g fill-rule="evenodd">
-            <path d="M150 170V20h130v80H170v70h-20z" fill="#fff"/>
-            <path fill="#b24210" d="M170 40h90v40h-90z"/>
+            <path
+                d="M150 170V20h130v80H170v70h-20z"
+                fill="#fff"
+            ></path>
+            <path
+                fill="#b24210"
+                d="M170 40h90v40h-90z"
+            ></path>
         </g>
+        <path
+            d="M67.553 95l29.389 15.451-5.613-32.726 23.777-23.176-32.858-4.774L67.553 20 52.858 49.775 20 54.549l23.777 23.176-5.613 32.726L67.553 95z"
+            fill="#fff"
+        ></path>
+        <circle
+            r="20"
+            cy="70"
+            cx="67.553"
+            fill="#b24210"
+        ></circle>
     </g>
 </svg>
