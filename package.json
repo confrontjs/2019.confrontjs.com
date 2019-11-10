@@ -5,8 +5,8 @@
     "version": "2.0.21",
     "license": "MIT",
     "scripts": {
+        "predeploy": "npm version patch && git push && git push --tags",
         "deploy": "git push -f heroku master",
-        "postversion": "git push --tags",
         "heroku-postbuild": "run-p build",
         "dev": "sapper dev",
         "build": "sapper build --legacy",
