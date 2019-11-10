@@ -25,4 +25,5 @@ module.exports = [
     // require('./partners/webmastah'),
     // require('./partners/sowa-programuje'),
     require('./partners/sarvendev'),
+    require('./partners/full-stak'),
 ];
