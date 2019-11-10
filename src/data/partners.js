@@ -26,4 +26,5 @@ module.exports = [
     // require('./partners/sowa-programuje'),
     require('./partners/sarvendev'),
     require('./partners/full-stak'),
+    require('./partners/devszczepaniak'),
 ];
