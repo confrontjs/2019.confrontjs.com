@@ -4,7 +4,7 @@ module.exports = {
     company: 'WalkMe',
     country: 'Israel',
     bio: {
-        en: ""
+        en: "Software architect at WalkMe, egghead instructor and former CTO at webiks is going to reveal the secrets of runtime performance in the browser."
     },
     avatar_url: '/speakers/yonatan-kra.jpg',
     contact: {

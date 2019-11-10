@@ -20,7 +20,7 @@ module.exports = [
     require('./partners/piotr-nalepa-blog'),
     require('./partners/przeprogramowani'),
     require('./partners/sticker-mule'),
-    // require('./partners/algo-smart'),
+    require('./partners/algo-smart'),
     require('./partners/bede-programistka'),
-    require('./partners/webmastah'),
+    // require('./partners/webmastah'),
 ];

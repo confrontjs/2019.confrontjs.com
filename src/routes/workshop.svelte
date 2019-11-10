@@ -120,9 +120,7 @@
                 <h2 class="m-0">Yonatan Kra</h2>
 
                 <p>
-                    Software architect at WalkMe, egghead instructor
-                    and former CTO at webiks is going to reveal the secrets
-                    of runtime performance in the browser.
+                    { Yonatan.bio.en }
                 </p>
 
                 <SocialMediaIcons person={Yonatan}/>
