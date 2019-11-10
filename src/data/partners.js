@@ -12,7 +12,7 @@ module.exports = [
     require('./partners/comandeer'),
     require('./partners/hodash'),
     require('./partners/overment'),
-    // require('./partners/typeofweb'),
+    require('./partners/typeofweb'),
     // require('./partners/ninja-speakers'),
     // require('./partners/cezary-walenciuk-blog'),
     require('./partners/jakub-jurkian-blog'),
