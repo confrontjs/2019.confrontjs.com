@@ -13,7 +13,6 @@ module.exports = [
     require('./partners/hodash'),
     require('./partners/overment'),
     require('./partners/typeofweb'),
-    // require('./partners/ninja-speakers'),
     // require('./partners/cezary-walenciuk-blog'),
     require('./partners/jakub-jurkian-blog'),
     require('./partners/full-stack-geek'),
@@ -35,4 +34,6 @@ module.exports = [
     require('./partners/the-awwwesomes'),
     require('./partners/pawel-ochota'),
     // require('./partners/mzalewski'),
+    require('./partners/highlab'),
+    require('./partners/ninja-speakers'),
 ];
