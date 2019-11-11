@@ -33,4 +33,5 @@ module.exports = [
     // require('./partners/kamil-rogala-it'),
     // require('./partners/na-frontendzie'),
     require('./partners/the-awwwesomes'),
+    require('./partners/pawel-ochota'),
 ];
