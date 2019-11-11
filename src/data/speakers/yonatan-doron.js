@@ -8,6 +8,8 @@ module.exports = {
     },
     avatar_url: '/speakers/yonatan-doron.jpg',
     contact: {
-        twitter_url: 'https://twitter.com/jodoron'
+        twitter_url: 'https://twitter.com/jodoron',
+        linkedin_url: 'https://www.linkedin.com/in/yonatan-doron-7a128961/',
+        github_url: 'https://github.com/JonathanDn'
     }
 };

@@ -27,4 +27,5 @@ module.exports = [
     require('./partners/sarvendev'),
     require('./partners/full-stak'),
     require('./partners/devszczepaniak'),
+    require('./partners/women-in-tech-chat'),
 ];
