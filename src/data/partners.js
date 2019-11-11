@@ -24,9 +24,10 @@ module.exports = [
     require('./partners/algo-smart'),
     // require('./partners/webmastah'),
     // require('./partners/sowa-programuje'),
-    require('./partners/sarvendev'),
+    require('./partners/porozmawiajmyoit'),
     require('./partners/full-stak'),
+    require('./partners/sarvendev'),
     require('./partners/devszczepaniak'),
     require('./partners/women-in-tech-chat'),
-    require('./partners/porozmawiajmyoit'),
+    require('./partners/warsaw-typescript'),
 ];
