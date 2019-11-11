@@ -32,4 +32,5 @@ module.exports = [
     require('./partners/warsaw-typescript'),
     // require('./partners/kamil-rogala-it'),
     // require('./partners/na-frontendzie'),
+    require('./partners/the-awwwesomes'),
 ];
