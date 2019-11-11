@@ -30,7 +30,7 @@ module.exports = [
     require('./partners/devszczepaniak'),
     require('./partners/women-in-tech-chat'),
     require('./partners/warsaw-typescript'),
-    // require('./partners/kamil-rogala-it'),
+    require('./partners/kamil-rogala'),
     // require('./partners/na-frontendzie'),
     require('./partners/the-awwwesomes'),
     require('./partners/pawel-ochota'),
