@@ -17,7 +17,6 @@
         "test": "run-p --race dev cy:run"
     },
     "dependencies": {
-        "bootstrap": "^4.3.1",
         "compression": "^1.7.1",
         "lodash-es": "^4.17.15",
         "polka": "next",
