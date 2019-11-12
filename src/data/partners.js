@@ -30,10 +30,10 @@ module.exports = [
     require('./partners/women-in-tech-chat'),
     require('./partners/warsaw-typescript'),
     require('./partners/kamil-rogala'),
-    // require('./partners/na-frontendzie'),
-    require('./partners/the-awwwesomes'),
+    require('./partners/highlab'),
     require('./partners/pawel-ochota'),
     require('./partners/mzalewski'),
-    require('./partners/highlab'),
     require('./partners/ninja-speakers'),
+    require('./partners/na-frontendzie'),
+    require('./partners/the-awwwesomes'),
 ];
