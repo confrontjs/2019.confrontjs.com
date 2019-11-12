@@ -40,4 +40,5 @@ module.exports = [
     require('./partners/giganci-programowania'),
     require('./partners/girlsjs'),
     require('./partners/4programmers'),
+    require('./partners/devsession'),
 ];
