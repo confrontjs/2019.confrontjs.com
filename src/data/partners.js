@@ -37,4 +37,5 @@ module.exports = [
     require('./partners/na-frontendzie'),
     require('./partners/the-awwwesomes'),
     require('./partners/pywaw'),
+    require('./partners/giganci-programowania'),
 ];
