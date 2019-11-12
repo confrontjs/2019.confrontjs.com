@@ -3,6 +3,7 @@ module.exports = [
     require('./sponsors/grupa-pracuj'),
 
     // Silver Sponsor
+    require('./sponsors/olx'),
     require('./sponsors/jetbrains'),
     require('./sponsors/znany-lekarz'),
 
