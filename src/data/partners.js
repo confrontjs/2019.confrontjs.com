@@ -36,4 +36,5 @@ module.exports = [
     require('./partners/ninja-speakers'),
     require('./partners/na-frontendzie'),
     require('./partners/the-awwwesomes'),
+    require('./partners/pywaw'),
 ];
