@@ -24,13 +24,14 @@ module.exports = [
         speaker: require('./speakers/roy-derks')
     },
     {
-        title: "Let's Build with WebAssembly",
+        title: "Sleeping better at night",
         abstract: `
-            This will be a cross-framework talk to developers mid-level+.
-            We will build a WebAssembly module live on stage, and look into how other languages (Rust, C, C++) can execute on the web, alongside the frameworks we know and love today.
+            Why are we afraid to deploy our app on Friday evening? Well, mostly because no one wants to debug production issues on Saturday and we really want to go home.
+            Answering the (seemingly) basic question of "does our code actually work?" is surprisingly difficult at times.
+            In this talk I'd like to cover different approaches we, JavaScript developers, can embed into our toolkit to make our lives easier and our users happier (hint: unit tests are not enough).
         `,
-        tech: ["Webassembly", "JavaScript", "Rust"],
-        speaker: require('./speakers/tejas-kumar'),
+        tech: ["JavaScript", "Testing", "Cypress"],
+        speaker: require('./speakers/tomasz-lakomy'),
         keynote: true
     },
     {
