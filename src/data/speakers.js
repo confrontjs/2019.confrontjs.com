@@ -10,6 +10,6 @@ module.exports = [
     require('./speakers/rakhi-sharma'),
     require('./speakers/roy-derks'),
     require('./speakers/sarath-damaraju'),
-    require('./speakers/tejas-kumar'),
+    require('./speakers/tomasz-lakomy'),
     require('./speakers/yonatan-kra'),
 ];

@@ -9,7 +9,7 @@ module.exports = {
     avatar_url: '/speakers/tomasz-lakomy.jpg',
     contact: {
         linkedin_url: 'https://www.linkedin.com/in/tomasz-%C5%82akomy-12b2a258/',
-        twitter_url: '',
+        twitter_url: 'https://twitter.com/tlakomy',
         github_url: ''
     }
 };
