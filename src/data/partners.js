@@ -38,4 +38,5 @@ module.exports = [
     require('./partners/the-awwwesomes'),
     require('./partners/pywaw'),
     require('./partners/giganci-programowania'),
+    require('./partners/girlsjs'),
 ];
