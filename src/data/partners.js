@@ -39,4 +39,5 @@ module.exports = [
     require('./partners/pywaw'),
     require('./partners/giganci-programowania'),
     require('./partners/girlsjs'),
+    require('./partners/4programmers'),
 ];
