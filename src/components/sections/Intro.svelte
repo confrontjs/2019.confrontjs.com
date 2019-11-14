@@ -34,7 +34,7 @@
         <use xlink:href="#icon-confrontjs-dark"></use>
     </svg>
 
-    <p class="headline">Front-end conference</p>
+    <p class="headline">Front-end Conference</p>
 
     <p class="subline">7 December 2019 in Warsaw, Poland</p>
 

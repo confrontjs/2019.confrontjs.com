@@ -8,7 +8,7 @@ describe('Page', () => {
 
     describe('Home Page', () => {
         it('has the correct headline', () => {
-            cy.contains('.headline', 'Front-end conference');
+            cy.contains('.headline', 'Front-end Conference in Warsaw');
         });
 
         it('has button to buy tickets', () => {

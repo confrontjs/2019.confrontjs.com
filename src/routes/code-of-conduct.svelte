@@ -10,7 +10,7 @@
 </style>
 
 <svelte:head>
-    <title>Code of Conduct • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Code of Conduct • ConFrontJS 2019 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="code-of-conduct-page">

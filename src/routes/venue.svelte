@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-    <title>Venue • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Venue • ConFrontJS 2019 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <Banner image="/promo/72275771_416666755700619_2198959204704714752_o.png">

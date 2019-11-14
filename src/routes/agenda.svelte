@@ -8,7 +8,7 @@
 </style>
 
 <svelte:head>
-    <title>Agenda • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Agenda • ConFrontJS 2019 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="agenda-page">

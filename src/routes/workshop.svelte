@@ -15,7 +15,7 @@
 </style>
 
 <svelte:head>
-    <title>Workshop • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Workshop • ConFrontJS 2019 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <Banner image="/promo/IMG_2723.png">

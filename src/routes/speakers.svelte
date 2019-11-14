@@ -41,7 +41,7 @@
 </style>
 
 <svelte:head>
-    <title>Speakers • ConFrontJS 2019 • Front-end Conference</title>
+    <title>Speakers • ConFrontJS 2019 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="speakers-page">
