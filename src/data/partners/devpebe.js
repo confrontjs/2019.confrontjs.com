@@ -1,0 +1,5 @@
+module.exports = {
+    name: 'devpebe',
+    url: 'https://devpebe.com/',
+    logo_url: '/partners/logo-devpebe.svg'
+};
