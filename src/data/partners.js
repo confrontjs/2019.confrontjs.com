@@ -42,4 +42,5 @@ module.exports = [
     require('./partners/4programmers'),
     require('./partners/devsession'),
     require('./partners/hello-roman'),
+    require('./partners/devmeetings'),
 ];
