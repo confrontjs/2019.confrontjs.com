@@ -46,4 +46,5 @@ module.exports = [
     require('./partners/devpebe'),
     require('./partners/it-craftship'),
     require('./partners/eduweb'),
+    require('./partners/inspire-labs'),
 ];
