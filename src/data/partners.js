@@ -47,4 +47,5 @@ module.exports = [
     require('./partners/it-craftship'),
     require('./partners/eduweb'),
     require('./partners/inspire-labs'),
+    require('./partners/webroad'),
 ];
