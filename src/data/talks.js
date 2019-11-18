@@ -104,6 +104,20 @@ module.exports = [
         speaker: require('./speakers/rakhi-sharma')
     },
     {
+        title: "How to help your editor love your Vue component library",
+        abstract: `
+        For web developers, one of the best things about Vue is its flexibility. Various ways to develop components,
+        powerful mixins, and the freedom to choose a build system are just some of the advantages of Vue.
+        In this talk we'll look at Vue component libraries from our perspective as IDE developers and discuss
+        some challenges we're facing with such flexibility. How to find all the available components in a library?
+        What types their props have? Where are the docs? These are just some of the questions we have to answer.
+        Finally, I'll tell the story of how we ended up creating web-types, a format for describing component libraries.
+        I'll demonstrate how it can help editors and documentation generators and how to use it.
+        `,
+        tech: ["Vue", "IDE"],
+        speaker: require('./speakers/piotr-tomiak'),
+    },
+    {
         title: "How close is your data?",
         abstract: `
         JavaScript is a very high level language. As such, most developers don't tend to think a lot about
@@ -147,17 +161,10 @@ module.exports = [
         lightningTalk: true
     },
     {
-        title: "How to help your editor love your Vue component library",
-        abstract: `
-        For web developers, one of the best things about Vue is its flexibility. Various ways to develop components,
-        powerful mixins, and the freedom to choose a build system are just some of the advantages of Vue.
-        In this talk we'll look at Vue component libraries from our perspective as IDE developers and discuss
-        some challenges we're facing with such flexibility. How to find all the available components in a library?
-        What types their props have? Where are the docs? These are just some of the questions we have to answer.
-        Finally, I'll tell the story of how we ended up creating web-types, a format for describing component libraries.
-        I'll demonstrate how it can help editors and documentation generators and how to use it.
-        `,
-        tech: ["Vue", "IDE"],
-        speaker: require('./speakers/piotr-tomiak'),
-    }
+        title: "Tips for maintainable Vue code",
+        abstract: ``,
+        tech: ["Vue"],
+        speaker: require('./speakers/jan-salwowski'),
+        lightningTalk: true
+    },
 ];
