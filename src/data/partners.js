@@ -48,4 +48,5 @@ module.exports = [
     require('./partners/eduweb'),
     require('./partners/inspire-labs'),
     require('./partners/webroad'),
+    require('./partners/tworca-stron'),
 ];
