@@ -175,4 +175,11 @@ module.exports = [
         speaker: require('./speakers/jan-salwowski'),
         lightningTalk: true
     },
+    {
+        title: "Multi-repo vs Mono-repo",
+        abstract: ``,
+        tech: ["Confrontation"],
+        speaker: require('./speakers/maciej-golaszewski'),
+        lightningTalk: true
+    },
 ];
