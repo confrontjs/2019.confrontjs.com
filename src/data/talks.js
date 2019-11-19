@@ -93,17 +93,6 @@ module.exports = [
         speaker: require('./speakers/jerbi-saif')
     },
     {
-        title: "How browser works? Behind the Scene!",
-        abstract: `
-            In this talk, Rakhi will talk about the high-level architecture of the browser and their components like rendering engine.
-            What is going behind the scene? How browsers are rendering HTML/CSS/JS for you?
-            How do parsing and Layout works on browser level?
-            What happens when you search for something on internet?
-        `,
-        tech: ["Browsers", "JavaScript", "HTML", "CSS"],
-        speaker: require('./speakers/rakhi-sharma')
-    },
-    {
         title: "How to help your editor love your Vue component library",
         abstract: `
             For web developers, one of the best things about Vue is its flexibility. Various ways to develop components,

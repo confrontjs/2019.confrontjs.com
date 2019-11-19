@@ -22,7 +22,7 @@ module.exports = [
     { start: '11:50', end: '12:20', duration: '00:30', type: 'talk', details: talkBy('Jerbi Saif') },
     { start: '12:20', end: '13:10', duration: '00:50', type: '', details: 'Lunch' },
     { start: '13:10', end: '13:40', duration: '00:30', type: 'talk-not-ready', details: talkBy('Venue Sponsor') },
-    { start: '13:40', end: '14:10', duration: '00:30', type: 'talk', details: talkBy('Wojciech Jureczka') },
+    { start: '13:40', end: '14:10', duration: '00:30', type: 'talk', details: talkBy('Wojciech Jureczka') }, // Gold Sponsor
     { start: '14:10', end: '14:25', duration: '00:15', type: '', details: 'Activity Break' },
     { start: '14:25', end: '14:55', duration: '00:30', type: 'talk', details: talkBy('Piotr Tomiak') },
     { start: '14:55', end: '15:25', duration: '00:30', type: 'talk', details: talkBy('Andrzej Mazur') },
@@ -34,7 +34,7 @@ module.exports = [
     { start: '16:00', end: '16:05', duration: '00:05', type: 'talk', details: talkBy('Jan Salwowski') },
     { start: '16:05', end: '16:10', duration: '00:05', type: 'talk', details: talkBy('Maciej Gołaszewski') },
     { start: '16:10', end: '16:40', duration: '00:30', type: 'talk', details: talkBy('Roy Derks') },
-    { start: '16:40', end: '17:10', duration: '00:30', type: 'talk', details: talkBy('Rakhi Sharma') },
+    { start: '16:40', end: '17:10', duration: '00:30', type: 'talk-not-ready', details: talkBy('Gold Sponsor') },
     { start: '17:10', end: '17:50', duration: '00:40', type: 'talk', details: talkBy('Chris Heilmann') },
     { start: '17:50', end: '18:00', duration: '00:10', type: '', details: 'Final (Contest’s winner announcement)' },
 ];

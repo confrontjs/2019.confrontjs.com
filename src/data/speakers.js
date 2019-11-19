@@ -8,7 +8,6 @@ module.exports = [
     require('./speakers/jerbi-saif'),
     require('./speakers/maciej-golaszewski'),
     require('./speakers/piotr-tomiak'),
-    require('./speakers/rakhi-sharma'),
     require('./speakers/roy-derks'),
     require('./speakers/sarath-damaraju'),
     require('./speakers/tomasz-lakomy'),
