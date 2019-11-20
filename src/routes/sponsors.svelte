@@ -46,7 +46,7 @@
     }
 
     .sponsors-section > ul li {
-        margin: 0 20px;
+        margin: 0 20px 10px;
     }
 
     .offer {

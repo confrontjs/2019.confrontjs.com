@@ -9,6 +9,7 @@ module.exports = [
 
     // Bronze Sponsor
     require('./sponsors/ckeditor5'),
+    require('./sponsors/vermag'),
 
     // Venue Sponsor
     require('./sponsors/edc'),
