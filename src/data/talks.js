@@ -159,7 +159,14 @@ module.exports = [
     },
     {
         title: "Tips for maintainable Vue code",
-        abstract: ``,
+        abstract: `
+            Maintainability of code is one of the most crucial things in programming,
+            but what makes code easy to work with?
+
+            During last 3 years we've built small, medium and big apps using Vue in Docplanner.
+            To keep our apps maintainable we came up with numerous conventions that we strictly
+            keep up to and now I want to share them with you.
+        `,
         tech: ["Vue"],
         speaker: require('./speakers/jan-salwowski'),
         lightningTalk: true
