@@ -5,6 +5,7 @@
 <style>
     a {
         display: inline-block;
+        text-decoration: none;
     }
     img {
         max-width: 200px;
@@ -17,9 +18,13 @@
     title={ partner.name }
     rel="noopener"
 >
-    <img
-        src={ partner.logo_url }
-        class="partner-avatar"
-        alt="Avatar of { partner.name }"
-    />
+    {#if partner.logo_url === '' }
+        { partner.name }
+    {:else}
+        <img
+            src={ partner.logo_url }
+            class="partner-avatar"
+            alt="Avatar of { partner.name }"
+        />
+    {/if}
 </a>

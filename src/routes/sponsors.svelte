@@ -66,6 +66,7 @@
     .partners-section > ul li {
         display: inline-block;
         margin: 30px;
+        vertical-align: middle;
     }
 </style>
 

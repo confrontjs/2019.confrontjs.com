@@ -49,4 +49,5 @@ module.exports = [
     require('./partners/inspire-labs'),
     require('./partners/webroad'),
     require('./partners/tworca-stron'),
+    require('./partners/nowoczesny-frontend'),
 ];
