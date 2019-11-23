@@ -3,7 +3,7 @@
 </script>
 <style>
     .banner {
-        height: 650px;
+        /* height: 650px; */
         background-size: cover;
         background-repeat: no-repeat;
         color: var(--snow-color);
@@ -22,7 +22,7 @@
 
     .banner .texts {
         position: relative;
-        padding: 160px 0 0 0
+        padding: 10vw 0;
     }
 
     .banner .texts :global(p) {
@@ -37,12 +37,11 @@
     }
 
     @media (max-width: 800px) {
-        .banner {
-            height: 100%;
-            padding: 30px;
+        .banner .texts {
+            padding: 30px 0;
         }
     }
-    
+
 </style>
 
 <div

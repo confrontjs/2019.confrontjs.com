@@ -28,16 +28,6 @@
         margin: 10px 0;
         width: 650px;
     }
-
-    @media (max-width: 1480px) {
-        .speakers-container {
-            padding: 0;
-        }
-
-        .speakers-container > ul li {
-            width: 100%;
-        }
-    }
 </style>
 
 <svelte:head>
@@ -52,9 +42,9 @@
 
     <div class="content">
         <div class="speakers-container">
-            <ul class="list-unstyled">
+            <ul class="row list-unstyled">
                 {#each SpeakersShuffle as speaker, i}
-                    <li>
+                    <li class="col-lg-6 col-md-12">
                         <SpeakerCard speaker={speaker}/>
                     </li>
                 {/each}
