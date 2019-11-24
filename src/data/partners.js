@@ -53,4 +53,5 @@ module.exports = [
     require('./partners/justjoin-it'),
     require('./partners/nettecode'),
     require('./partners/devkozak'),
+    require('./partners/kernelgonnapanic'),
 ];
