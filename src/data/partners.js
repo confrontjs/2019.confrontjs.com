@@ -51,4 +51,5 @@ module.exports = [
     require('./partners/tworca-stron'),
     require('./partners/nowoczesny-frontend'),
     require('./partners/justjoin-it'),
+    require('./partners/nettecode'),
 ];
