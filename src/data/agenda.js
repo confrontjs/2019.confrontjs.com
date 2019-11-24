@@ -21,7 +21,7 @@ module.exports = [
     { start: '11:10', end: '11:50', duration: '00:40', type: 'talk', details: talkBy('Jemima Abu') },
     { start: '11:50', end: '12:20', duration: '00:30', type: 'talk', details: talkBy('Jerbi Saif') },
     { start: '12:20', end: '13:10', duration: '00:50', type: '', details: 'Lunch' },
-    { start: '13:10', end: '13:40', duration: '00:30', type: 'talk-not-ready', details: talkBy('Venue Sponsor') },
+    { start: '13:10', end: '13:40', duration: '00:30', type: 'talk', details: talkBy('Przemysław Zych') }, // Venue Sponsor
     { start: '13:40', end: '14:10', duration: '00:30', type: 'talk', details: talkBy('Wojciech Jureczka') }, // Gold Sponsor
     { start: '14:10', end: '14:25', duration: '00:15', type: '', details: 'Activity Break' },
     { start: '14:25', end: '14:55', duration: '00:30', type: 'talk', details: talkBy('Piotr Tomiak') },

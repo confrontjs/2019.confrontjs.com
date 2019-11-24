@@ -115,6 +115,20 @@ module.exports = [
         speaker: require('./speakers/wojciech-jureczka'),
     },
     {
+        title: "Should I fire my DevOps already? Build your infrastructure using TypeScript",
+        abstract: `
+            You are a developer. And as a developer you like to develop - that's pretty obvious. But what to do with your app? How to share your bright ideas with the world?
+
+            Options are endless. But most of them are obsolete, difficult, not scalable, time-consuming. Even liked and well perceived cloud solutions are not free from those drawbacks. So you may use their (very nice and user-friendly, to be fair) web interfaces, but using them is not very productive and doing that for production is not exactly what you want to do. You may also want to use Cloud Formation- or Terraform-like technologies, which are, however, far different from what you already know.
+
+            How about I show you how to use the technology that you already know to make not only frontend and backend application, but also to create the whole scalable, easily maintainable and modern infrastructure for your app?
+
+            Sounds good or you wanna call it a bluff?
+        `,
+        tech: ["TypeScript", "DevOps"],
+        speaker: require('./speakers/przemyslaw-zych'),
+    },
+    {
         title: "How close is your data?",
         abstract: `
             JavaScript is a very high level language. As such, most developers don't tend to think a lot about
