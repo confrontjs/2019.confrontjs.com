@@ -28,6 +28,12 @@
         margin: 10px 0;
         width: 650px;
     }
+
+    @media (max-width: 480px) {
+        .speakers-container {
+            padding: 0;
+        }
+    }
 </style>
 
 <svelte:head>

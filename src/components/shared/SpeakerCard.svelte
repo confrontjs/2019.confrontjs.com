@@ -90,7 +90,7 @@
 
 <div class="speaker-card">
     <div class="speaker row">
-        <div class="speaker-images col-4 pl-0">
+        <div class="speaker-images col-md-4 col-sm-12 pl-0">
             <a
                 href="{ speaker.contact.twitter_url }"
                 title="{ speaker.name }"
@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <div class="speaker-details col-8 pr-0">
+        <div class="speaker-details col-md-8 col-sm-12 pr-0">
             <h2>{ speaker.name }</h2>
             <p class="speaker-position">
                 { speaker.position }
