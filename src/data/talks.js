@@ -185,4 +185,12 @@ module.exports = [
         speaker: require('./speakers/jan-salwowski'),
         lightningTalk: true
     },
+    {
+        title: "TBA",
+        abstract: `
+        `,
+        tech: [],
+        speaker: require('./speakers/tymon-terlikiewicz'),
+        lightningTalk: true
+    },
 ];

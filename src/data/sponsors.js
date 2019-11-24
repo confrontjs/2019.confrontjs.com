@@ -6,6 +6,7 @@ module.exports = [
     require('./sponsors/olx'),
     require('./sponsors/jetbrains'),
     require('./sponsors/docplanner'),
+    require('./sponsors/batmaid'),
 
     // Bronze Sponsor
     require('./sponsors/ckeditor5'),
