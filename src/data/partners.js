@@ -22,7 +22,6 @@ module.exports = [
     require('./partners/bede-programistka'),
     require('./partners/algo-smart'),
     // require('./partners/webmastah'),
-    // require('./partners/sowa-programuje'),
     require('./partners/porozmawiajmyoit'),
     require('./partners/full-stak'),
     require('./partners/sarvendev'),
@@ -54,4 +53,6 @@ module.exports = [
     require('./partners/nettecode'),
     require('./partners/devkozak'),
     require('./partners/kernelgonnapanic'),
+    require('./partners/przemuh'),
+    require('./partners/sowa-programuje'),
 ];
