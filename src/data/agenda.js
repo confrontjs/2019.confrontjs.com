@@ -33,7 +33,7 @@ module.exports = [
     { start: '15:55', end: '16:00', duration: '00:05', type: 'talk', details: talkBy('Yonatan Doron') },
     { start: '16:00', end: '16:05', duration: '00:05', type: 'talk', details: talkBy('Elad Shechter') },
     { start: '16:05', end: '16:10', duration: '00:05', type: 'talk', details: talkBy('Jan Salwowski') },
-    { start: '16:10', end: '16:15', duration: '00:05', type: 'talk', details: talkBy('Maciej Gołaszewski') },
+    { start: '16:10', end: '16:15', duration: '00:05', type: 'talk-not-ready', details: talkBy('Bonus Lightning Talk') },
     { start: '16:15', end: '16:45', duration: '00:30', type: 'talk', details: talkBy('Roy Derks') },
     { start: '16:45', end: '17:15', duration: '00:30', type: 'talk-not-ready', details: talkBy('Gold Sponsor') },
     { start: '17:15', end: '17:55', duration: '00:40', type: 'talk', details: talkBy('Chris Heilmann') },
