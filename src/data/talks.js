@@ -79,7 +79,7 @@ module.exports = [
             This talk aims to address the inbuilt accessibility features of HTML by using semantic elements and attributes.
             We will also cover other aspects of accessibility such as navigation and content.
         `,
-        tech: ["Accessability"],
+        tech: ["Accessibility"],
         speaker: require('./speakers/jemima-abu')
     },
     {

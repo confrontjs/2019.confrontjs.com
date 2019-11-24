@@ -52,4 +52,5 @@ module.exports = [
     require('./partners/nowoczesny-frontend'),
     require('./partners/justjoin-it'),
     require('./partners/nettecode'),
+    require('./partners/devkozak'),
 ];
