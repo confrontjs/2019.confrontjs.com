@@ -55,4 +55,5 @@ module.exports = [
     require('./partners/kernelgonnapanic'),
     require('./partners/przemuh'),
     require('./partners/sowa-programuje'),
+    require('./partners/okruch-kodu'),
 ];
