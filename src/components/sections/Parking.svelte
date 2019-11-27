@@ -5,11 +5,10 @@
             <h2>Parking</h2>
 
             <p>
-                There are 3 pay-to-park lots within a 1 minute walk of Block 41,
-                including 1 lot in our alley, 1 lot in the alley acros s the street and another
-                lot 1 block away on 1st Avenue. In front and on the side of our building,
-                as well as a 3+ block radius, you will find pay-to-park street parking,
-                both 2 and 4 hour.
+                You can use our 100 places for cars.
+                Please put car number on registration form,
+                and you can park your car near building where conference
+                will take place.
             </p>
         </div>
 
