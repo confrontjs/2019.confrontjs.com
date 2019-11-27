@@ -56,4 +56,5 @@ module.exports = [
     require('./partners/przemuh'),
     require('./partners/sowa-programuje'),
     require('./partners/okruch-kodu'),
+    require('./partners/devenv'),
 ];
