@@ -57,4 +57,5 @@ module.exports = [
     require('./partners/sowa-programuje'),
     require('./partners/okruch-kodu'),
     require('./partners/devenv'),
+    require('./partners/techevents-online'),
 ];
