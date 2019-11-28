@@ -58,4 +58,6 @@ module.exports = [
     require('./partners/okruch-kodu'),
     require('./partners/devenv'),
     require('./partners/techevents-online'),
+    require('./partners/hubhub'),
+    require('./partners/vuejs-poland'),
 ];
