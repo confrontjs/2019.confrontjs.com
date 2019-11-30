@@ -60,4 +60,5 @@ module.exports = [
     require('./partners/techevents-online'),
     require('./partners/hubhub'),
     require('./partners/vuejs-poland'),
+    require('./partners/rails-girls-warsaw'),
 ];
