@@ -5,10 +5,8 @@
             <h2>Parking</h2>
 
             <p>
-                You can use our 100 places for cars.
-                Please put car number on registration form,
-                and you can park your car near building where conference
-                will take place.
+                There will be 100 parking spaces available for use near the conference venue.
+                Please write and include the license plate number on your registration form.
             </p>
         </div>
 
