@@ -60,6 +60,7 @@
 
     .agenda-content h4.talk-title {
         color: var(--secondary-color);
+        text-transform: initial;
     }
 
     .agenda-content p.talk-abstract {
@@ -83,7 +84,6 @@
     .tag {
         color: var(--snow-color);
         margin: 0 20px 0 0;
-        text-transform: uppercase;
         font-weight: bold;
     }
 

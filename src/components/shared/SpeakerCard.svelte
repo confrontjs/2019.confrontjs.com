@@ -54,7 +54,6 @@
     .talk-info {
         color: var(--snow-color);
         background-color: var(--night-color);
-        text-transform: uppercase;
 
         width: 100%;
         height: 100px;
