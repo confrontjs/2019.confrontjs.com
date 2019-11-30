@@ -140,13 +140,6 @@ module.exports = [
         lightningTalk: true
     },
     {
-        title: "Hello JAM Stack",
-        abstract: ``,
-        tech: ["Architecture", "JAM Stack"],
-        speaker: require('./speakers/sarath-damaraju'),
-        lightningTalk: true
-    },
-    {
         title: "Microinteractions: Little Things That Matter",
         abstract: `
             Microinteractions are those little moments where design and code work together at their best.

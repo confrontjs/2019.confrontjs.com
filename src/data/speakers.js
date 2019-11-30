@@ -9,7 +9,6 @@ module.exports = [
     require('./speakers/piotr-tomiak'),
     require('./speakers/przemyslaw-zych'),
     require('./speakers/roy-derks'),
-    require('./speakers/sarath-damaraju'),
     require('./speakers/tomasz-lakomy'),
     require('./speakers/tymon-terlikiewicz'),
     require('./speakers/wojciech-jureczka'),
