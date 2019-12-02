@@ -13,7 +13,6 @@ module.exports = [
     require('./sponsors/vermag'),
 
     // Venue Sponsor
+    require('./sponsors/lukasiewicz-institute'),
     require('./sponsors/edc'),
-    require('./sponsors/institute-of-aviation'),
-    require('./sponsors/lukasiewicz-research-network'),
 ];
