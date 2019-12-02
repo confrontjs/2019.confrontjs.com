@@ -181,11 +181,27 @@ module.exports = [
     {
         title: "Lessons learned migrating from a monolith frontend",
         abstract: `
-            When building a startup, you have to deliver features fast or you die. A few years later, you’ve survived but your code is a huge mess. What do you do?
-            Here is the quick story of how we migrated from jQuery and twig templates to a modern React based PWA, with continuous delivery. And how we solved our biggest issue: working with APIs that don’t exist yet.
+            When building a startup, you have to deliver features fast or you die.
+            A few years later, you’ve survived but your code is a huge mess. What do you do?
+
+            Here is the quick story of how we migrated from jQuery and twig templates to a modern React based PWA,
+            with continuous delivery. And how we solved our biggest issue: working with APIs that don’t exist yet.
         `,
         tech: ["Monorepo", "React", "PWA"],
         speaker: require('./speakers/tymon-terlikiewicz'),
+        lightningTalk: true
+    },
+    {
+        title: "The sweet allure of a full rewrite",
+        abstract: `
+            Do you ever feel like your code is beyond hope? Once you reach a certain level of tech debt,
+            throwing everything away and starting things afresh can feel like the cleanest solution.
+            But is it? Or is it a siren's call luring you to your doom?
+
+            Join me for a few stories and tips of how to resist the temptation and when to submit to it.
+        `,
+        tech: [],
+        speaker: require('./speakers/nadia-ginalska'),
         lightningTalk: true
     },
 ];

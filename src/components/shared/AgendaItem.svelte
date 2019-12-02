@@ -158,7 +158,7 @@
 
             <div class="tags">
                 {#each item.details.tech as t}
-                    <small class="tag">{ t }</small>
+                    <small class="tag">#{ t }</small>
                 {/each}
             </div>
 
