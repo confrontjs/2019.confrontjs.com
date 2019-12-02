@@ -1,7 +1,7 @@
 module.exports = {
     name: 'Tymon Terlikiewicz',
-    position: '',
-    company: '',
+    position: 'CTO',
+    company: 'Batmaid',
     country: 'Poland',
     bio: {
         en: `CTO, full stack dev and software craftsman with 12 years exp.

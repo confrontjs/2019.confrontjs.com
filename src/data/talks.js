@@ -179,10 +179,12 @@ module.exports = [
         lightningTalk: true
     },
     {
-        title: "TBA",
+        title: "Lessons learned migrating from a monolith frontend",
         abstract: `
+            When building a startup, you have to deliver features fast or you die. A few years later, you’ve survived but your code is a huge mess. What do you do?
+            Here is the quick story of how we migrated from jQuery and twig templates to a modern React based PWA, with continuous delivery. And how we solved our biggest issue: working with APIs that don’t exist yet.
         `,
-        tech: [],
+        tech: ["Monorepo", "React", "PWA"],
         speaker: require('./speakers/tymon-terlikiewicz'),
         lightningTalk: true
     },
