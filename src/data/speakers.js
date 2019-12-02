@@ -6,6 +6,7 @@ module.exports = [
     require('./speakers/jan-salwowski'),
     require('./speakers/jemima-abu'),
     require('./speakers/jerbi-saif'),
+    require('./speakers/nadia-ginalska'),
     require('./speakers/piotr-tomiak'),
     require('./speakers/przemyslaw-zych'),
     require('./speakers/roy-derks'),
