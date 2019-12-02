@@ -139,6 +139,10 @@ code {
     color: var(--secondary-color);
 }
 
+.mix-color {
+    color: var(--mix-color);
+}
+
 /* -------------------------------------------------------------------------- */
 
 .img-fluid {

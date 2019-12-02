@@ -97,6 +97,13 @@
                 <p>
                     *** Note - this is a hands-on session. ***
                 </p>
+
+                <p>
+                    <strong>
+                        A full program for the event is available
+                        <a class="mix-color" href="https://drive.google.com/file/d/1IBX-YjNqYKtTiTKl0yyEBw6DeYSFIC9c/view">here</a>.
+                    </strong>
+                </p>
             </div>
 
             <div class="col-md-5 col-sm-12">
