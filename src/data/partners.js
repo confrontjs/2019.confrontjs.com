@@ -61,4 +61,5 @@ module.exports = [
     require('./partners/hubhub'),
     require('./partners/vuejs-poland'),
     require('./partners/rails-girls-warsaw'),
+    require('./partners/programmer-girl'),
 ];
