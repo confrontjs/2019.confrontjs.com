@@ -1,12 +1,11 @@
 module.exports = {
     name: 'Nadia Ginalska',
     position: 'Senior Front-end Developer',
-    company: 'Visuality',
+    company: 'Packhelp',
     country: 'Poland',
     bio: {
         en: `
-            Nadia is a JavaScript engineer at Visuality, where she's working
-            on a broad array of startup projects. She's been merrily coding
+            Nadia is a JavaScript engineer at Packhelp. She's been merrily coding
             for the last 10 years of her life. Her current focus is React
             and PWAs. Nadia is passionate about workflow automation
             and delivering the best experience to the end user. As a hobby
