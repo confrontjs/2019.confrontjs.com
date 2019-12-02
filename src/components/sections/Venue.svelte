@@ -3,6 +3,12 @@
 </script>
 
 <style>
+    .ioa-logo {
+        width: 300px;
+    }
+    .lrn-logo {
+        width: 300px;
+    }
     .edc-logo {
         width: 200px;
     }
@@ -11,6 +17,18 @@
 <div class="content">
     <div class="row my-3">
         <div class="col-md-4 col-sm-12 text-center">
+            <div class="mb-3">
+                <img
+                    class="ioa-logo d-inline-block m-3"
+                    src="/sponsors/logo-institute-of-aviation.svg"
+                    alt="Institute of Aviation"
+                />
+                <img
+                    class="lrn-logo d-inline-block m-3"
+                    src="/sponsors/logo-lukasiewicz-research-network.svg"
+                    alt="Łukasiewicz Research Network"
+                />
+            </div>
             <img
                 class="edc-logo d-inline-block"
                 src="/sponsors/logo-edc-dark.svg"

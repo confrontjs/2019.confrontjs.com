@@ -14,4 +14,6 @@ module.exports = [
 
     // Venue Sponsor
     require('./sponsors/edc'),
+    require('./sponsors/institute-of-aviation'),
+    require('./sponsors/lukasiewicz-research-network'),
 ];
