@@ -35,7 +35,7 @@ module.exports = [
     { start: '16:05', end: '16:10', duration: '00:05', type: 'talk', details: talkBy('Jan Salwowski') },
     { start: '16:10', end: '16:15', duration: '00:05', type: 'talk', details: talkBy('Tymon Terlikiewicz') },
     { start: '16:15', end: '16:45', duration: '00:30', type: 'talk', details: talkBy('Roy Derks') },
-    { start: '16:45', end: '17:15', duration: '00:30', type: 'talk-not-ready', details: talkBy('Gold Sponsor') },
-    { start: '17:15', end: '17:55', duration: '00:40', type: 'talk', details: talkBy('Chris Heilmann') },
-    { start: '17:55', end: '18:00', duration: '00:10', type: '', details: 'Final (Contest’s winner announcement)' },
+    { start: '16:45', end: '17:25', duration: '00:40', type: 'talk', details: talkBy('Chris Heilmann') },
+    { start: '17:25', end: '17:30', duration: '00:05', type: '', details: 'Final (Contest’s winner announcement)' },
+    { start: '17:30', end: '18:00', duration: '00:30', type: '', details: 'After Party' },
 ];
