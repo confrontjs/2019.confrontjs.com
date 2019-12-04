@@ -16,8 +16,9 @@
     }
 
     const GoldSponsors = sponsorType('Gold');
+    const VenueSponsors = sponsorType('Venue');
     const RestSponsors = Sponsors.filter((sponsor) => {
-        return !GoldSponsors.includes(sponsor);
+        return ![...GoldSponsors, ...VenueSponsors].includes(sponsor);
     });
 
     export let segment = '';
@@ -123,6 +124,21 @@
                             </li>
                         {/each}
                     </ul>
+                </div>
+
+            {/if}
+
+            {#if VenueSponsors.length > 0 }
+
+                <div class="gold-sponsors sponsors-section">
+                    <ul class="list-unstyled">
+                        {#each VenueSponsors as sponsor, i}
+                            <li class="sponsor-card">
+                                <Sponsor sponsor="{sponsor}"/>
+                            </li>
+                        {/each}
+                    </ul>
+                    <h2 class="sponsor-type">Venue Sponsor</h2>
                 </div>
 
             {/if}

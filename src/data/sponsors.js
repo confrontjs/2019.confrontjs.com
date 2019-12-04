@@ -11,6 +11,7 @@ module.exports = [
     // Bronze Sponsor
     require('./sponsors/ckeditor5'),
     require('./sponsors/vermag'),
+    require('./sponsors/visuality'),
 
     // Venue Sponsor
     require('./sponsors/lukasiewicz-institute'),
