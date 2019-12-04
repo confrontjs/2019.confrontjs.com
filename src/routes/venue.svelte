@@ -25,7 +25,7 @@
     <Venue/>
     <Map/>
     <div class="text-center bg-white py-5">
-        <img src="/venue/edc-map.svg" alt=""/>
+        <img class="img-fluid" src="/venue/edc-map.svg" alt=""/>
     </div>
     <Parking/>
     <WaveType7/>
