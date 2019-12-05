@@ -14,7 +14,7 @@
     }
 
     .gold-sponsor img {
-        width: 600px;
+        width: 500px;
         height: 300px;
     }
 
