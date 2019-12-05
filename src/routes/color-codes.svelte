@@ -13,9 +13,9 @@
 
     .color-pallette {
         display: flex;
-        justify-content: space-between;
-        max-width: 920px;
+        justify-content: center;
         margin: auto;
+        flex-wrap: wrap;
     }
 
     .color-view {
@@ -37,9 +37,9 @@
         <h1>Color Codes</h1>
 
         <div class="color-pallette">
-            <div class="color-view" style="background-color: #FFFFFF">
-                <h3>WHITE</h3>
-                <h4>HEX COLOR: <strong>FFFFFF</strong></h4>
+            <div class="color-view" style="background-color: #ECEFF4">
+                <h3>SNOW</h3>
+                <h4>HEX COLOR: <strong>ECEFF4</strong></h4>
                 <!-- <h4>RGB: <strong>XXX</strong></h4> -->
             </div>
             <div class="color-view" style="background-color: #17E9E0">
@@ -47,7 +47,7 @@
                 <h4>HEX COLOR: <strong>17E9E0</strong></h4>
                 <!-- <h4>RGB: <strong>XXX</strong></h4> -->
             </div>
-            <div class="color-view" style="background-color: #A64AC9">
+            <div class="color-view" style="background-color: #A64AC9; color: #fff">
                 <h3>SECONDARY</h3>
                 <h4>HEX COLOR: <strong>A64AC9</strong></h4>
                 <!-- <h4>RGB: <strong>XXX</strong></h4> -->
@@ -55,6 +55,16 @@
             <div class="color-view" style="background-color: #5E99D3">
                 <h3>MIX</h3>
                 <h4>HEX COLOR: <strong>5E99D3</strong></h4>
+                <!-- <h4>RGB: <strong>XXX</strong></h4> -->
+            </div>
+            <div class="color-view" style="background-color: #2E3440; color: #fff;">
+                <h3>NIGHT</h3>
+                <h4>HEX COLOR: <strong>2E3440</strong></h4>
+                <!-- <h4>RGB: <strong>XXX</strong></h4> -->
+            </div>
+            <div class="color-view" style="background-color: #3B4252; color: #fff;">
+                <h3>DARK</h3>
+                <h4>HEX COLOR: <strong>3B4252</strong></h4>
                 <!-- <h4>RGB: <strong>XXX</strong></h4> -->
             </div>
         </div>
