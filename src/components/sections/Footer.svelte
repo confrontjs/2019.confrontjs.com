@@ -73,6 +73,8 @@
                 <a href="/privacy-policy">Privacy Policy</a>
                 &bull;
                 <a href="/contact">Contact</a>
+                &bull;
+                <a href="/color-codes">Color Codes</a>
             </p>
         </div>
 
