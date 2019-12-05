@@ -72,7 +72,7 @@ module.exports = [
         speaker: require('./speakers/andrzej-mazur')
     },
     {
-        title: "The Importance of Clean Code Flag",
+        title: "The Importance of Clean Code",
         abstract: `
             So you’ve learned how to program. You now feel cool and powerful,
             you can actually “do stuff”. But what’s next? How do you improve your skills?
