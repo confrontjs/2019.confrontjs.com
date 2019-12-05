@@ -18,7 +18,7 @@ module.exports = [
     { start: '09:45', end: '10:25', duration: '00:40', type: 'talk', details: talkBy('Tomasz Łakomy') },
     { start: '10:25', end: '10:55', duration: '00:30', type: 'talk', details: talkBy('Eleftheria Batsou') },
     { start: '10:55', end: '11:10', duration: '00:15', type: '', details: 'Coffee Break' },
-    { start: '11:10', end: '11:50', duration: '00:40', type: 'talk', details: talkBy('Jemima Abu') },
+    { start: '11:10', end: '11:50', duration: '00:40', type: 'talk', details: talkBy('Tetiana Platonova') },
     { start: '11:50', end: '12:20', duration: '00:30', type: 'talk', details: talkBy('Jerbi Saif') },
     { start: '12:20', end: '13:10', duration: '00:50', type: '', details: 'Lunch' },
     { start: '13:10', end: '13:40', duration: '00:30', type: 'talk', details: talkBy('Przemysław Zych') }, // Venue Sponsor

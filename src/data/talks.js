@@ -72,15 +72,18 @@ module.exports = [
         speaker: require('./speakers/andrzej-mazur')
     },
     {
-        title: "HTML Semantics: #a11y in web development",
+        title: "The Importance of Clean Code Flag",
         abstract: `
-            HTML is, by default, accessible.
-            However, people tend to reinvent the wheel by not using the proper elements for their purposes.
-            This talk aims to address the inbuilt accessibility features of HTML by using semantic elements and attributes.
-            We will also cover other aspects of accessibility such as navigation and content.
+            So you’ve learned how to program. You now feel cool and powerful,
+            you can actually “do stuff”. But what’s next? How do you improve your skills?
+            You hear some advice to write “clean code”. But what is the definition of clean code,
+            and how do you write it? And why does it matter so much?
+            I can’t promise you’ll become a better programmer after this talk,
+            or that you’ll get a “code-sense”, but I will show you some tricks,
+            techniques and tools you can use to improve your code quality.
         `,
-        tech: ["Accessibility"],
-        speaker: require('./speakers/jemima-abu')
+        tech: ["Code Clean"],
+        speaker: require('./speakers/tetiana-platonova')
     },
     {
         title: "Mastering Reactive Programming with RxJS",
