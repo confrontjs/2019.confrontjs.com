@@ -13,6 +13,7 @@ module.exports = {
     },
     avatar_url: '/speakers/przemyslaw-zych.jpg',
     contact: {
+        twitter_url: 'https://twitter.com/pzychDev',
         linkedin_url: 'https://www.linkedin.com/in/przemys%C5%82aw-zych-0807a9129/',
     }
 };
