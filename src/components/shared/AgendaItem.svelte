@@ -167,6 +167,16 @@
             </h4>
 
             <p class="talk-abstract d-none d-sm-block">{ item.details.abstract.trim() }</p>
+
+            {#if item.details.slides_url}
+                <p>
+                    <a
+                        href="{ item.details.slides_url }"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >Slides</a>
+                </p>
+            {/if}
         {/if}
 
         {#if item.type === 'talk-not-ready' }

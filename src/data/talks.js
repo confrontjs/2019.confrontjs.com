@@ -11,6 +11,7 @@ module.exports = [
         `,
         tech: ["JavaScript", "Node.js", "Web Standards"],
         speaker: require('./speakers/chris-heilmann'),
+        slides_url: "https://noti.st/codepo8/8gRX6l/into-the-web-multiverse",
         keynote: true
     },
     {
@@ -21,6 +22,7 @@ module.exports = [
             Together with GraphQLs query language based on types, you can create the web application of the future!
         `,
         tech: ["TypeScript", "GraphQL"],
+        slides_url: "https://www.slideshare.net/RoyDerks1/web-applications-of-the-future-with-typescript-and-graphql-202812428",
         speaker: require('./speakers/roy-derks')
     },
     {
@@ -32,6 +34,7 @@ module.exports = [
         `,
         tech: ["JavaScript", "Testing", "Cypress"],
         speaker: require('./speakers/tomasz-lakomy'),
+        slides_url: "https://tlakomy.github.io/sleeping-better-at-night/",
         keynote: true
     },
     {
@@ -58,7 +61,8 @@ module.exports = [
             C. Dealing with frustration/stress (How to deal with a toxic workplace, your arrogant colleagues and... yourself)
         `,
         tech: ["JavaScript", "Angular", "HTML", "CSS", "D3.js"],
-        speaker: require('./speakers/eleftheria-batsou')
+        speaker: require('./speakers/eleftheria-batsou'),
+        slides_url: "https://docs.google.com/presentation/d/1RH5ZGkuBx-5YBtQawRokZPtfhgOvV3dfj1uY_s7Um8Q",
     },
     {
         title: "The past, present, and the future of HTML5 game development",
@@ -69,7 +73,8 @@ module.exports = [
             Join me in exploring the future of HTML5 game development!
         `,
         tech: ["PWA", "WebXR", "WebAssembly"],
-        speaker: require('./speakers/andrzej-mazur')
+        speaker: require('./speakers/andrzej-mazur'),
+        slides_url: "http://end3r.com/slides/confrontjs19-games/",
     },
     {
         title: "The Importance of Clean Code",
@@ -83,7 +88,8 @@ module.exports = [
             techniques and tools you can use to improve your code quality.
         `,
         tech: ["Code Clean"],
-        speaker: require('./speakers/tetiana-platonova')
+        speaker: require('./speakers/tetiana-platonova'),
+        slides_url: "https://malyfko.github.io/the-importance-of-clean-code/",
     },
     {
         title: "Mastering Reactive Programming with RxJS",
@@ -93,7 +99,8 @@ module.exports = [
             But we will see together that our daily code can be improved by simply choosing the right operators in the right place.
         `,
         tech: ["Reactive Programming", "RxJS", "Angular"],
-        speaker: require('./speakers/jerbi-saif')
+        speaker: require('./speakers/jerbi-saif'),
+        slides_url: "https://docs.google.com/presentation/d/1RgAJFbG1hLIRiuSr4_gTEY3AzRlreR20YD3IAJuCc9Y",
     },
     {
         title: "How to help your editor love your Vue component library",
@@ -108,6 +115,7 @@ module.exports = [
         `,
         tech: ["Vue", "IDE"],
         speaker: require('./speakers/piotr-tomiak'),
+        slides_url: "https://www.slideshare.net/PiotrTomiak/how-to-help-your-editor-love-your-vue-component-library-204382768",
     },
     {
         title: "How to change mindset of coworkers?",
@@ -116,6 +124,7 @@ module.exports = [
         `,
         tech: ["Node.js"],
         speaker: require('./speakers/wojciech-jureczka'),
+        slides_url: "https://www.slideshare.net/WojciechJureczka/wojciech-jureczka-migrating-from-net-monolith-to-nodejs-microfrontends-204119089",
     },
     {
         title: "Should I fire my DevOps already? Build your infrastructure using TypeScript",
@@ -130,6 +139,7 @@ module.exports = [
         `,
         tech: ["TypeScript", "DevOps"],
         speaker: require('./speakers/przemyslaw-zych'),
+        slides_url: "https://www.slideshare.net/PiotrTomiak/how-to-help-your-editor-love-your-vue-component-library-204382768",
     },
     {
         title: "How close is your data?",
@@ -140,7 +150,8 @@ module.exports = [
         `,
         tech: ["Performance"],
         speaker: require('./speakers/yonatan-kra'),
-        lightningTalk: true
+        slides_url: "https://docs.google.com/presentation/d/e/2PACX-1vSFTjQs5f5a3iCCUX-ZgtPm5CRsMwy3Q8plYmB67fCjy5tjdTtlT4-Y5PUOoZM277ZnB89K0bUkHSgp/pub",
+        lightningTalk: true,
     },
     {
         title: "Microinteractions: Little Things That Matter",
@@ -153,7 +164,8 @@ module.exports = [
         `,
         tech: ["User Experience", "Microinteractions"],
         speaker: require('./speakers/yonatan-doron'),
-        lightningTalk: true
+        slides_url: "https://docs.google.com/presentation/d/170llyyqWCS3cs1Y_DTisQYTq20SjghtxAg3JesBDH6w",
+        lightningTalk: true,
     },
     {
         title: "Mobile First? Desktop First? Basic First - A New Approach for Responsive Design",
@@ -165,7 +177,8 @@ module.exports = [
         `,
         tech: ["User Interface", "Responsive Design"],
         speaker: require('./speakers/elad-shechter'),
-        lightningTalk: true
+        slides_url: "https://docs.google.com/presentation/d/1AqKFuPsThLn0aFU5EWGCop9QlvuDTaKOSQOy9QBRmoI",
+        lightningTalk: true,
     },
     {
         title: "Tips for maintainable Vue code",
@@ -179,7 +192,8 @@ module.exports = [
         `,
         tech: ["Vue"],
         speaker: require('./speakers/jan-salwowski'),
-        lightningTalk: true
+        slides_url: "https://docs.google.com/presentation/d/e/2PACX-1vS_Tl7OG5nTrfNyka7MGzBAptk3-3s3HGVDWhOD2Y_igngs8zxpf-ANM4En_GYeTw/pub",
+        lightningTalk: true,
     },
     {
         title: "Lessons learned migrating from a monolith frontend",
@@ -192,7 +206,8 @@ module.exports = [
         `,
         tech: ["Monorepo", "React", "PWA"],
         speaker: require('./speakers/tymon-terlikiewicz'),
-        lightningTalk: true
+        slides_url: "https://docs.google.com/presentation/d/1yXl8adHirL4aZtwBvSgONa-iyQmag85mTp42RB5pERE",
+        lightningTalk: true,
     },
     {
         title: "The sweet allure of a full rewrite",
@@ -205,6 +220,7 @@ module.exports = [
         `,
         tech: [],
         speaker: require('./speakers/nadia-ginalska'),
-        lightningTalk: true
+        slides_url: "https://docs.google.com/presentation/d/1qaw2ayjFZaBUGZGt67ZwB9mHZuLUYI-6c3bCwIjPe-E",
+        lightningTalk: true,
     },
 ];
